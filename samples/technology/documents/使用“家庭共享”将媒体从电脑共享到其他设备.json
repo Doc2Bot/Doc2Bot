@@ -1,0 +1,318 @@
+{
+    "document_id": 287,
+    "domain": "technology",
+    "name": "使用“家庭共享”将媒体从电脑共享到其他设备",
+    "graph": {
+        "1": {
+            "data": "使用“家庭共享”将媒体从电脑共享到其他设备",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "使用“家庭共享”，您最多可以从连接到家庭Wi-Fi网络的五台电脑共享、流化和导入媒体。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "设置“家庭共享”之前",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "将您的所有Apple设备更新到最新版本的iOS、iPadOS、macOS和AppletvOS。在PC上，确保您装有最新版本的Windows版iTunes。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "5": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "4"
+        },
+        "6": {
+            "data": "iOS",
+            "type": "see-more",
+            "pid": "5",
+            "target": "更新iPhone、iPad或iPodtouch.json"
+        },
+        "8": {
+            "data": "将所有设备连接到同一Wi-Fi或以太网网络。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "9": {
+            "data": "确保您的所有设备都使用同一AppleID登录并被授权播放使用该AppleID购买的项目。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "14": {
+            "data": "设置“家庭共享”",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "15": {
+            "data": "在使用“家庭共享”之前，您需要在Mac或PC上进行设置。",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "16": {
+            "data": "在Mac上设置“家庭共享”",
+            "type": "sequence",
+            "pid": "14"
+        },
+        "17": {
+            "data": "选取苹果菜单>“系统偏好设置”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "18": {
+            "data": "点按“共享”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "19": {
+            "data": "点按“媒体共享”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "20": {
+            "data": "选择“家庭共享”并使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "21": {
+            "data": "点按“打开家庭共享”。",
+            "type": "sequence-step",
+            "pid": "16"
+        },
+        "22": {
+            "data": "在PC上设置“家庭共享”",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "23": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "22"
+        },
+        "24": {
+            "data": "打开Windows版iTunes。",
+            "type": "sequence-step",
+            "pid": "23"
+        },
+        "25": {
+            "data": "如果您还没有登录，请使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "type": "sequence-step",
+            "pid": "23"
+        },
+        "29": {
+            "data": "从iTunes窗口顶部的菜单栏中，选取“文件”>“家庭共享”>“打开家庭共享”。",
+            "type": "sequence-step",
+            "pid": "23"
+        },
+        "30": {
+            "data": "您最多可以对连接到家庭无线局域网或以太网网络的五台电脑使用“家庭共享”。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "31": {
+            "data": "使用“家庭共享”",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "32": {
+            "data": "在Mac或PC上，您可以使用“家庭共享”查看连接到相同Wi-Fi网络并使用相同AppleID登录的其他电脑的共享资料库。",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "33": {
+            "data": "要从iPhone、iPad、iPodtouch或AppleTV查看来自电脑的共享资料库，您需要使用与电脑相同的AppleID登录，并连接到同一Wi-Fi网络。",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "34": {
+            "data": "您可以使用“家庭共享”来访问连接到同一Wi-Fi网络的电脑上的媒体资料库。您还可以在授权电脑之间流化音乐、影片和电视节目。只需确保您的电脑开启、处于唤醒状态并且打开了”音乐“App或Windows版iTunes。",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "38": {
+            "data": "在Mac上使用“家庭共享”",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "39": {
+            "data": "要访问媒体资料库：",
+            "type": "sequence",
+            "pid": "38"
+        },
+        "40": {
+            "data": "打开“音乐”App。",
+            "type": "sequence-step",
+            "pid": "39"
+        },
+        "41": {
+            "data": "如果您尚未登录，请使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "type": "sequence-step",
+            "pid": "39"
+        },
+        "45": {
+            "data": "在边栏中，点按“资料库”。",
+            "type": "sequence-step",
+            "pid": "39"
+        },
+        "46": {
+            "data": "点按媒体资料库。",
+            "type": "sequence-step",
+            "pid": "39"
+        },
+        "47": {
+            "data": "要返回音乐资料库，请在边栏中点按“推出”。",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "48": {
+            "data": "在PC上使用“家庭共享”",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "49": {
+            "data": "您可以使用“家庭共享”在授权电脑之间流化音乐、影片和电视节目。只需确保您的电脑开启、处于唤醒状态并且打开了“音乐”App或Windows版iTunes。",
+            "type": "ordinary",
+            "pid": "48"
+        },
+        "53": {
+            "data": "要查看您的所有共享资料库，请点按iTunes窗口左上角的“音乐”。",
+            "type": "ordinary",
+            "pid": "48"
+        },
+        "54": {
+            "data": "在iPhone、iPad或iPodtouch上使用“家庭共享”",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "55": {
+            "data": "要使用“家庭共享”在iPhone、iPad和iPodtouch上访问电脑的媒体资料库，请在设备上登录“家庭共享”：",
+            "type": "sequence",
+            "pid": "54"
+        },
+        "56": {
+            "data": "要查看音乐资料库，请前往“设置”>“音乐”。要查看视频资料库，请前往“设置”>“电视”>“iTunes视频”。",
+            "type": "sequence-step",
+            "pid": "55"
+        },
+        "57": {
+            "data": "在“家庭共享”下，轻点“登录”。",
+            "type": "sequence-step",
+            "pid": "55"
+        },
+        "58": {
+            "data": "使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "type": "sequence-step",
+            "pid": "55"
+        },
+        "62": {
+            "data": "登录后，将iPhone、iPad或iPodtouch与电脑连接到同一Wi-Fi网络，然后在电脑上打开“音乐”App、AppleTVApp或Windows版iTunes。",
+            "type": "ordinary",
+            "pid": "54"
+        },
+        "63": {
+            "data": "查看共享的音乐",
+            "type": "sequence",
+            "pid": "54"
+        },
+        "64": {
+            "data": "打开“音乐”App并轻点“资料库”。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "65": {
+            "data": "轻点“家庭共享”。没有看到这个选项？轻点“编辑”，选择“家庭共享”，然后轻点“完成”。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "66": {
+            "data": "选取一个共享的资料库。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "67": {
+            "data": "查看共享的视频",
+            "type": "sequence",
+            "pid": "54"
+        },
+        "68": {
+            "data": "打开“电视”App。",
+            "type": "sequence-step",
+            "pid": "67"
+        },
+        "69": {
+            "data": "轻点“资料库”。",
+            "type": "sequence-step",
+            "pid": "67"
+        },
+        "70": {
+            "data": "选取一个共享的资料库。",
+            "type": "sequence-step",
+            "pid": "67"
+        },
+        "71": {
+            "data": "在AppleTV上使用“家庭共享”",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "72": {
+            "data": "要使用“家庭共享”在AppleTV上访问电脑的媒体资料库，请在AppleTV上登录“家庭共享”：",
+            "type": "sequence",
+            "pid": "71"
+        },
+        "73": {
+            "data": "前往“设置”>“用户和帐户”>“家庭共享”。",
+            "type": "sequence-step",
+            "pid": "72"
+        },
+        "74": {
+            "data": "选择“打开家庭共享”。",
+            "type": "sequence-step",
+            "pid": "72"
+        },
+        "75": {
+            "data": "使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "type": "sequence-step",
+            "pid": "72"
+        },
+        "79": {
+            "data": "登录后，请按照以下步骤在AppleTV上访问电脑媒体资料库：",
+            "type": "sequence",
+            "pid": "71"
+        },
+        "80": {
+            "data": "将AppleTV与电脑连接到同一Wi-Fi网络。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "81": {
+            "data": "在电脑上，打开“音乐”App、AppleTVApp或Windows版iTunes。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "82": {
+            "data": "在AppleTV上，前往主屏幕，选择“电脑”，然后选取一个共享资料库。",
+            "type": "sequence-step",
+            "pid": "79"
+        },
+        "83": {
+            "data": "您还可以在AppleTV上查看电脑中的照片。",
+            "type": "ordinary",
+            "pid": "71"
+        },
+        "84": {
+            "data": "在Mac上：选取苹果菜单>“系统偏好设置”。点按“共享”。点按“媒体共享”，然后选择“与AppleTV共享照片”。",
+            "type": "ordinary",
+            "pid": "83"
+        },
+        "85": {
+            "data": "在PC上：打开Windows版iTunes。在菜单栏中，前往“文件”>“家庭共享”，然后选择“选取与AppleTV共享的照片”。",
+            "type": "ordinary",
+            "pid": "83"
+        }
+    }
+}

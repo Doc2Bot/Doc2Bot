@@ -1,0 +1,184 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想了解一下人保寿险百万身价两全保险（B款）。",
+        "act": "what",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "人保寿险百万身价两全保险（B款）  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想问您与我们的合同 、我们提供的保障 、保险金的申请哪方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "您与我们的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解合同有关的问题。",
+        "act": "what",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "您与我们的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是合同构成还是合同成立与生效呢？",
+        "act": "multiple-choice",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "合同构成是怎么定义的？",
+        "act": "how",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "人保寿险百万身价两全保险（B 款）合同（以下简称“本合同”）由保险条款、保 险单、所附的投保单及相关文件、有关的声明、批注单及其他约定书构成。 若上述构成本合同的文件正本需留本公司存档，则其复印件或电子影印件的效力 与正本相同。若复印件或电子影印件的内容与正本不同，则以正本为准。",
+        "act": "ans/open",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "人保寿险百万身价两全保险（B 款）合同（以下简称“本合同”）由保险条款、保 险单、所附的投保单及相关文件、有关的声明、批注单及其他约定书构成。 若上述构成本合同的文件正本需留本公司存档，则其复印件或电子影印件的效力 与正本相同。若复印件或电子影印件的内容与正本不同，则以正本为准。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "办理这个保险之后，合同何时生效？",
+        "act": "when",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "合同成立与生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您提出保险申请，我们同意承保，本合同成立。 本合同成立、我们收取首期保险费并签发保险单为本合同的生效条件，合同生效 日期在保险单上载明。保单生效对应日（见 7.1）、保单年度、保险费约定交纳日 （见 7.2）均以该日期计算。",
+        "act": "ans/open",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "您提出保险申请，我们同意承保，本合同成立。 本合同成立、我们收取首期保险费并签发保险单为本合同的生效条件，合同生效 日期在保险单上载明。保单生效对应日（见 7.1）、保单年度、保险费约定交纳日 （见 7.2）均以该日期计算。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "办理人保寿险百万身价两全保险（B款）这个保险之后能有什么保障呢？",
+        "act": "what",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "您获得的保障"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "基本保险金额 、保险期间、保险责任、责任免除，四方面相关内容可以提供给您，请问您需要哪方面？",
+        "act": "multiple-choice",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "基本保险金额是怎么定的？",
+        "act": "how",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "基本保险金额"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "本合同的基本保险金额由您在投保时与我们约定并在保险单或批注单上载明。若 该金额发生变更，则以变更后的金额为基本保险金额。",
+        "act": "ans/open",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "本合同的基本保险金额由您在投保时与我们约定并在保险单或批注单上载明。若 该金额发生变更，则以变更后的金额为基本保险金额。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "保险期间是多久？",
+        "act": "when",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "本合同的保险期间为 30 年。 除合同另有约定外，自本合同生效日起，我们开始承担保险责任。",
+        "act": "ans/open",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "本合同的保险期间为 30 年。 除合同另有约定外，自本合同生效日起，我们开始承担保险责任。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

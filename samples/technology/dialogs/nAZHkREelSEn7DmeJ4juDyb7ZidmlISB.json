@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想将内容迁移到一台新的Mac上该怎么做？",
+        "act": "how",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "将内容迁移到一台新的Mac上"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以使用“迁移助理”将您的所有文稿、App、用户帐户和设置从一台电脑拷贝到另一台新Mac上。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "使用“迁移助理”将您的所有文稿、App、用户帐户和设置从一台电脑拷贝到另一台新Mac上。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "在旧Mac上看到安全码是怎么回事？",
+        "act": "what",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "在旧Mac上",
+            "如果看到安全码，"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请确保其与新Mac上显示的安全码相同。然后，点按“继续”。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "请确保其与新Mac上显示的安全码相同。然后，点按“继续”。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想要从“时间机器”备份移动内容该怎么做？",
+        "act": "how",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "如果您要从“时间机器”备份移动内容，请改为按照从备份恢复Mac的步骤操作。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请改为按照从备份恢复Mac的步骤操作。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "如果您要从“时间机器”备份移动内容，请改为按照从备份恢复Mac的步骤操作。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那你教我一下如何使用“迁移助理”将文件从旧Mac移到新Mac上？",
+        "act": "how",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "您现已准备就绪，可以使用“迁移助理”将文件从旧Mac移到新Mac。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": " 首先选择要传输的信息，然后点按“继续”以开始传输，“迁移助理”完成操作后，最后在两台电脑上退出“迁移助理”，然后在新Mac上登录迁移的帐户以查看它的文件。[",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "选择要传输的信息。在这个示例中，MichaelCavanna是一个macOS用户帐户。如果这个帐户与新Mac上已有的帐户同名，则系统会提示您重命名这个旧帐户或替换新Mac上的帐户。如果进行重命名，则这个旧帐户会作为单独的用户出现在新Mac上，并且拥有单独的个人文件夹和登录名。如果进行替换，则这个旧帐户会删除并随后替换新Mac上的帐户，包括相应个人文件夹中的所有内容。",
+            "点按“继续”以开始传输。大型传输可能需要几个小时才能完成。",
+            "“迁移助理”完成操作后，在两台电脑上退出“迁移助理”，然后在新Mac上登录迁移的帐户以查看它的文件。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，要是大型的传输需要多久能完成？",
+        "act": "when",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "点按“继续”以开始传输。大型传输可能需要几个小时才能完成。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "大型传输可能需要几个小时才能完成。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "点按“继续”以开始传输。大型传输可能需要几个小时才能完成。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

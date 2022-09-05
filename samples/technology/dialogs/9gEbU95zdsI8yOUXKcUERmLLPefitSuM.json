@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "AppleID两步验证是在什么情况下使用的呢",
+        "act": "what",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "AppleID两步验证",
+            "如果您无法针对自己的帐户使用双重认证（例如，如果您的设备使用的是iOS8或OSXYosemite或者更低版本），"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果您无法针对自己的帐户使用双重认证（例如，如果您的设备使用的是iOS8或OSXYosemite或者更低版本），您可以改用两步验证来保护AppleID的安全。",
+        "act": "ans/open",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "则您可以改用两步验证来保护AppleID的安全。"
+        ],
+        "grounding_id": [
+            "353"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那验证身份只有是不是就可以登录iMessage信息",
+        "act": "verification",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "它需要您使用某一设备或其他认可的方法验证您的身份，然后您才能完成以下操作：",
+            "登录iMessage信息或FaceTime通话*"
+        ],
+        "grounding_id": [
+            "77",
+            "83"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "登录iMessage信息或FaceTime通话*"
+        ],
+        "grounding_id": [
+            "83"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那可以使用新设备在iTunes、AppleBooks或AppStore中购买项目吗",
+        "act": "verification",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "使用新设备在iTunes、AppleBooks或AppStore中购买项目"
+        ],
+        "grounding_id": [
+            "84"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以",
+        "act": "ans/yes",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "使用新设备在iTunes、AppleBooks或AppStore中购买项目"
+        ],
+        "grounding_id": [
+            "84"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": " 购买项目的时候需要怎么验证身份呢",
+        "act": "how",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "您照常输入您的AppleID和密码。"
+        ],
+        "grounding_id": [
+            "93"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "需要输入密码和4位验证码来验证您的身份",
+        "act": "ans/open",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "此后，每当您登录帐户页面以管理AppleID、登录iCloud或者使用新设备在iTunes、AppleBooks或AppStore中购买项目时，都需要输入密码和4位验证码来验证您的身份。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "具体的工作原理是什么",
+        "act": "what",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "它的工作原理是什么？",
+            "此后，每当您登录帐户页面以管理AppleID、登录iCloud或者使用新设备在iTunes、AppleBooks或AppStore中购买项目时，都需要输入密码和4位验证码来验证您的身份。"
+        ],
+        "grounding_id": [
+            "87",
+            "89"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "照常输入您的AppleID和密码，我们会向您的某台设备发送验证码，您输入验证码来验证您的身份并完成登录。",
+        "act": "ans/open",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "您照常输入您的AppleID和密码。",
+            "我们会向您的某台设备发送验证码。",
+            "您输入验证码来验证您的身份并完成登录。"
+        ],
+        "grounding_id": [
+            "93",
+            "94",
+            "95"
+        ]
+    }
+]

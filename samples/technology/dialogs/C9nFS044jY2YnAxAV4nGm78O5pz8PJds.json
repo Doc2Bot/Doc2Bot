@@ -1,0 +1,308 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于使用装有iOS12的iPhone上的提醒事项方面的问题？",
+        "act": "what",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解添加提醒事项，完成提醒事项，选取提醒方式，让Siri提醒您，还是其它？",
+        "act": "multiple-choice",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "添加提醒事项"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下如何添加提醒事项。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "添加提醒事项"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "添加提醒事项：首先，打开“提醒事项”App。然后，轻点提醒事项列表中的。输入您的提醒事项。要添加类似提醒时间或提醒地点这样的详细信息，请轻点信息按钮。最后，轻点“完成”。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "添加提醒事项",
+            "打开“提醒事项”App。",
+            "轻点提醒事项列表中的。",
+            "输入您的提醒事项。",
+            "要添加类似提醒时间或提醒地点这样的详细信息，请轻点信息按钮。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "12"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果想把提醒是想标记为完成，怎么操作？",
+        "act": "how",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "完成提醒事项"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "要查看已完成的提醒事项，怎么操作？",
+        "act": "how",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果要删除某个提醒事项怎么操作？",
+        "act": "how",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要删除某个提醒事项，请轻点列表顶部的“编辑”，轻点，然后轻点“删除”。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要删除某个提醒事项，请轻点列表顶部的“编辑”，轻点，然后轻点“删除”。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "要删除某个提醒事项，请轻点列表顶部的“编辑”，轻点，然后轻点“删除”。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果是在锁定屏幕上收到提醒事项通知，怎么查看？",
+        "act": "how",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "如果您在锁定屏幕上收到提醒事项通知，请在这个提醒事项上向左轻扫，然后轻点“查看”。然后轻点“标记为已完成”。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果您在锁定屏幕上收到提醒事项通知，请在这个提醒事项上向左轻扫，然后轻点“查看”。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "如果您在锁定屏幕上收到提醒事项通知，请在这个提醒事项上向左轻扫，然后轻点“查看”。然后轻点“标记为已完成”。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "提醒事项可以用来做哪些事情？",
+        "act": "what",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "让Siri提醒您是什么意思？",
+        "act": "what",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "让Siri提醒您"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您可以让Siri为您安排提醒事项。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "您可以让Siri为您安排提醒事项。以下是一些示例："
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "能否举一些例子？",
+        "act": "verification",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "您可以让Siri为您安排提醒事项。以下是一些示例："
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "可以，以下是一些示例：“等我到家后，提醒我查看邮件。” “在我离开这里时，提醒我顺便去趟杂货店。” “提醒我明天下午3点给Jane打电话。”",
+        "act": "ans/yes",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "您可以让Siri为您安排提醒事项。以下是一些示例：",
+            "“等我到家后，提醒我查看邮件。”",
+            "“在我离开这里时，提醒我顺便去趟杂货店。”",
+            "“提醒我明天下午3点给Jane打电话。”"
+        ],
+        "grounding_id": [
+            "46",
+            "47",
+            "48",
+            "49"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "能否提出一些个性化需求？",
+        "act": "verification",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "如果您向Siri提供了您的家庭地址或工作地址，则您可以提出个性化的要求，如“等我到家后，提醒我给妻子打电话”。"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "如果您向Siri提供了您的家庭地址或工作地址，则您可以提出个性化的要求，如“等我到家后，提醒我给妻子打电话”。",
+        "act": "ans/yes",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "如果您向Siri提供了您的家庭地址或工作地址，则您可以提出个性化的要求，如“等我到家后，提醒我给妻子打电话”。"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "那应该怎么设置？",
+        "act": "how",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "前往“通讯录”>“我的名片”，然后添加您的工作地址或家庭地址。",
+            "前往“设置”>“Siri与搜索”，然后轻点“我的信息”。轻点您的联系人名片，以将它添加到“我的信息”中。"
+        ],
+        "grounding_id": [
+            "51",
+            "52"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "首先， 前往“通讯录”>“我的名片”，然后添加您的工作地址或家庭地址。然后，前往“设置”>“Siri与搜索”，然后轻点“我的信息”。轻点您的联系人名片，以将它添加到“我的信息”中。",
+        "act": "ans/open",
+        "document": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”.json",
+        "grounding": [
+            "前往“通讯录”>“我的名片”，然后添加您的工作地址或家庭地址。",
+            "前往“设置”>“Siri与搜索”，然后轻点“我的信息”。轻点您的联系人名片，以将它添加到“我的信息”中。"
+        ],
+        "grounding_id": [
+            "51",
+            "52"
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我患有骨质疏松能不能做体位引流来针对胸部物理治疗呢？？",
+        "act": "verification",
+        "document": "家庭版_医学主题_肺及气道疾病_肺和气道疾病的功能康复_胸部物理治疗.json",
+        "grounding": [
+            "体位引流",
+            "患有严重骨质疏松症",
+            "胸部物理治疗"
+        ],
+        "grounding_id": [
+            "13",
+            "25",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": " 患有严重骨质疏松症是不可以做的。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_肺及气道疾病_肺和气道疾病的功能康复_胸部物理治疗.json",
+        "grounding": [
+            "患有严重骨质疏松症"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

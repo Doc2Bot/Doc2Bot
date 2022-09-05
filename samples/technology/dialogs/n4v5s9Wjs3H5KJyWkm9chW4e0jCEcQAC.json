@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "更新iPhone、iPad或iPodtouch的话可以设置自动吗",
+        "act": "verification",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "更新iPhone、iPad或iPodtouch",
+            "自定自动更新"
+        ],
+        "grounding_id": [
+            "1",
+            "37"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的设备可以在夜晚充电时自动更新，请问您还需要了解别的信息吗",
+        "act": "question/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您的设备可以在夜晚充电时自动更新。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "嗯，升级到最新版本的话有什么好处呢",
+        "act": "what",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "升级至最新版本的iOS或iPadOS软件可提供最新的功能、安全性更新和错误修复。并非所有设备或所有国家和地区都可提供所有功能。电池和系统性能可能会受多种因素影响，包括网络状况和个人使用情况；实际结果可能会有所不同。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "升级至最新版本的iOS或iPadOS软件可提供最新的功能、安全性更新和错误修复。",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "升级至最新版本的iOS或iPadOS软件可提供最新的功能、安全性更新和错误修复。并非所有设备或所有国家和地区都可提供所有功能。电池和系统性能可能会受多种因素影响，包括网络状况和个人使用情况；实际结果可能会有所不同。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "所有的机型都能有上面提到的功能吗",
+        "act": "verification",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "升级至最新版本的iOS或iPadOS软件可提供最新的功能、安全性更新和错误修复。并非所有设备或所有国家和地区都可提供所有功能。电池和系统性能可能会受多种因素影响，包括网络状况和个人使用情况；实际结果可能会有所不同。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "并非所有设备或所有国家和地区都可提供所有功能。电池和系统性能可能会受多种因素影响，包括网络状况和个人使用情况；实际结果可能会有所不同。",
+        "act": "ans/no",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "升级至最新版本的iOS或iPadOS软件可提供最新的功能、安全性更新和错误修复。并非所有设备或所有国家和地区都可提供所有功能。电池和系统性能可能会受多种因素影响，包括网络状况和个人使用情况；实际结果可能会有所不同。"
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我用的是iPadOS14.5版本，提示升级之后可以继续选择旧版本吗",
+        "act": "verification",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "如果您使用的是iOS、iPadOS14.5或更高版本，您可能会看到一个选项，要您在两个软件更新版本之间进行选择。您可以在iOS或iPadOS15发布后立即升级到最新版本，或者继续使用iOS或iPadOS14，同时在一段时间内仍然获取重要的安全性更新。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以在iOS或iPadOS15发布后立即升级到最新版本，或者继续使用iOS或iPadOS14，同时在一段时间内仍然获取重要的安全性更新。",
+        "act": "ans/yes",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "如果您使用的是iOS、iPadOS14.5或更高版本，您可能会看到一个选项，要您在两个软件更新版本之间进行选择。您可以在iOS或iPadOS15发布后立即升级到最新版本，或者继续使用iOS或iPadOS14，同时在一段时间内仍然获取重要的安全性更新。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那就好，升级的话显示暂时移除App的话怎么办",
+        "act": "how",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "如果需要更多空间才能通过无线方式进行更新",
+            "如果软件需要更多空间来完成更新，并显示一条信息要求您暂时移除App，请轻点“继续”以允许移除App。安装完成后，这些App会自动重新安装。如果您改为轻点“取消”，则您可以从设备中手动删除内容，从而增加更多空间。"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果软件需要更多空间来完成更新，并显示一条信息要求您暂时移除App，请轻点“继续”以允许移除App。",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "如果软件需要更多空间来完成更新，并显示一条信息要求您暂时移除App，请轻点“继续”以允许移除App。安装完成后，这些App会自动重新安装。如果您改为轻点“取消”，则您可以从设备中手动删除内容，从而增加更多空间。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那删掉的App需要另外重新安装吗？",
+        "act": "verification",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "如果软件需要更多空间来完成更新，并显示一条信息要求您暂时移除App，请轻点“继续”以允许移除App。安装完成后，这些App会自动重新安装。如果您改为轻点“取消”，则您可以从设备中手动删除内容，从而增加更多空间。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "不用，安装完成后，这些App会自动重新安装。",
+        "act": "ans/no",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "如果软件需要更多空间来完成更新，并显示一条信息要求您暂时移除App，请轻点“继续”以允许移除App。安装完成后，这些App会自动重新安装。如果您改为轻点“取消”，则您可以从设备中手动删除内容，从而增加更多空间。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那就好，更新的话用无线可以吗？",
+        "act": "verification",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您可以通过无线方式将iPhone、iPad或iPodtouch更新至最新版本的iOS或iPadOS。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以通过无线方式将iPhone、iPad或iPodtouch更新至最新版本的iOS或iPadOS的",
+        "act": "ans/yes",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您可以通过无线方式将iPhone、iPad或iPodtouch更新至最新版本的iOS或iPadOS。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那如果已经是最新版本还是要求升级的话是什么问题？",
+        "act": "what",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您可能会看到设备当前的版本是最新的，但有一个可用的升级。例如，即使您的设备已更新至最新版本的iOS14，仍可能显示升级至iOS15的选项。当您将配件与iPhone配对时，您可能需要升级iOS。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "即使您的设备已更新至最新版本的iOS14，仍可能显示升级至iOS15的选项。当您将配件与iPhone配对时，您可能需要升级iOS。",
+        "act": "ans/open",
+        "document": "更新iPhone、iPad或iPodtouch.json",
+        "grounding": [
+            "您可能会看到设备当前的版本是最新的，但有一个可用的升级。例如，即使您的设备已更新至最新版本的iOS14，仍可能显示升级至iOS15的选项。当您将配件与iPhone配对时，您可能需要升级iOS。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

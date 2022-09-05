@@ -1,0 +1,112 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "AppleTV4K和AppleTVHD在不同地区随附提供的遥控器都一样吗？",
+        "act": "verification",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "识别AppleTV遥控器",
+            "*AppleTV4K和AppleTVHD在不同地区随附提供的遥控器都一样。在支持Siri的国家和地区，这个遥控器被称为SiriRemote。在其他国家和地区则被称为AppleTVRemote。只要AppleTV4K或AppleTVHD中设置的语言和国家或地区支持Siri，就可以在任一遥控器上使用Siri。"
+        ],
+        "grounding_id": [
+            "1",
+            "27"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "AppleTV4K和AppleTVHD在不同地区随附提供的遥控器都一样。在支持Siri的国家和地区，这个遥控器被称为SiriRemote。在其他国家和地区则被称为AppleTVRemote。只要AppleTV4K或AppleTVHD中设置的语言和国家或地区支持Siri，就可以在任一遥控器上使用Siri。",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "*AppleTV4K和AppleTVHD在不同地区随附提供的遥控器都一样。在支持Siri的国家和地区，这个遥控器被称为SiriRemote。在其他国家和地区则被称为AppleTVRemote。只要AppleTV4K或AppleTVHD中设置的语言和国家或地区支持Siri，就可以在任一遥控器上使用Siri。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道铝金属AppleRemote的详细信息。",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "AppleRemote（铝金属）"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "详细信息：AppleRemote（铝金属）随附于AppleTV（第2代和第3代）。它还可以搭配其他AppleTV机型使用，但功能可能会受限。遥控器的铝金属主体有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "详细信息：AppleRemote（铝金属）随附于AppleTV（第2代和第3代）。它还可以搭配其他AppleTV机型使用，但功能可能会受限。遥控器的铝金属主体有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "金属AppleRemote外表是什么样子的？",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "识别AppleTV遥控器",
+            "AppleRemote（铝金属）"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "描述：银色铝金属外壳连接：红外线发射器电池：可更换CR2032或BR20323V纽扣锂电池序列号：位于电池盒内部兼容性：任何AppleTV。",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：银色铝金属外壳连接：红外线发射器电池：可更换CR2032或BR20323V纽扣锂电池序列号：位于电池盒内部兼容性：任何AppleTV"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "第2代SiriRemote或第2代AppleTVRemote是什么样子的？",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "识别AppleTV遥控器",
+            "SiriRemote（第2代）或AppleTVRemote（第2代）"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

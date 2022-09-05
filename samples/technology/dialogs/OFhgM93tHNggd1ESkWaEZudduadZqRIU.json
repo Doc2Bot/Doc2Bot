@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "配旁白时，我的键盘命令总是不好用，不知道什么原因，请问该怎么办？",
+        "act": "how",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "将HandyTechBraillino显示器与旁白配合使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您的显示器的序列号是多少呢？",
+        "act": "question/open",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "这些键盘命令适用于序列号为09307或更高的HandyTechEasyBraille显示器。如果您的显示器的序列号较低，则可能不支持这些命令。您可以在显示器内置菜单的“信息”标签页表单中找到序列号。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我不太知道，从哪里看呢？跟序列号有关系是吗？",
+        "act": "why",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "这些键盘命令适用于序列号为09307或更高的HandyTechEasyBraille显示器。如果您的显示器的序列号较低，则可能不支持这些命令。您可以在显示器内置菜单的“信息”标签页表单中找到序列号。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "这些键盘命令适用于序列号为09307或更高的HandyTechEasyBraille显示器。如果您的显示器的序列号较低，则可能不支持这些命令。您可以在显示器内置菜单的“信息”标签页表单中找到序列号。",
+        "act": "ans/open",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "这些键盘命令适用于序列号为09307或更高的HandyTechEasyBraille显示器。如果您的显示器的序列号较低，则可能不支持这些命令。您可以在显示器内置菜单的“信息”标签页表单中找到序列号。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，我知道了，我的是可以的。在“旁白”操作时，需要什么程序呢？",
+        "act": "what",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "“旁白”操作"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "状态发送程序",
+        "act": "ans/open",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "状态发送程序"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "嗯，在该操作步骤下，有两个选定项，是显示器按键和什么啊？",
+        "act": "what",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "“旁白”操作"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "路由器",
+        "act": "ans/open",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "路由器"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "BaumVarioConnect12(Conny)显示器也可以是吗？",
+        "act": "verification",
+        "document": "将BaumVarioConnect12(Conny)显示器与旁白搭配使用.json",
+        "grounding": [
+            "将BaumVarioConnect12(Conny)显示器与旁白搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想了解将BaumVarioConnect12(Conny)显示器与旁白搭配使用是吗？",
+        "act": "ans/open",
+        "document": "将BaumVarioConnect12(Conny)显示器与旁白搭配使用.json",
+        "grounding": [
+            "将BaumVarioConnect12(Conny)显示器与旁白搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "是的，可以吗？",
+        "act": "verification",
+        "document": "将BaumVarioConnect12(Conny)显示器与旁白搭配使用.json",
+        "grounding": [
+            "将BaumVarioConnect12(Conny)显示器与旁白搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "可将BaumVarioConnect12(Conny)盲文显示器与iPhone、iPod或iPodtouch上的旁白搭配使用。",
+        "act": "ans/open",
+        "document": "将BaumVarioConnect12(Conny)显示器与旁白搭配使用.json",
+        "grounding": [
+            "如果将BaumVarioConnect12(Conny)盲文显示器与iPhone、iPod或iPodtouch上的旁白搭配使用，您可以使用以下设备专用按键。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

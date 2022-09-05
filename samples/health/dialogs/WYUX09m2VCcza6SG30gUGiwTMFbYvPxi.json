@@ -1,0 +1,140 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我弟今年14岁，昨天去医院查出了股骨头骨骺滑脱，医生要求立即住院手术治疗，有这个必要吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱（SCFE）",
+            "手术"
+        ],
+        "grounding_id": [
+            "1",
+            "39"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有这个必要的，手术一般是治疗股骨头骨骺滑脱最主要的方法。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的治疗方法主要有",
+            "手术"
+        ],
+        "grounding_id": [
+            "38",
+            "39"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那这个手术主要是怎么做？",
+        "act": "how",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的治疗",
+            "手术"
+        ],
+        "grounding_id": [
+            "37",
+            "39"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "手术可纠正脱位并用金属钉将其固定。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "确诊后，可进行手术，以纠正脱位并用金属钉将其固定。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好吧，一般这个病除了照X线，还有啥别的方法能诊断吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的诊断方法主要有：",
+            "X线检查"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "有时医院也会进行磁共振成像或超声检查的方式诊断。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "有时会进行磁共振成像(MRI)或超声检查"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你能再给我说一些股骨头骨骺滑脱的相关知识吗？我想多了解一下。",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱（SCFE）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "当然是可以的，我可以给您科普病因、症状、诊断和治疗方式。您想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的症状"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我想知道具体的症状，好方便照顾我弟弟。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的症状"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "股骨头骨骺滑脱的首发症状可能是髋部僵硬或轻度疼痛。随后，患者出现跛行，髋部疼痛放射至大腿内侧，直至膝盖。受累下肢通常会向外扭曲。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的首发症状可能是髋部僵硬或轻度疼痛。然而，疼痛似乎来自膝盖或大腿。疼痛在休息时减轻，在行走或活动髋部时加重。随后，患者出现跛行，髋部疼痛放射至大腿内侧，直至膝盖。受累下肢通常会向外扭曲。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

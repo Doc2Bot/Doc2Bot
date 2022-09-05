@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游的问题",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "具体是802.11k、802.11r 、 802.11v哪一个？",
+        "act": "multiple-choice",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11r"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "802.11r可以通过什么功能快速认证？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11r",
+            "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。"
+        ],
+        "grounding_id": [
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "DMS是干嘛的？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游",
+            "802.11v",
+            "DMS可优化无线网络上的多播流量传输。设备会利用这些信息来增强多播通信，并保持电池续航能力。"
+        ],
+        "grounding_id": [
+            "1",
+            "9",
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "DMS可优化无线网络上的多播流量传输。设备会利用这些信息来增强多播通信，并保持电池续航能力。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "DMS可优化无线网络上的多播流量传输。设备会利用这些信息来增强多播通信，并保持电池续航能力。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "802.11工作组标准k、r和v有什么用？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游",
+            "iOS、iPadOS和macOS在企业无线局域网上支持优化的客户端漫游。802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "iOS、iPadOS和macOS在企业无线局域网上支持优化的客户端漫游。802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS、iPadOS和macOS在企业无线局域网上支持优化的客户端漫游。802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    }
+]

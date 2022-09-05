@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一下AppleUSB-A相机转换器与USB-A设备搭配使用的事情。",
+        "act": "what",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "将AppleUSB-A相机转换器与USB-A设备搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想咨询哪方面的事？",
+        "act": "question/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "获取协助"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "链接不上显示无法连接支持的设备我该怎么办？",
+        "act": "how",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "如果您无法连接支持的设备，请尝试以下步骤："
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先断开AppleUSB相机转换器与iOS设备的连接，然后断开所有连接到AppleUSB相机转换器的设备的连接， 接着重新启动iOS设备，最后再插入AppleUSB相机转换器，并再次尝试连接USB设备",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "插入AppleUSB相机转换器，并再次尝试连接USB设备。",
+            "重新启动iOS设备。",
+            "断开AppleUSB相机转换器与iOS设备的连接。",
+            "断开所有连接到AppleUSB相机转换器的设备的连接。"
+        ],
+        "grounding_id": [
+            "36",
+            "35",
+            "33",
+            "34"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "什么设备能与AppleUSB-A相机转换器搭配使用呢？",
+        "act": "what",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "您可以将以下设备与AppleUSB-A相机转换器搭配使用："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "音频/MIDI接口和设备，集线器，以太网转换器，SD卡读卡器，条形码扫描仪。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "音频/MIDI接口和设备",
+            "集线器",
+            "以太网转换器",
+            "SD卡读卡器",
+            "条形码扫描仪"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "AppleUSB-A相机转换器可以将照片从数码相机导入到iPhone上吗？",
+        "act": "verification",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "您可以使用AppleUSB-A相机转换器将照片从数码相机导入到您的iPhone、iPad或iPodtouch，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的可以，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch也可以。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "您可以使用AppleUSB-A相机转换器将照片从数码相机导入到您的iPhone、iPad或iPodtouch，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

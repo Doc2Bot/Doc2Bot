@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频",
+        "act": "what",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解什么方面呢",
+        "act": "question/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道电影效果控制不可用的话是不是就需要更新到macOSMonterey",
+        "act": "verification",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "如果电影效果控制仍不可用",
+            "则可能需要更新到macOSMonterey。"
+        ],
+        "grounding_id": [
+            "104",
+            "112"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "则可能需要更新到macOSMonterey。"
+        ],
+        "grounding_id": [
+            "112"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那在FinalCutPro中为了获得最佳质量应该怎么设置资源库和项目",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在FinalCutPro中设置资源库和项目",
+            "默认情况下，iPhone会以HDR格式拍摄视频。为了获得最佳质量，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "为了获得最佳质量，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "默认情况下，iPhone会以HDR格式拍摄视频。为了获得最佳质量，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我的电影效果模式片段是以SDR格式录制的话应怎么办",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "默认情况下，iPhone会以HDR格式拍摄视频。为了获得最佳质量，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那请在FinalCutPro中创建标准的Rec.709项目",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "默认情况下，iPhone会以HDR格式拍摄视频。为了获得最佳质量，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果要从照片图库导入电影效果模式片段应该用什么",
+        "act": "what",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "从照片图库导入",
+            "要在FinalCutPro或iMovie剪辑中从照片图库导入电影效果模式片段，请查看这一部分中的设置，以确保正确导入电影效果模式片段。"
+        ],
+        "grounding_id": [
+            "56",
+            "57"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要在FinalCutPro或iMovie剪辑中从照片图库导入电影效果模式片段，请查看这一部分中的设置，以确保正确导入电影效果模式片段。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "要在FinalCutPro或iMovie剪辑中从照片图库导入电影效果模式片段，请查看这一部分中的设置，以确保正确导入电影效果模式片段。"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    }
+]

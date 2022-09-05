@@ -1,0 +1,602 @@
+{
+    "document_id": 368,
+    "domain": "wikihow",
+    "name": "教育与交流_如何使用ALT键输入特殊符号",
+    "graph": {
+        "1": {
+            "data": "教育与交流_如何使用ALT键输入特殊符号",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "在Windows系统中，将Alt键和数字代码组合在一起，能够打出普通键盘上不存在的特殊字符和符号。尽管苹果电脑上没有“Alt”代码，但是也有各种各样的“Option”键盘快捷键，能让你打出大多数常用的符号。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "可选方法",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "Windows系统",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "5": {
+            "data": "输入货币符号。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "6": {
+            "data": "按住Alt按键，使用键盘上的数字键输入以下数字。松开Alt键，就会出现对应的符号。要使用数字键输入数字，你要确保启用数字小键盘（即按下数字锁定键，亮起指示灯）。",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "7": {
+            "data": "符号||名称||代码",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "8": {
+            "data": "€||欧元||0128",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "9": {
+            "data": "£||英镑||156",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "10": {
+            "data": "¢||分||155",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "11": {
+            "data": "¥||日元||157",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "12": {
+            "data": "ƒ||弗罗林||159",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "13": {
+            "data": "¤|| 货币 ||0164",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "14": {
+            "data": "输入数学运算符号。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "15": {
+            "data": "按住Alt按键，使用键盘上的数字键输入以下数字，来键入数学运算符。当你松开Alt键，就会出现对应的符号。需启用数字小键盘（数字键）。",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "16": {
+            "data": "符号||名称||代码",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "17": {
+            "data": "÷||除号（除以）||246",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "18": {
+            "data": "×||乘号||0215",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "19": {
+            "data": "±||加号或减号||0177",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "20": {
+            "data": "≈||近似值（约等于）||247",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "21": {
+            "data": "√||平方根||251",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "22": {
+            "data": "ⁿ||n次幂||252",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "23": {
+            "data": "²||平方||253",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "24": {
+            "data": "¼||四分之一||0188",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "25": {
+            "data": "½||二分之一||0189",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "26": {
+            "data": "¾||四分之三||0190",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "27": {
+            "data": "∞||无穷||236",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "28": {
+            "data": "≥|| 大于或等于 ||242",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "29": {
+            "data": "≤||小于或等于||243",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "30": {
+            "data": "π||圆周率||227",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "31": {
+            "data": "°||度||248",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "32": {
+            "data": "输入特殊的标点符号和编辑符号。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "33": {
+            "data": "按住Alt键，用数字键盘输入以下数字，来创建特殊标点符号。当你松开Alt键时，特殊符号就会被插入到光标处。需启用数字键盘。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "34": {
+            "data": "符号||名称||代码",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "35": {
+            "data": "¡|| 反叹号 ||173",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "36": {
+            "data": "¿||反问号||168",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "37": {
+            "data": "§||节||21",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "38": {
+            "data": "¶||段落||20",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "39": {
+            "data": "©||版权||0169",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "40": {
+            "data": "®||商标注册标记||0174",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "41": {
+            "data": "™||商标||0153",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "42": {
+            "data": "†||匕首（脚注符号之一）||0134",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "43": {
+            "data": "‡||双匕首||0135",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "44": {
+            "data": "–||短破折号||0150",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "45": {
+            "data": "—||长破折号||0151",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "46": {
+            "data": "•||项目符号||0149",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "47": {
+            "data": "输入五线谱。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "48": {
+            "data": "按住Alt键，用数字键盘输入以下数字。当你松开Alt键时，便会键入五线谱符号。输入数字时，需启用数字键盘。9000到9999间的代码符号取决于特定字体，在每个设备上可能并不完全相同。",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "49": {
+            "data": "符号||名称||代码",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "50": {
+            "data": "♪||四分音符||13",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "51": {
+            "data": "♫||八分音符||14",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "52": {
+            "data": "♬|| 十六分音符 ||9836",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "53": {
+            "data": "♭||降调||9837",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "54": {
+            "data": "♮||本位音的（恢复原调）||9838",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "55": {
+            "data": "♯||升调||9839",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "56": {
+            "data": "输入其它各种各样的符号。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "57": {
+            "data": "按住Alt键，用数字键盘输入以下数字。当你松开Alt键时，便会键入对应符号。在此期间，需启用数字键盘。",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "58": {
+            "data": "符号||名称||代码",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "59": {
+            "data": "☺||笑脸||1",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "60": {
+            "data": "☻|| 黑色笑脸 ||2",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "61": {
+            "data": "♥||心||3",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "62": {
+            "data": "♦||方片（菱形）||4",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "63": {
+            "data": "♣||梅花||5",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "64": {
+            "data": "♠||黑桃||6",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "65": {
+            "data": "♂||男性||11",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "66": {
+            "data": "♀||女性||12",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "67": {
+            "data": "↑||向上的箭头||24",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "68": {
+            "data": "↓||向下的箭头||25",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "69": {
+            "data": "→||向右的箭头||26",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "70": {
+            "data": "←||向左的箭头||27",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "71": {
+            "data": "☼||太阳||15",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "72": {
+            "data": "⌂||家||127",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "73": {
+            "data": "Mac系统",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "74": {
+            "data": "输入货币符号。",
+            "type": "ordinary",
+            "pid": "73"
+        },
+        "75": {
+            "data": "当你按下Opt按键，或Shift+Opt按键时，你的键盘能输入一些特殊的符号和字符。包括某些常用的货币符号。使用下述快捷键，来键入不同的货币符号。",
+            "type": "ordinary",
+            "pid": "74"
+        },
+        "76": {
+            "data": "符号||名称||快捷键",
+            "type": "ordinary",
+            "pid": "74"
+        },
+        "77": {
+            "data": "¢||分||Opt+4",
+            "type": "ordinary",
+            "pid": "74"
+        },
+        "78": {
+            "data": "€||欧元|| Shift+Opt+2 ",
+            "type": "ordinary",
+            "pid": "74"
+        },
+        "79": {
+            "data": "£|| 英镑 ||Opt+3",
+            "type": "ordinary",
+            "pid": "74"
+        },
+        "80": {
+            "data": "¥||日元||Opt+Y",
+            "type": "ordinary",
+            "pid": "74"
+        },
+        "81": {
+            "data": "ƒ||弗罗林||Opt+F",
+            "type": "ordinary",
+            "pid": "74"
+        },
+        "82": {
+            "data": "输入数学运算符。",
+            "type": "ordinary",
+            "pid": "73"
+        },
+        "83": {
+            "data": "Opt按键或Shift+Opt按键来修改键盘按键功能。使用下面的快捷键输入不同的数学运算符。",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "84": {
+            "data": "符号||名称||快捷键",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "85": {
+            "data": "÷||除号（除以）||Opt+/",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "86": {
+            "data": "±||加减号|| Shift+Opt+TheButton ",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "87": {
+            "data": "°||度||Shift+Opt+8",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "88": {
+            "data": "≥|| 大于等于 ||Opt+>",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "89": {
+            "data": "≤||小于等于||Opt+<",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "90": {
+            "data": "π||圆周率||Opt+P",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "91": {
+            "data": "≈||约等于||Opt+X",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "92": {
+            "data": "≠||不等号||Opt+TheButton",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "93": {
+            "data": "∞||无穷||Opt+5",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "94": {
+            "data": "∫||积分号||Opt+B",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "95": {
+            "data": "输入特殊的标点符号和编辑符号。",
+            "type": "ordinary",
+            "pid": "73"
+        },
+        "96": {
+            "data": "Opt和Shift+Opt会改变、修改键盘打出的字符和符号。其中有些符号是特殊的标点符号和编辑符号。使用下述键盘组合键输入以下符号。",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "97": {
+            "data": "符号||名称||快捷键",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "98": {
+            "data": "¿||反问号|| Shift+Opt+? ",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "99": {
+            "data": "¡|| 反叹号 ||Opt+1",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "100": {
+            "data": "©||版权||Opt+G",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "101": {
+            "data": "®||商标注册标记||Opt+R",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "102": {
+            "data": "™||商标||Opt+2",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "103": {
+            "data": "¶||段落||Opt+7",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "104": {
+            "data": "§||节||Opt+6",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "105": {
+            "data": "•||项目符号||Opt+8",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "106": {
+            "data": "–||短破折号||Opt+-",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "107": {
+            "data": "—||长破折号||Shift+Opt+-",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "108": {
+            "data": "†||匕首||Opt+T",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "109": {
+            "data": "‡||双匕首||Shift+Opt+7",
+            "type": "ordinary",
+            "pid": "95"
+        },
+        "110": {
+            "data": "使用符号浏览器找到更多符号。",
+            "type": "ordinary",
+            "pid": "73"
+        },
+        "111": {
+            "data": "苹果电脑不像Windows系统的电脑那样，有那么多Alt代码。但是你可以在符号显示程序中找到很多不同的符号：",
+            "type": "ordinary",
+            "pid": "110"
+        },
+        "112": {
+            "data": "点击苹果菜单，选择“系统偏好设置”。",
+            "type": "ordinary",
+            "pid": "111"
+        },
+        "113": {
+            "data": "点击“键盘”选项，然后勾选“在菜单栏中显示‘键盘与字符显示程序’。”。",
+            "type": "ordinary",
+            "pid": "111"
+        },
+        "114": {
+            "data": "点击出现在菜单栏中的显示程序图标，并选择“显示表情符号和符号”。",
+            "type": "ordinary",
+            "pid": "111"
+        },
+        "115": {
+            "data": "浏览符号类别，双击你想要插入的符号。",
+            "type": "ordinary",
+            "pid": "111"
+        },
+        "116": {
+            "data": "小提示",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "117": {
+            "data": "如果Windows系统中的“Alt代码”包含数字0，你不能省略，一定要输入它们。",
+            "type": "ordinary",
+            "pid": "116"
+        },
+        "118": {
+            "data": "警告",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "119": {
+            "data": "“Alt代码”只兼容于认可美国信息交换标准代码输入法（ASCII）的程序中。",
+            "type": "ordinary",
+            "pid": "118"
+        }
+    }
+}

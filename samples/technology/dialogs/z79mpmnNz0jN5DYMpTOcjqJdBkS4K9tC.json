@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下在iPhone手机上使用“经期跟踪”跟踪经期的相关问题？",
+        "act": "what",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "使用“经期跟踪”跟踪您的经期"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：如何设置“经期跟踪”，如何跟踪您的经期，添加月经周期因素，还是其它？",
+        "act": "multiple-choice",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "添加月经周期因素"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "添加月经周期因素指的是什么？",
+        "act": "what",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "添加月经周期因素"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以添加可能影响月经周期时间和时长的因素，例如怀孕。",
+        "act": "ans/open",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "您还可以添加可能影响月经周期时间和时长的因素，例如怀孕。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体操作步骤是什么？",
+        "act": "what",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "您还可以添加可能影响月经周期时间和时长的因素，例如怀孕。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先，在iPhone上，打开“健康”App，然后轻点“浏览”标签页。 然后，轻点“经期跟踪”。 接着，在“经期日志”部分下，轻点“因素”旁边的“设置”。 选择“怀孕”、“正在哺乳”、“使用避孕方式”或“以上均不”。 最后，输入这一因素的开始日期，然后轻点“完成”。",
+        "act": "ans/open",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "在iPhone上，打开“健康”App，然后轻点“浏览”标签页。",
+            "轻点“经期跟踪”。",
+            "在“经期日志”部分下，轻点“因素”旁边的“设置”。",
+            "选择“怀孕”、“正在哺乳”、“使用避孕方式”或“以上均不”。",
+            "输入这一因素的开始日期，然后轻点“完成”。"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "“经期跟踪”这个功能在什么版本上才有？",
+        "act": "what",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "有了iOS13和watchOS6或更高版本，您可以轻松跟踪自己的月经周期，以便更好地了解自己的健康状况。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在iOS13和watchOS6或更高版本上才有。",
+        "act": "ans/open",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "有了iOS13和watchOS6或更高版本，您可以轻松跟踪自己的月经周期，以便更好地了解自己的健康状况。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何跟踪您的经期？",
+        "act": "how",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "如何跟踪您的经期"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具体步骤：首先，在iPhone上，打开“健康”App，然后轻点“浏览”标签页。然后，轻点“经期跟踪”。接着，轻扫至正确的日期，然后轻点椭圆形以记录您的经期。要添加更多信息，请向下滚动并轻点某个类别，做出更改，然后轻点“完成”。您可以跟踪症状、点滴出血、基础体温等。",
+        "act": "ans/open",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "具体步骤",
+            "在iPhone上，打开“健康”App，然后轻点“浏览”标签页。",
+            "轻点“经期跟踪”。",
+            "轻扫至正确的日期，然后轻点椭圆形以记录您的经期。",
+            "要添加更多信息，请向下滚动并轻点某个类别，做出更改，然后轻点“完成”。您可以跟踪症状、点滴出血、基础体温等。"
+        ],
+        "grounding_id": [
+            "13",
+            "14",
+            "15",
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "用AppleWatch跟踪经期，应该怎么操作？",
+        "act": "how",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "要用AppleWatch跟踪经期，请打开“经期跟踪”App，轻扫至正确的日期，然后轻点椭圆形以记录您的经期。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "要用AppleWatch跟踪经期，请打开“经期跟踪”App，轻扫至正确的日期，然后轻点椭圆形以记录您的经期。",
+        "act": "ans/open",
+        "document": "使用“经期跟踪”跟踪您的经期.json",
+        "grounding": [
+            "要用AppleWatch跟踪经期，请打开“经期跟踪”App，轻扫至正确的日期，然后轻点椭圆形以记录您的经期。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

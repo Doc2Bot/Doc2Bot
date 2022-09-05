@@ -1,0 +1,198 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何改变发型或造型遮盖疤痕？",
+        "act": "how",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "如何遮盖疤痕",
+            "改变发型或造型"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "1.换个发型。 2.穿不同的衣服。 3.穿戴首饰。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "换个发型。",
+            "穿不同的衣服。",
+            "穿戴首饰。"
+        ],
+        "grounding_id": [
+            "5",
+            "7",
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "穿戴什么样的首饰？",
+        "act": "what",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "穿戴首饰。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果手或手腕上有疤痕，解决方法很简单，只要戴个首饰就可以了。手表、手镯或戒指都能轻易遮盖疤痕，你还可以享受收集首饰的乐趣。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "如果手或手腕上有疤痕，解决方法很简单，只要戴个首饰就可以了。手表、手镯或戒指都能轻易遮盖疤痕，你还可以享受收集首饰的乐趣。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如何利用化妆品和乳膏遮盖疤痕？",
+        "act": "how",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "如何遮盖疤痕",
+            "利用化妆品和乳膏"
+        ],
+        "grounding_id": [
+            "1",
+            "11"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "1.涂祛疤药膏。 2.用化妆品遮盖疤痕。 3.使用遮疤工具组。 4.用遮瑕或微孔胶带。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "涂祛疤药膏。",
+            "用化妆品遮盖疤痕。",
+            "使用遮疤工具组。",
+            "用遮瑕或微孔胶带。"
+        ],
+        "grounding_id": [
+            "12",
+            "16",
+            "20",
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "选用什么祛疤药膏？",
+        "act": "what",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "涂祛疤药膏。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "选择含有槲皮素、凡士林和维生素C等治疗成分的药膏。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "选择含有槲皮素、凡士林和维生素C等治疗成分的药膏。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如何选择用来遮盖疤痕的化妆品？",
+        "act": "how",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "用化妆品遮盖疤痕。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "市面上有许多可以暂时遮盖疤痕的化妆品。选择与肤色相近的颜色，先试涂化妆品或遮瑕膏，看看是否需要混合其它颜色，才能达到你想要的效果。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "市面上有许多可以暂时遮盖疤痕的化妆品。选择与肤色相近的颜色，先试涂化妆品或遮瑕膏，看看是否需要混合其它颜色，才能达到你想要的效果。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何选购遮瑕或微孔胶带？",
+        "act": "how",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "用遮瑕或微孔胶带。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "市面上也有遮瑕专用的肉色细胶带。最好剪成与疤痕差不多的形状，以便和其它皮肤看起来协调。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "市面上也有遮瑕专用的肉色细胶带。最好剪成与疤痕差不多的形状，以便和其它皮肤看起来协调。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如何遮盖疤痕？",
+        "act": "how",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "如何遮盖疤痕"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "身上有疤痕让人感到尴尬，还会影响自信心，甚至回避社交场合。幸好，有几种方法可以淡化疤痕，本文将教你一些掩盖疤痕的小技巧，还会介绍更持久的治疗方法。",
+        "act": "ans/open",
+        "document": "个人形象与时尚_如何遮盖疤痕.json",
+        "grounding": [
+            "身上有疤痕让人感到尴尬，还会影响自信心，甚至回避社交场合。幸好，有几种方法可以淡化疤痕，本文将教你一些掩盖疤痕的小技巧，还会介绍更持久的治疗方法。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

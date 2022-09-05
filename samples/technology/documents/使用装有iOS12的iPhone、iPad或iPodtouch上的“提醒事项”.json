@@ -1,0 +1,416 @@
+{
+    "document_id": 404,
+    "domain": "technology",
+    "name": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”",
+    "graph": {
+        "1": {
+            "data": "使用装有iOS12的iPhone、iPad或iPodtouch上的“提醒事项”",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "使用“提醒事项”来跟踪项目、日用购物等事项。如果与iCloud搭配使用，您还可以使提醒事项在所有设备上保持最新状态。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "添加提醒事项",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "5": {
+            "data": "打开“提醒事项”App。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "6": {
+            "data": "轻点提醒事项列表中的。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "7": {
+            "data": "输入您的提醒事项。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "8": {
+            "data": "要添加类似提醒时间或提醒地点这样的详细信息，请轻点信息按钮。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "12": {
+            "data": "轻点“完成”。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "13": {
+            "data": "完成提醒事项",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "14": {
+            "data": "要将提醒事项标记为已完成，请轻点它旁边的空白圆圈。要查看已完成的提醒事项，请在提醒事项列表中轻点“显示已完成的项目”。",
+            "type": "ordinary",
+            "pid": "13"
+        },
+        "15": {
+            "data": "要删除某个提醒事项，请轻点列表顶部的“编辑”，轻点，然后轻点“删除”。",
+            "type": "ordinary",
+            "pid": "13"
+        },
+        "16": {
+            "data": "如果您在锁定屏幕上收到提醒事项通知，请在这个提醒事项上向左轻扫，然后轻点“查看”。然后轻点“标记为已完成”。",
+            "type": "ordinary",
+            "pid": "13"
+        },
+        "17": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "16"
+        },
+        "18": {
+            "data": "提醒事项通知",
+            "type": "see-more",
+            "pid": "17",
+            "target": "使用iPhone、iPad和iPodtouch上的“通知”.json"
+        },
+        "20": {
+            "data": "选取提醒方式",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "21": {
+            "data": "需要在上午10点提醒您去取干洗衣物？利用“提醒事项”，您可以设置通知，以便在提醒事项到期时或者在您到达或离开某个位置（例如，您家或您的工作地点）时收到相应提醒。",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "22": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "21"
+        },
+        "23": {
+            "data": "设置通知",
+            "type": "see-more",
+            "pid": "22",
+            "target": "使用iPhone、iPad和iPodtouch上的“通知”.json"
+        },
+        "25": {
+            "data": "设置时间",
+            "type": "sequence",
+            "pid": "20"
+        },
+        "26": {
+            "data": "打开“提醒事项”App。",
+            "type": "sequence-step",
+            "pid": "25"
+        },
+        "27": {
+            "data": "轻点某个提醒事项，然后轻点提醒事项右侧的信息按钮。",
+            "type": "sequence-step",
+            "pid": "25"
+        },
+        "28": {
+            "data": "开启“在指定时间提醒我”，然后轻点“提醒时间”旁边的日期。",
+            "type": "sequence-step",
+            "pid": "25"
+        },
+        "29": {
+            "data": "为您的提醒事项设置日期和时间。",
+            "type": "sequence-step",
+            "pid": "25"
+        },
+        "30": {
+            "data": "轻点“完成”。",
+            "type": "sequence-step",
+            "pid": "25"
+        },
+        "31": {
+            "data": "设置地点",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "32": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "31"
+        },
+        "33": {
+            "data": "打开“提醒事项”App。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "34": {
+            "data": "轻点某个提醒事项，然后轻点提醒事项右侧的信息按钮。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "35": {
+            "data": "开启“在指定位置提醒我”，然后轻点“位置”。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "36": {
+            "data": "搜索或输入您希望收到提醒的地址。您甚至可以使用自己的当前位置。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "37": {
+            "data": "选取您是希望在离开这个位置时还是到达时收到提醒。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "38": {
+            "data": "向内或向外拖动圆圈上的黑点，以更改提醒区域的周边。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "39": {
+            "data": "轻点“详细信息”以回到上一屏幕，然后轻点“完成”。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "40": {
+            "data": "要接收基于位置的提醒事项，请确保“定位服务”已开启，并确保您的设备支持这一功能。",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "44": {
+            "data": "您可以在iPhone4及更新机型、iPadPro（无线局域网+蜂窝网络）及更新机型、iPad（第4代无线局域网+蜂窝网络）、iPadAir及更新机型（无线局域网+蜂窝网络）、iPadmini4（无线局域网+蜂窝网络）及更新机型，以及iPodtouch（第6代）上的iOS8或更高版本中使用基于位置的提醒事项。",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "45": {
+            "data": "让Siri提醒您",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "46": {
+            "data": "您可以让Siri为您安排提醒事项。以下是一些示例：",
+            "type": "ordinary",
+            "pid": "45"
+        },
+        "47": {
+            "data": "“等我到家后，提醒我查看邮件。”",
+            "type": "ordinary",
+            "pid": "46"
+        },
+        "48": {
+            "data": "“在我离开这里时，提醒我顺便去趟杂货店。”",
+            "type": "ordinary",
+            "pid": "46"
+        },
+        "49": {
+            "data": "“提醒我明天下午3点给Jane打电话。”",
+            "type": "ordinary",
+            "pid": "46"
+        },
+        "50": {
+            "data": "如果您向Siri提供了您的家庭地址或工作地址，则您可以提出个性化的要求，如“等我到家后，提醒我给妻子打电话”。",
+            "type": "sequence",
+            "pid": "45"
+        },
+        "51": {
+            "data": "前往“通讯录”>“我的名片”，然后添加您的工作地址或家庭地址。",
+            "type": "sequence-step",
+            "pid": "50"
+        },
+        "52": {
+            "data": "前往“设置”>“Siri与搜索”，然后轻点“我的信息”。轻点您的联系人名片，以将它添加到“我的信息”中。",
+            "type": "sequence-step",
+            "pid": "50"
+        },
+        "54": {
+            "data": "在另一个App中添加提醒事项",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "55": {
+            "data": "不需要切换到“提醒事项”，您在使用另一个App时就能提醒自己回到某个网站、地图位置或其他事项。具体操作如下：",
+            "type": "ordinary",
+            "pid": "54"
+        },
+        "56": {
+            "data": "让Siri“稍后提醒我这件事”。",
+            "type": "ordinary",
+            "pid": "55"
+        },
+        "57": {
+            "data": "在想要创建相关提醒事项的App中轻点，然后轻点“提醒事项”。",
+            "type": "ordinary",
+            "pid": "55"
+        },
+        "58": {
+            "data": "当您收到提醒或打开“提醒事项”时，您可以轻点提醒事项右侧的App图标以返回到创建提醒事项的App。",
+            "type": "ordinary",
+            "pid": "54"
+        },
+        "59": {
+            "data": "稍后给某人回电",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "60": {
+            "data": "现在没法接电话？在您接到来电时，请轻点“提醒我”，然后选取您希望系统提醒您给这个人回电的时间。",
+            "type": "ordinary",
+            "pid": "59"
+        },
+        "61": {
+            "data": "整理您的提醒事项",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "62": {
+            "data": "想要对提醒事项按“工作”、“个人”或“学校”等类别分类？创建一个提醒事项列表可以让一切变得井井有条。要在多个列表间切换，请轻点提醒事项列表的名称，或从提醒事项列表顶部向下轻扫。",
+            "type": "ordinary",
+            "pid": "61"
+        },
+        "63": {
+            "data": "创建新的提醒事项列表",
+            "type": "sequence",
+            "pid": "61"
+        },
+        "64": {
+            "data": "打开“提醒事项”App。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "65": {
+            "data": "从某个提醒事项列表的顶部向下轻扫，然后轻点。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "66": {
+            "data": "轻点“列表”，然后选择要将列表添加到的帐户。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "67": {
+            "data": "命名您的列表，然后选取一种颜色。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "68": {
+            "data": "轻点“完成”。",
+            "type": "sequence-step",
+            "pid": "63"
+        },
+        "69": {
+            "data": "将提醒事项移至新列表",
+            "type": "sequence",
+            "pid": "61"
+        },
+        "70": {
+            "data": "打开“提醒事项”App。",
+            "type": "sequence-step",
+            "pid": "69"
+        },
+        "71": {
+            "data": "前往某个提醒事项列表，然后轻点某个提醒事项。",
+            "type": "sequence-step",
+            "pid": "69"
+        },
+        "72": {
+            "data": "轻点或在这个提醒事项上向左轻扫，然后轻点“更多”。",
+            "type": "sequence-step",
+            "pid": "69"
+        },
+        "73": {
+            "data": "轻点“列表”，然后选取要将提醒事项添加到的列表。",
+            "type": "sequence-step",
+            "pid": "69"
+        },
+        "74": {
+            "data": "轻点“完成”。",
+            "type": "sequence-step",
+            "pid": "69"
+        },
+        "75": {
+            "data": "共享提醒事项列表",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "76": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "75"
+        },
+        "77": {
+            "data": "打开“提醒事项”App。",
+            "type": "sequence-step",
+            "pid": "76"
+        },
+        "78": {
+            "data": "轻点您想要共享的列表，然后轻点“编辑”>“共享”。",
+            "type": "sequence-step",
+            "pid": "76"
+        },
+        "79": {
+            "data": "轻点“添加联系人”，然后输入他们的电子邮件地址。您可以与已登录iCloud的任何人共享提醒事项列表。",
+            "type": "sequence-step",
+            "pid": "76"
+        },
+        "80": {
+            "data": "完成后，轻点“完成”。",
+            "type": "sequence-step",
+            "pid": "76"
+        },
+        "81": {
+            "data": "在某人接受您的列表共享邀请后，你们都可以添加和删除项目，还可以将项目标记为已完成。如果家庭成员设置了“家人共享”，那么他们之间也可以共享列表。",
+            "type": "ordinary",
+            "pid": "75"
+        },
+        "86": {
+            "data": "将“提醒事项”设置为搭配iCloud使用",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "87": {
+            "data": "您可以使用iCloud来更新您所有设备上的提醒事项。将“提醒事项”设置为搭配iCloud使用，请前往“设置”>“iCloud”，然后开启“提醒事项”。您会在已使用同一AppleID登录的所有Apple设备上看到您的提醒事项。",
+            "type": "ordinary",
+            "pid": "86"
+        },
+        "88": {
+            "data": "了解其他iOS功能",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "89": {
+            "data": "了解如何在AppleWatch上接收通知。",
+            "type": "ordinary",
+            "pid": "88"
+        },
+        "90": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "89"
+        },
+        "91": {
+            "data": "在AppleWatch上接收通知",
+            "type": "see-more",
+            "pid": "90",
+            "target": "AppleWatch上的通知.json"
+        },
+        "93": {
+            "data": "使用iPhone、iPad或iPodtouch上的“通知”。",
+            "type": "ordinary",
+            "pid": "88"
+        },
+        "94": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "93"
+        },
+        "95": {
+            "data": "使用iPhone、iPad或iPodtouch上的“通知”",
+            "type": "see-more",
+            "pid": "94",
+            "target": "使用iPhone、iPad和iPodtouch上的“通知”.json"
+        },
+        "97": {
+            "data": "了解如何使用iOS设备上的Siri。",
+            "type": "ordinary",
+            "pid": "88"
+        }
+    }
+}

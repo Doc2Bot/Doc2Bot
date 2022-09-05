@@ -1,0 +1,253 @@
+{
+    "document_id": 646,
+    "domain": "technology",
+    "name": "将您的组织升级到Apple校园教务管理",
+    "graph": {
+        "1": {
+            "data": "将您的组织升级到Apple校园教务管理",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "升级到Apple校园教务管理以继续使用设备注册计划和批量购买计划。Apple部署计划自2019年12月1日起不再提供。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "如果您的组织目前使用设备注册计划或批量购买计划等Apple部署计划，",
+            "type": "condition",
+            "pid": "1"
+        },
+        "4": {
+            "data": "Apple校园教务管理是一项服务，让您可以购买内容、在移动设备管理(MDM)解决方案中配置自动设备注册，以及为您的学生和教职人员创建帐户。Apple校园教务管理以网页形式供用户访问，并且专为技术经理、IT管理员、教职人员和讲师设计。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "5": {
+            "data": "升级到Apple校园教务管理",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "6": {
+            "data": "若要升级，",
+            "type": "condition",
+            "pid": "5"
+        },
+        "10": {
+            "data": "升级后，Apple校园教务管理将拥有以下所有信息：",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "11": {
+            "data": "帐户",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "12": {
+            "data": "帐户登录信息",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "13": {
+            "data": "MDM服务器",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "14": {
+            "data": "MDM设备",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "15": {
+            "data": "Server令牌",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "16": {
+            "data": "设备订单",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "17": {
+            "data": "您的帐户所关联的其他项目",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "18": {
+            "data": "完成升级后，请使用Apple校园教务管理门户访问您的数据。升级后，您将无法访问Apple部署计划网站。",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "22": {
+            "data": "为管理式AppleID选取一个域名",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "23": {
+            "data": "当您升级到Apple校园教务管理后，系统会要求您输入所在学校的网址。Apple校园教务管理将使用学校网址创建一个保留域名，作为您的管理式AppleID的默认域名。例如，如果您的网址是www.myschool.edu，则您的管理式AppleID将类似于student@myschooledu.appleid.com。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "24": {
+            "data": "您的Apple校园教务管理管理员可以在升级后更改默认域名。注册后添加的任何域名都必须先经过验证，然后才能用于管理式AppleID。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "28": {
+            "data": "邀请批量购买计划购买者加入Apple校园教务管理",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "29": {
+            "data": "您的学校可能有一个或多个单独的批量购买计划帐户。如果您的学校拥有这些帐户，则在您升级到Apple校园教务管理之后，必须在邀请用户之外单独邀请这些购买者。了解如何邀请批量购买计划购买者加入Apple校园教务管理。",
+            "type": "ordinary",
+            "pid": "28"
+        },
+        "33": {
+            "data": "Apple校园教务管理中职能方面的调整",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "34": {
+            "data": "Apple校园教务管理针对您分配给用户的职能做出了一些调整。",
+            "type": "ordinary",
+            "pid": "33"
+        },
+        "35": {
+            "data": "“代理”现在称为“管理员”",
+            "type": "ordinary",
+            "pid": "33"
+        },
+        "36": {
+            "data": "在Apple部署计划中，代理拥有最高级别的管理权限。代理能够代表您的组织接受Apple部署计划的条款和条件。",
+            "type": "ordinary",
+            "pid": "35"
+        },
+        "37": {
+            "data": "在Apple校园教务管理中，这个职能现在称为“管理员”。您的组织在Apple校园教务管理中最多可以有五名管理员。",
+            "type": "ordinary",
+            "pid": "35"
+        },
+        "38": {
+            "data": "“管理员”现在称为“经理”",
+            "type": "ordinary",
+            "pid": "33"
+        },
+        "39": {
+            "data": "在Apple部署计划中，一共有三类管理员：设备注册计划管理员、批量购买计划管理员和针对学生的AppleID计划管理员。在Apple校园教务管理中，“管理员”现在称为“经理”。",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "40": {
+            "data": "用户转换后的管理员类型取决于他们的职责，下表列出了具体的对应关系：",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "41": {
+            "data": "任何能够创建其他管理员的Apple部署计划管理员都将成为Apple校园教务管理中的人员经理。",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "42": {
+            "data": "单个用户可以在Apple校园教务管理中拥有多个职能。如果您的用户以前是多个计划的管理员，系统将为他/她分配所有适用于Apple校园教务管理的职能。升级后，管理员或机构经理可以添加、移除或更改经理职能。",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "43": {
+            "data": "适用于所有职能的管理式AppleID",
+            "type": "ordinary",
+            "pid": "33"
+        },
+        "44": {
+            "data": "当您之前的代理和管理员首次登录Apple校园教务管理时，他们的AppleID将转换为管理式AppleID。如果他们的帐户之前没有设置双重认证，则他们应在此时进行设置。",
+            "type": "ordinary",
+            "pid": "43"
+        },
+        "45": {
+            "data": "进一步了解",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "58": {
+            "data": "升级到Apple商务管理",
+            "type": "ordinary",
+            "pid": "45"
+        },
+        "59": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "58"
+        },
+        "60": {
+            "data": "升级到Apple商务管理",
+            "type": "see-more",
+            "pid": "59",
+            "target": "将您的组织升级到Apple商务管理.json"
+        },
+        "62": {
+            "data": "*要升级到Apple校园教务管理，您需要使用装有Safari浏览器版本8或更高版本的Mac，或使用装有MicrosoftEdge版本25.10或更高版本的PC。",
+            "type": "ordinary",
+            "pid": "45"
+        },
+        "63": {
+            "data": "则您需要升级到Apple校园教务管理。",
+            "type": "solution",
+            "pid": "3"
+        },
+        "64": {
+            "data": "请使用您的Apple部署计划代理帐户登录school.apple.com，然后按照屏幕上的说明操作*。",
+            "type": "solution",
+            "pid": "6"
+        },
+        "65": {
+            "data": "Apple 部署计划中的职能",
+            "type": "table",
+            "pid": "40"
+        },
+        "66": {
+            "data": "设备注册计划管理员",
+            "type": "object",
+            "pid": "65"
+        },
+        "67": {
+            "data": "批量购买计划管理员",
+            "type": "object",
+            "pid": "65"
+        },
+        "68": {
+            "data": "针对学生的 Apple ID 计划管理员",
+            "type": "object",
+            "pid": "65"
+        },
+        "69": {
+            "data": "Apple 校园教务管理中的职能",
+            "type": "attribute",
+            "pid": "66"
+        },
+        "70": {
+            "data": "设备经理",
+            "type": "value",
+            "pid": "69"
+        },
+        "71": {
+            "data": "Apple 校园教务管理中的职能",
+            "type": "attribute",
+            "pid": "67"
+        },
+        "72": {
+            "data": "内容经理",
+            "type": "value",
+            "pid": "71"
+        },
+        "73": {
+            "data": "Apple 校园教务管理中的职能",
+            "type": "attribute",
+            "pid": "68"
+        },
+        "74": {
+            "data": "人员经理",
+            "type": "value",
+            "pid": "73"
+        }
+    }
+}

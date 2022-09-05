@@ -1,0 +1,1163 @@
+{
+    "document_id": 350,
+    "domain": "technology",
+    "name": "AppleID两步验证",
+    "graph": {
+        "1": {
+            "data": "AppleID两步验证",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "如果您无法针对自己的帐户使用双重认证（例如，如果您的设备使用的是iOS8或OSXYosemite或者更低版本），",
+            "type": "condition",
+            "pid": "1"
+        },
+        "67": {
+            "data": "如果您使用的是iOS9或OSXElCapitan或者更高版本，则您使用的可能是双重认证，而不是两步验证。如果您不确定自己使用的是哪种安全保护机制，请按照这些步骤进行查验。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "71": {
+            "data": "两步验证和双重认证是同一项机制吗？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "72": {
+            "data": "不可以。双重认证是一种相对较新的安全保护机制，直接内建于iOS、macOS、AppletvOS、watchOS和Apple网站中。它能带给用户更加流畅的使用体验，需要用到一些对安全性有更高要求的功能特性。如果iCloud用户拥有至少一部装有iOS9或者OSXElCapitan或更高版本的设备，就可以使用双重认证。",
+            "type": "ordinary",
+            "pid": "71"
+        },
+        "73": {
+            "data": "如果您的Apple设备可以更新到iOS9或者OSXElCapitan或更高版本，那么您应该设置双重认证。如果您对自己的AppleID使用两步验证，而后升级到iOS11或更高版本或者macOSHighSierra或更高版本，则您的安全性设置可能会自动升级到双重认证。",
+            "type": "ordinary",
+            "pid": "71"
+        },
+        "74": {
+            "data": "两步验证是一种相对较旧的安全保护机制，适合那些没有Apple设备、无法更新设备或是因其他原因而无法使用双重认证的用户。您无法再为您的AppleID设置两步验证，但如果您已经使用过该机制，则可以继续使用。",
+            "type": "ordinary",
+            "pid": "71"
+        },
+        "75": {
+            "data": "什么是AppleID两步验证？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "76": {
+            "data": "两步验证是针对AppleID的一项安全保护机制，旨在防止他人访问或使用您的帐户，即便对方知道您的密码也不行。",
+            "type": "ordinary",
+            "pid": "75"
+        },
+        "77": {
+            "data": "它需要您使用某一设备或其他认可的方法验证您的身份，然后您才能完成以下操作：",
+            "type": "ordinary",
+            "pid": "75"
+        },
+        "78": {
+            "data": "登录AppleID帐户页面",
+            "type": "ordinary",
+            "pid": "77"
+        },
+        "79": {
+            "data": "在新设备上或在iCloud.com上登录iCloud",
+            "type": "ordinary",
+            "pid": "77"
+        },
+        "83": {
+            "data": "登录iMessage信息或FaceTime通话*",
+            "type": "ordinary",
+            "pid": "77"
+        },
+        "84": {
+            "data": "使用新设备在iTunes、AppleBooks或AppStore中购买项目",
+            "type": "ordinary",
+            "pid": "77"
+        },
+        "85": {
+            "data": "获取Apple提供的有关AppleID的支持",
+            "type": "ordinary",
+            "pid": "77"
+        },
+        "87": {
+            "data": "它的工作原理是什么？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "88": {
+            "data": "设置两步验证时，您需要注册一部或多部受信设备。受信设备是指由您控制且可以通过短信或“查找我的iPhone”接收4位验证码的设备。您需要提供至少一个支持短信功能的电话号码。",
+            "type": "ordinary",
+            "pid": "87"
+        },
+        "89": {
+            "data": "此后，每当您登录帐户页面以管理AppleID、登录iCloud或者使用新设备在iTunes、AppleBooks或AppStore中购买项目时，都需要输入密码和4位验证码来验证您的身份。",
+            "type": "sequence",
+            "pid": "87"
+        },
+        "93": {
+            "data": "您照常输入您的AppleID和密码。",
+            "type": "sequence-step",
+            "pid": "89"
+        },
+        "94": {
+            "data": "我们会向您的某台设备发送验证码。",
+            "type": "sequence-step",
+            "pid": "89"
+        },
+        "95": {
+            "data": "您输入验证码来验证您的身份并完成登录。",
+            "type": "sequence-step",
+            "pid": "89"
+        },
+        "96": {
+            "data": "登录后，您便可以安全地访问帐户或照常购物。若没有密码和验证码，您将无法访问帐户。",
+            "type": "ordinary",
+            "pid": "87"
+        },
+        "97": {
+            "data": "您还将收到包含14个字符的恢复密钥，请将其打印出来并妥善保存。如果您无法使用受信设备或支持短信功能的电话号码，或是忘记了密码，则可使用恢复密钥来重新获取帐户访问权限。",
+            "type": "ordinary",
+            "pid": "87"
+        },
+        "98": {
+            "data": "我是否仍需要记住任何安全提示问题？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "99": {
+            "data": "若使用两步验证，则无需创建或记住任何安全提示问题。您的身份会通过密码、发送至受信设备或支持短信功能的电话号码的验证码以及通过恢复密钥来专门验证。",
+            "type": "ordinary",
+            "pid": "98"
+        },
+        "100": {
+            "data": "我应为我的帐户验证哪些短信号码？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "101": {
+            "data": "您需要为您的帐户验证至少一个支持短信功能的电话号码。您应该考虑验证您的iPhone或其他手机常用的所有支持短信功能的电话号码。您还应该考虑验证其他熟悉的人（如配偶或其他家庭成员）所使用的支持短信功能的电话号码。如果您暂时无法使用自己的设备，则可以使用该号码。",
+            "type": "ordinary",
+            "pid": "100"
+        },
+        "102": {
+            "data": "您无法将座机或基于网页的(VOIP)电话服务用于两步验证。",
+            "type": "ordinary",
+            "pid": "100"
+        },
+        "103": {
+            "data": "添加或移除短信号码",
+            "type": "sequence",
+            "pid": "100"
+        },
+        "104": {
+            "data": "前往appleid.apple.com，然后输入您的AppleID和密码。",
+            "type": "sequence-step",
+            "pid": "103"
+        },
+        "108": {
+            "data": "在“登录和安全”部分中，点按“帐户安全”。",
+            "type": "sequence-step",
+            "pid": "103"
+        },
+        "109": {
+            "data": "点按“添加受信任电话号码”。",
+            "type": "sequence-step",
+            "pid": "103"
+        },
+        "110": {
+            "data": "要添加号码，请输入电话号码，然后点按“继续”。",
+            "type": "sequence-step",
+            "pid": "103"
+        },
+        "111": {
+            "data": "输入通过短信发送到那个电话号码的验证码。",
+            "type": "sequence-step",
+            "pid": "103"
+        },
+        "112": {
+            "data": "要移除号码，请点按要移除的电话号码旁边的“移除此受信任电话号码”。",
+            "type": "sequence-step",
+            "pid": "103"
+        },
+        "113": {
+            "data": "如何使用“查找我的iPhone”通知来接收验证码？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "114": {
+            "data": "在所有开启“查找我的iPhone”功能的iOS设备上都可以使用“查找我的iPhone”通知来接收验证码。了解如何设置“查找我的iPhone”。",
+            "type": "ordinary",
+            "pid": "113"
+        },
+        "118": {
+            "data": "使用两步验证时需要记住哪些事项？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "119": {
+            "data": "两步验证简化了流程并增强了帐户的安全性。打开两步验证后，只能使用您的密码、发送至您的受信设备或支持短信功能的电话号码的验证码或您的恢复密钥来访问并管理您的帐户，其他方法均无效。只有您可以重设密码、管理受信设备或创建一个新的恢复密钥。Apple支持人员可以帮助您解决其他服务问题，但无法代您更新或恢复这三项内容。如果使用了两步验证，您需要做到以下几点：",
+            "type": "ordinary",
+            "pid": "118"
+        },
+        "120": {
+            "data": "记住密码",
+            "type": "ordinary",
+            "pid": "119"
+        },
+        "121": {
+            "data": "确保受信设备安全",
+            "type": "ordinary",
+            "pid": "119"
+        },
+        "122": {
+            "data": "妥善保存恢复密钥",
+            "type": "ordinary",
+            "pid": "119"
+        },
+        "124": {
+            "data": "应把恢复密钥保存在哪里？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "125": {
+            "data": "请在家中、办公室或其他地点妥善保存恢复密钥。建议打印多份密钥，以便保存在多个地方。这样，您在需要时便可以轻松找到密钥，即便在丢失或损毁一份副本的情况下仍有备用副本可用。您不应将恢复密钥存储在设备或电脑上，因为这可能会导致未经授权的用户立即获取该密钥。",
+            "type": "ordinary",
+            "pid": "124"
+        },
+        "130": {
+            "data": "如果我丢失了恢复密钥，该怎么办？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "131": {
+            "data": "您可以登录AppleID帐户页面，然后使用您的AppleID密码和任一受信设备来创建新的恢复密钥。",
+            "type": "sequence",
+            "pid": "130"
+        },
+        "132": {
+            "data": "前往appleid.apple.com。",
+            "type": "sequence-step",
+            "pid": "131"
+        },
+        "136": {
+            "data": "使用您的密码和受信设备登录。",
+            "type": "sequence-step",
+            "pid": "131"
+        },
+        "137": {
+            "data": "在“登录和安全”部分中，点按“恢复密钥”>“更改恢复密钥”。",
+            "type": "sequence-step",
+            "pid": "131"
+        },
+        "138": {
+            "data": "将您的新恢复密钥保存在一个安全的地方。旧的恢复密钥将会失效，且无法用于重设密码或访问您的帐户。如果您在“登录和安全”部分中没有看到“恢复密钥”，则说明您没有使用两步验证。",
+            "type": "ordinary",
+            "pid": "130"
+        },
+        "139": {
+            "data": "我如何使用不支持输入两步验证码的App来登录我的帐户？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "140": {
+            "data": "您可以在AppleID帐户页面上生成一个App专用密码，然后将它输入您要登录到的App的密码栏中。这样，即使您使用的App不支持输入验证码，您也能够安全登录。例如，通过App专用密码，您可以使用第三方电子邮件、地址薄或日历App来登录iCloud。",
+            "type": "ordinary",
+            "pid": "139"
+        },
+        "145": {
+            "data": "如果我忘记了AppleID密码，该怎么办？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "146": {
+            "data": "您可以在iforgot.apple.com上重设密码。",
+            "type": "ordinary",
+            "pid": "145"
+        },
+        "150": {
+            "data": "Apple支持人员无法为您重设密码。要重设密码，您必须有恢复密钥且至少能使用其中一部受信设备。",
+            "type": "ordinary",
+            "pid": "145"
+        },
+        "151": {
+            "data": "如果我丢失了其中一部受信设备或将它送人了该怎么办？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "152": {
+            "data": "如果您不再能使用其中一部设备，请尽快从受信设备列表中移除这台设备。这样，该设备便不再能够用于验证您的身份。",
+            "type": "ordinary",
+            "pid": "151"
+        },
+        "156": {
+            "data": "如果我不再能使用所有受信设备该怎么办？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "157": {
+            "data": "如果您无法使用任何受信设备，您仍然可以访问您的帐户，但需要使用密码和恢复密钥，或者使用密码和支持短信功能的电话号码。",
+            "type": "sequence",
+            "pid": "156"
+        },
+        "158": {
+            "data": "前往appleid.apple.com，点按“登录”，然后输入您的AppleID和密码。",
+            "type": "sequence-step",
+            "pid": "157"
+        },
+        "162": {
+            "data": "在“验证您的身份”屏幕上，选择“无法访问您的受信任设备？”。",
+            "type": "sequence-step",
+            "pid": "157"
+        },
+        "163": {
+            "data": "在弹出式窗口中，输入您的恢复密钥。",
+            "type": "sequence-step",
+            "pid": "157"
+        },
+        "164": {
+            "data": "转到“设备”部分，并移除您不再希望用于验证身份的设备。",
+            "type": "sequence-step",
+            "pid": "157"
+        },
+        "165": {
+            "data": "如何关闭两步验证？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "166": {
+            "data": "请确保您仍可以在您的每台设备上登录iCloud。系统可能会要求您输入AppleID密码。",
+            "type": "ordinary",
+            "pid": "165"
+        },
+        "170": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "165"
+        },
+        "171": {
+            "data": "登录appleid.apple.com。",
+            "type": "sequence-step",
+            "pid": "170"
+        },
+        "175": {
+            "data": "在“登录和安全”部分中，点按“帐户安全”。",
+            "type": "sequence-step",
+            "pid": "170"
+        },
+        "176": {
+            "data": "然后点按“关闭两步验证”。再次点按以确认。",
+            "type": "sequence-step",
+            "pid": "170"
+        },
+        "177": {
+            "data": "创建新的安全提示问题并验证您的出生日期。",
+            "type": "sequence-step",
+            "pid": "170"
+        },
+        "178": {
+            "data": "您将收到一封确认您AppleID的两步验证功能已关闭的电子邮件。",
+            "type": "ordinary",
+            "pid": "165"
+        },
+        "179": {
+            "data": "如何从两步验证切换至双重认证？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "180": {
+            "data": "如果您使用的是两步验证，我们会在您登录iOS11或更高版本或者macOSHighSierra或更高版本时自动将您的帐户更新至双重认证。您也可以按照以下步骤操作，手动将帐户从两步验证切换至双重认证。",
+            "type": "ordinary",
+            "pid": "179"
+        },
+        "181": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "180"
+        },
+        "182": {
+            "data": "iOS11或更高版本",
+            "type": "see-more",
+            "pid": "181",
+            "target": "更新iPhone、iPad或iPodtouch.json"
+        },
+        "184": {
+            "data": "确认您正在使用的功能",
+            "type": "ordinary",
+            "pid": "179"
+        },
+        "185": {
+            "data": "如果您不确定自己设置了两步验证还是双重认证，请按照以下步骤操作：",
+            "type": "sequence",
+            "pid": "184"
+        },
+        "186": {
+            "data": "登录appleid.apple.com。",
+            "type": "sequence-step",
+            "pid": "185"
+        },
+        "190": {
+            "data": "在“登录和安全”部分中，在“帐户安全”下查找两步验证或双重认证。",
+            "type": "sequence-step",
+            "pid": "185"
+        },
+        "191": {
+            "data": "如果两步验证已打开，请继续完成相关步骤来将其关闭，然后打开双重认证。如果双重认证已打开，则表明您已经完成设置。",
+            "type": "sequence-step",
+            "pid": "185"
+        },
+        "192": {
+            "data": "打开双重认证",
+            "type": "ordinary",
+            "pid": "179"
+        },
+        "193": {
+            "data": "您需要先关闭两步验证，然后才能打开双重认证。同时，请务必确保您仍可在您的每台设备上登录iCloud。系统可能会要求您输入AppleID密码*。",
+            "type": "ordinary",
+            "pid": "192"
+        },
+        "201": {
+            "data": "*如果您使用自己的AppleID登录Mac，则在设置双重认证之前，您需要更改您的Mac登录密码。",
+            "type": "ordinary",
+            "pid": "192"
+        },
+        "205": {
+            "data": "哪里可以使用两步验证？",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "207": {
+            "data": "阿尔巴尼亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "208": {
+            "data": "阿尔及利亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "209": {
+            "data": "安哥拉",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "210": {
+            "data": "安圭拉",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "211": {
+            "data": "安提瓜和巴布达",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "212": {
+            "data": "阿根廷",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "213": {
+            "data": "亚美尼亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "214": {
+            "data": "澳大利亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "215": {
+            "data": "奥地利",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "216": {
+            "data": "巴哈马",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "217": {
+            "data": "巴林",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "218": {
+            "data": "孟加拉国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "219": {
+            "data": "巴巴多斯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "220": {
+            "data": "比利时",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "221": {
+            "data": "玻利维亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "222": {
+            "data": "博茨瓦纳",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "223": {
+            "data": "巴西",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "224": {
+            "data": "英属维尔京群岛",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "225": {
+            "data": "保加利亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "226": {
+            "data": "喀麦隆",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "227": {
+            "data": "加拿大",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "228": {
+            "data": "开曼群岛",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "229": {
+            "data": "中非共和国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "230": {
+            "data": "乍得",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "231": {
+            "data": "智利",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "232": {
+            "data": "中国大陆",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "233": {
+            "data": "哥伦比亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "234": {
+            "data": "刚果民主共和国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "235": {
+            "data": "刚果共和国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "236": {
+            "data": "哥斯达黎加",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "237": {
+            "data": "科特迪瓦",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "238": {
+            "data": "克罗地亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "239": {
+            "data": "塞浦路斯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "240": {
+            "data": "捷克共和国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "241": {
+            "data": "丹麦",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "242": {
+            "data": "多米尼克",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "243": {
+            "data": "多米尼加共和国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "244": {
+            "data": "厄瓜多尔",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "245": {
+            "data": "埃及",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "246": {
+            "data": "萨尔瓦多",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "247": {
+            "data": "爱沙尼亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "248": {
+            "data": "艾史瓦帝尼",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "249": {
+            "data": "斐济",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "250": {
+            "data": "芬兰",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "251": {
+            "data": "法国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "252": {
+            "data": "冈比亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "253": {
+            "data": "德国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "254": {
+            "data": "加纳",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "255": {
+            "data": "希腊",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "256": {
+            "data": "格林纳达",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "257": {
+            "data": "关岛",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "258": {
+            "data": "瓜德罗普",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "259": {
+            "data": "危地马拉",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "260": {
+            "data": "几内亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "261": {
+            "data": "几内亚比绍",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "262": {
+            "data": "圭亚那",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "263": {
+            "data": "洪都拉斯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "264": {
+            "data": "香港",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "265": {
+            "data": "匈牙利",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "266": {
+            "data": "冰岛",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "267": {
+            "data": "印度",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "268": {
+            "data": "印度尼西亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "269": {
+            "data": "爱尔兰",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "270": {
+            "data": "以色列",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "271": {
+            "data": "意大利",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "272": {
+            "data": "牙买加",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "273": {
+            "data": "日本",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "274": {
+            "data": "约旦",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "275": {
+            "data": "哈萨克斯坦",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "276": {
+            "data": "肯尼亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "277": {
+            "data": "科索沃",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "278": {
+            "data": "科威特",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "279": {
+            "data": "老挝",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "280": {
+            "data": "拉脱维亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "281": {
+            "data": "黎巴嫩",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "282": {
+            "data": "列支敦士登",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "283": {
+            "data": "立陶宛",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "284": {
+            "data": "卢森堡",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "285": {
+            "data": "澳门",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "286": {
+            "data": "北马其顿",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "287": {
+            "data": "马达加斯加",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "288": {
+            "data": "马来西亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "289": {
+            "data": "马里",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "290": {
+            "data": "马耳他",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "291": {
+            "data": "马提尼克",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "292": {
+            "data": "毛里求斯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "293": {
+            "data": "墨西哥",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "294": {
+            "data": "摩尔多瓦",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "295": {
+            "data": "蒙特塞拉特",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "296": {
+            "data": "摩洛哥",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "297": {
+            "data": "纳米比亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "298": {
+            "data": "荷兰",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "299": {
+            "data": "新西兰",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "300": {
+            "data": "尼加拉瓜",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "301": {
+            "data": "尼日尔",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "302": {
+            "data": "尼日利亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "303": {
+            "data": "挪威",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "304": {
+            "data": "阿曼",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "305": {
+            "data": "巴基斯坦",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "306": {
+            "data": "帕劳",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "307": {
+            "data": "巴拿马",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "308": {
+            "data": "巴拉圭",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "309": {
+            "data": "秘鲁",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "310": {
+            "data": "菲律宾",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "311": {
+            "data": "波兰",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "312": {
+            "data": "葡萄牙",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "313": {
+            "data": "波多黎各",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "314": {
+            "data": "卡塔尔",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "315": {
+            "data": "留尼汪",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "316": {
+            "data": "罗马尼亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "317": {
+            "data": "俄罗斯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "318": {
+            "data": "圣基茨和尼维斯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "319": {
+            "data": "圣卢西亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "320": {
+            "data": "圣文森特和格林纳丁斯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "321": {
+            "data": "圣多美和普林西比",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "322": {
+            "data": "沙特阿拉伯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "323": {
+            "data": "塞内加尔",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "324": {
+            "data": "塞舌尔",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "325": {
+            "data": "塞拉利昂",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "326": {
+            "data": "新加坡",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "327": {
+            "data": "斯洛伐克",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "328": {
+            "data": "斯洛文尼亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "329": {
+            "data": "南非",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "330": {
+            "data": "韩国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "331": {
+            "data": "西班牙",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "332": {
+            "data": "斯里兰卡",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "333": {
+            "data": "苏里南",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "334": {
+            "data": "瑞典",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "335": {
+            "data": "瑞士",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "336": {
+            "data": "台湾",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "337": {
+            "data": "坦桑尼亚",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "338": {
+            "data": "泰国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "339": {
+            "data": "特立尼达和多巴哥",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "340": {
+            "data": "突尼斯",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "341": {
+            "data": "土耳其",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "342": {
+            "data": "特克斯和凯科斯群岛",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "343": {
+            "data": "乌干达",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "344": {
+            "data": "乌克兰",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "345": {
+            "data": "阿拉伯联合酋长国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "346": {
+            "data": "英国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "347": {
+            "data": "美国",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "348": {
+            "data": "乌拉圭",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "349": {
+            "data": "委内瑞拉",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "350": {
+            "data": "越南",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "351": {
+            "data": "也门",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "352": {
+            "data": "津巴布韦",
+            "type": "ordinary",
+            "pid": "205"
+        },
+        "353": {
+            "data": "则您可以改用两步验证来保护AppleID的安全。",
+            "type": "solution",
+            "pid": "2"
+        }
+    }
+}

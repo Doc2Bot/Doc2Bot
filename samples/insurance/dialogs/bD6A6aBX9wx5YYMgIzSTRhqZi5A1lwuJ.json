@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下中华聚保盆年金保险（万能型）。",
+        "act": "what",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "中华聚保盆年金保险（万能型）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想问您与我们订立的合同 、我们提供的保障 、保险金的申请哪方面的问题呢？",
+        "act": "multiple-choice",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "您与我们订立的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下双方订立的合同。",
+        "act": "what",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "您与我们订立的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，那具体是合同构成还是合同成立与生效呢？",
+        "act": "multiple-choice",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "合同的构成是什么？",
+        "act": "what",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同是您与我们约定保险权利义务关系的协议，包括本保险条款、保险单或其他有效的保险凭证、投保单、与保险合同有关的投保文件、合法有效的声明、批注、批单及其他约定您和我们之间权利义务关系的书面（见 11.1）文件。阅读指引和条款目录仅供辅助理解使用，不构成保险合同的组成部分。",
+        "act": "ans/open",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "本合同是您与我们约定保险权利义务关系的协议，包括本保险条款、保险单或其他有效的保险凭证、投保单、与保险合同有关的投保文件、合法有效的声明、批注、批单及其他约定您和我们之间权利义务关系的书面（见 11.1）文件。阅读指引和条款目录仅供辅助理解使用，不构成保险合同的组成部分。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "合同什么时间生效呢？",
+        "act": "when",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "合同成立及生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您向我们提出保险申请，我们同意承保，本合同成立。本合同自我们同意承保、收取保险费并签发保险单后生效，具体的生效日由您和我们约定并在保险单上载明。保险合同周年日、保险费约定交纳日均以本合同生效日计算。",
+        "act": "ans/open",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "您向我们提出保险申请，我们同意承保，本合同成立。本合同自我们同意承保、收取保险费并签发保险单后生效，具体的生效日由您和我们约定并在保险单上载明。保险合同周年日、保险费约定交纳日均以本合同生效日计算"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "合同如何签收呢？",
+        "act": "how",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "合同的签收"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在您收到本合同时，您应当签署本合同的签收回执。",
+        "act": "ans/open",
+        "document": "中华聚保盆年金保险（万能型）.json",
+        "grounding": [
+            "在您收到本合同时，您应当签署本合同的签收回执。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

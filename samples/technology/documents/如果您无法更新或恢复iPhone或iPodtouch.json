@@ -1,0 +1,92 @@
+{
+    "document_id": 642,
+    "domain": "technology",
+    "name": "如果您无法更新或恢复iPhone或iPodtouch",
+    "graph": {
+        "1": {
+            "data": "如果您无法更新或恢复iPhone或iPodtouch",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "您可以将iOS设备置于恢复模式，然后使用电脑进行恢复。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "出现以下情况时，您可能需要使用恢复模式来恢复您的设备：",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "您的电脑无法识别设备，或显示设备处于恢复模式。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "5": {
+            "data": "屏幕上持续显示Apple标志长达几分钟时间，但没有显示进度条。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "6": {
+            "data": "您看到恢复模式屏幕。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "11": {
+            "data": "将您的设备置于恢复模式并再次进行设置",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "12": {
+            "data": "确保Mac系统已更新至最新版本。如果您在使用iTunes，请确保您装有最新版本的iTunes。",
+            "type": "sequence-step",
+            "pid": "11"
+        },
+        "16": {
+            "data": "在装有macOSCatalina的Mac上，打开“访达”。在装有macOSMojave或更低版本的Mac上或者在PC上，打开iTunes。如果iTunes已打开，请关闭后再将它重新打开。确定您的Mac使用的是哪个macOS版本。",
+            "type": "sequence-step",
+            "pid": "11"
+        },
+        "20": {
+            "data": "使设备保持连接并耐心等待，直到出现恢复模式屏幕：",
+            "type": "sequence-step",
+            "pid": "11"
+        },
+        "22": {
+            "data": "iPhone8或更新机型，包括iPhoneSE（第2代）：按下调高音量按钮再快速松开。按下调低音量按钮再快速松开。然后，按住侧边按钮，直到您看到恢复模式屏幕。",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "23": {
+            "data": "iPhone7、iPhone7Plus和iPodtouch（第7代）：同时按住顶部（或侧边）按钮和调低音量按钮。持续按住这两个按钮，直到您看到恢复模式屏幕。",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "24": {
+            "data": "iPhone6s或更早机型，包括iPhoneSE（第1代）和iPodtouch（第6代）或更早机型：同时按住主屏幕按钮和顶部（或侧边）按钮。持续按住这两个按钮，直到您看到恢复模式屏幕。",
+            "type": "ordinary",
+            "pid": "20"
+        },
+        "25": {
+            "data": "在电脑上查找您的设备。当看到“恢复”或“更新”选项时，请选择“更新”。您的电脑将尝试在不抹掉数据的情况下重新安装软件。请等待电脑下载您设备的软件。如果下载耗时超过15分钟，并且设备退出恢复模式屏幕，请等待下载完成，然后重复第3步。",
+            "type": "sequence-step",
+            "pid": "11"
+        },
+        "29": {
+            "data": "当“更新”或“恢复”完成后，请设置您的设备。",
+            "type": "sequence-step",
+            "pid": "11"
+        },
+        "33": {
+            "data": "获取更多协助",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "34": {
+            "data": "如果您在更新或恢复iPhone或iPod时看到错误，请了解该怎么做。",
+            "type": "ordinary",
+            "pid": "33"
+        }
+    }
+}

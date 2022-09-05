@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好， 我想咨询一些使用“通知中心”中的小组件的相关问题？",
+        "act": "what",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "使用“通知中心”中的小组件"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想了解如何查看小组件、 如何添加或移除小组件还是如何查找更多小组件？",
+        "act": "multiple-choice",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "如何添加或移除小组件"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解如何添加或移除小组件。",
+        "act": "ans/open",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "如何添加或移除小组件"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您是想将小组件添加到“通知中心”、从“通知中心”中移除小组件还是对“通知中心”中的小组件重新排序？",
+        "act": "multiple-choice",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "将小组件添加到“通知中心”"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想先了解一下，如何将小组件添加到“通知中心”",
+        "act": "how",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "将小组件添加到“通知中心”"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在“编辑小组件”视图中，点按任意小组件一角的“添加”按钮，完成后，点按“完成”。",
+        "act": "ans/open",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "在“编辑小组件”视图中，点按任意小组件一角的“添加”按钮。如果小组件提供了不同尺寸，请点按小号、中号、或大号按钮，然后再添加小组件。完成后，点按“完成”。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果小组件提供了不同尺寸，应该怎么操作？",
+        "act": "how",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "在“编辑小组件”视图中，点按任意小组件一角的“添加”按钮。如果小组件提供了不同尺寸，请点按小号、中号、或大号按钮，然后再添加小组件。完成后，点按“完成”。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果小组件提供了不同尺寸，请点按小号、中号、或大号按钮，然后再添加小组件。完成后，点按“完成”。",
+        "act": "ans/open",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "在“编辑小组件”视图中，点按任意小组件一角的“添加”按钮。如果小组件提供了不同尺寸，请点按小号、中号、或大号按钮，然后再添加小组件。完成后，点按“完成”。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "“编辑小组件”在哪里？",
+        "act": "where",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "滚动到“通知中心”底部，然后点按“编辑小组件”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "滚动到“通知中心”底部，然后点按“编辑小组件”。",
+        "act": "ans/open",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "滚动到“通知中心”底部，然后点按“编辑小组件”。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如何在macOSBigSur中查看我的小组件？",
+        "act": "how",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "如何查看小组件",
+            "要在macOSBigSur中查看您的小组件，请打开“通知中心”："
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "要在macOSBigSur中查看您的小组件，请打开“通知中心”，点按菜单栏中的日期或时间。或者，双指从触控板的右侧边缘向左轻扫。",
+        "act": "ans/open",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "要在macOSBigSur中查看您的小组件，请打开“通知中心”：",
+            "点按菜单栏中的日期或时间。",
+            "或者，双指从触控板的右侧边缘向左轻扫。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "macOSBigSur为“通知中心”带来了什么好处？",
+        "act": "what",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "macOSBigSur为“通知中心”引入了全新和经过重新设计的精美小组件。而且，它们还提供了不同尺寸，您可以挑选最适合自己的尺寸。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "macOSBigSur为“通知中心”引入了全新和经过重新设计的精美小组件。而且，它们还提供了不同尺寸，您可以挑选最适合自己的尺寸。",
+        "act": "ans/open",
+        "document": "使用“通知中心”中的小组件.json",
+        "grounding": [
+            "macOSBigSur为“通知中心”引入了全新和经过重新设计的精美小组件。而且，它们还提供了不同尺寸，您可以挑选最适合自己的尺寸。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

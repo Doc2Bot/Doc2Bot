@@ -1,0 +1,108 @@
+{
+    "document_id": 649,
+    "domain": "technology",
+    "name": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户",
+    "graph": {
+        "1": {
+            "data": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户",
+            "type": "root",
+            "pid": "0"
+        },
+        "6": {
+            "data": "登录电视提供商帐户",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "7": {
+            "data": "您可以在“设置”中或首次使用受支持的App时登录电视提供商帐户。登录之后，其他受支持的所有App都会自动登录，您无需再次输入信息。如果您的电视提供商有自己的App，则您的设备在您登录后可能会自动下载这个App。",
+            "type": "ordinary",
+            "pid": "6"
+        },
+        "8": {
+            "data": "从iPhone、iPad或iPodtouch登录",
+            "type": "ordinary",
+            "pid": "6"
+        },
+        "9": {
+            "data": "您一次只能登录到一个电视提供商帐户。具体操作如下：",
+            "type": "sequence",
+            "pid": "8"
+        },
+        "10": {
+            "data": "确保已安装最新版本的iOS或iPadOS。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "11": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "10"
+        },
+        "12": {
+            "data": "最新版本的iOS或iPadOS",
+            "type": "see-more",
+            "pid": "11",
+            "target": "更新iPhone、iPad或iPodtouch.json"
+        },
+        "14": {
+            "data": "转到“设置”App，然后轻点“电视提供商”。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "15": {
+            "data": "从列表中选择您的电视提供商*。您也可以向下滚动，选取来自不同国家或地区的电视提供商。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "16": {
+            "data": "输入您的电视提供商帐户信息。如果您不确定，请联系您的电视提供商。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "17": {
+            "data": "输入您的电视提供商帐户信息后，轻点“登录”。",
+            "type": "sequence-step",
+            "pid": "9"
+        },
+        "18": {
+            "data": "*如果您的电视提供商支持登录电视提供商帐户，那么系统将会提示您输入电视提供商的用户名和密码。如果您的电视提供商不支持登录电视提供商帐户，则系统会存储您的电视提供商，因此您无需再次进行选择，但您仍需要使用您的电视提供商帐户信息登录每个App。",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "19": {
+            "data": "更改或退出登录电视提供商帐户",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "如果您要更改电视提供商，则可以移除当前的电视提供商帐户信息或设置另一个帐户：",
+            "type": "sequence",
+            "pid": "19"
+        },
+        "21": {
+            "data": "在iPhone、iPad或iPodtouch上，打开“设置”App。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "22": {
+            "data": "轻点“电视提供商”。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "23": {
+            "data": "轻点“移除电视提供商”或“退出登录”。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "24": {
+            "data": "在出现的弹出式窗口中，再次轻点以确认。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "25": {
+            "data": "从列表中选取新的电视提供商，然后按照步骤操作以登录。",
+            "type": "sequence-step",
+            "pid": "20"
+        }
+    }
+}

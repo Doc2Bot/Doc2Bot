@@ -1,0 +1,54 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "孩子无法正常分泌电解质，走路一直在摔跤，是因为先天性肾小管病吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "先天性肾小管病"
+        ],
+        "grounding_id": [
+            "T851"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想咨询Bartter综合征与Gitelman综合征还是先天性肾小管病介绍呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询Bartter综合征与Gitelman综合征。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在Bartter综合征与Gitelman综合征中，肾小管先天缺陷会导致肾脏分泌过量的电解质",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "在Bartter综合征与Gitelman综合征中，肾小管先天缺陷会导致肾脏分泌过量的电解质（钾、钠和氯化物），引起生长、电解质以及一些神经和肌肉异常。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

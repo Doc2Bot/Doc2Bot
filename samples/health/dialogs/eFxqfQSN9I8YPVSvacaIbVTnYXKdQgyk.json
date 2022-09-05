@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想咨询一些肠胃寄生虫感染的相关资料。",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_寄生虫感染：肠外原虫_弓形体病.json",
+        "grounding": [
+            "寄生虫感染：肠外原虫"
+        ],
+        "grounding_id": [
+            "T344"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解弓形体病 、巴贝虫病还是利什曼病呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_寄生虫感染：肠外原虫_弓形体病.json",
+        "grounding": [
+            "弓形体病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一下弓形体病，如果有这个弓形体病会有什么症状呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_感染_寄生虫感染：肠外原虫_弓形体病.json",
+        "grounding": [
+            "弓形体病",
+            "大多数感染引起很少症状或根本没有症状。"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "大多数感染引起很少症状或根本没有症状。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_寄生虫感染：肠外原虫_弓形体病.json",
+        "grounding": [
+            "大多数感染引起很少症状或根本没有症状。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "不对呀，我以前看过一些些资料，得了这个病，会影响到视力的，是我记错了吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_寄生虫感染：肠外原虫_弓形体病.json",
+        "grounding": [
+            "眼球后部的内层和视网膜感染（脉络膜视网膜炎）"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这个可能是先天性弓形虫病，也可能是免疫系统受损者的症状，您想了解一下吗？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_感染_寄生虫感染：肠外原虫_弓形体病.json",
+        "grounding": [
+            "先天性弓形虫病"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我感觉像先天性弓形虫病，是不是如果有先天性弓形虫病就会影响到眼睛？",
+        "act": "verification",
+        "document": "家庭版_医学主题_感染_寄生虫感染：肠外原虫_弓形体病.json",
+        "grounding": [
+            "先天性弓形虫病"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "一般这种症状会出现在新生儿中，新生儿带有先天性弓形虫病会导致眼球后部的内层和视网膜感染。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_感染_寄生虫感染：肠外原虫_弓形体病.json",
+        "grounding": [
+            "眼球后部的内层和视网膜感染（脉络膜视网膜炎）"
+        ],
+        "grounding_id": [
+            "53"
+        ]
+    }
+]

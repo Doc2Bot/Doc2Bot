@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的耳机搭配iPhone手机不能正常使用了，之前还可以的，这个怎么回事？",
+        "act": "why",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "当您听不到耳机发出的声音，声音模糊不清或麦克风无法正常使用时，请寻求帮助。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "当您听不到耳机发出的声音，声音模糊不清或麦克风无法正常使用时，请寻求帮助。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那这个不能正常的使用具体应该怎么办呢？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是无法听到任何声音，或只有一侧的耳机能正常使用、您的麦克风无法正常使用还是其他的问题呢？",
+        "act": "multiple-choice",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用",
+            "如果您无法听到任何声音，或只有一侧的耳机能正常使用"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我先了解一下无法听到任何声音，或只有一侧的耳机能正常使用应该怎么办呢？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您无法听到任何声音，或只有一侧的耳机能正常使用"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您无法听到任何声音，或只有一侧的耳机能正常使用: 1.通过iOS设备上的音量按钮调节音量，或者使用iPhone或iPad“控制中心”中的音量滑块调节。 2.要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您无法听到任何声音，或只有一侧的耳机能正常使用",
+            "通过iOS设备上的音量按钮调节音量，或者使用iPhone或iPad“控制中心”中的音量滑块调节。",
+            "要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那要是麦克风无法正常使用应该怎么办呢？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的麦克风无法正常使用"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您的麦克风无法正常使用: 1.确保您的耳机有内建麦克风。 2.检查您的麦克风有没有被碎屑、绒毛或塑料包装等堵塞。 3.要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的麦克风无法正常使用",
+            "确保您的耳机有内建麦克风。",
+            "检查您的麦克风有没有被碎屑、绒毛或塑料包装等堵塞。",
+            "要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "21",
+            "22"
+        ]
+    }
+]

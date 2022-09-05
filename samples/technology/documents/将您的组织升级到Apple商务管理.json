@@ -1,0 +1,252 @@
+{
+    "document_id": 665,
+    "domain": "technology",
+    "name": "将您的组织升级到Apple商务管理",
+    "graph": {
+        "1": {
+            "data": "将您的组织升级到Apple商务管理",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "升级到Apple商务管理以继续使用设备注册计划和批量购买计划。Apple部署计划自2019年12月1日起不再提供。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "如果您的组织目前使用设备注册计划(DEP)，",
+            "type": "condition",
+            "pid": "1"
+        },
+        "7": {
+            "data": "通过Apple商务管理，您可以购买内容，以及在移动设备管理(MDM)解决方案中配置自动设备注册。Apple商务管理以网页形式供用户访问，并且专为技术经理和IT管理员设计。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "9": {
+            "data": "升级到Apple商务管理",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "10": {
+            "data": "要升级到Apple商务管理*，请使用您的Apple部署计划代理帐户登录business.apple.com，然后按照说明操作。升级过程只需几分钟时间。",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "14": {
+            "data": "升级后，Apple商务管理将拥有以下所有信息：",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "15": {
+            "data": "帐户",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "16": {
+            "data": "帐户登录信息",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "17": {
+            "data": "MDM服务器",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "18": {
+            "data": "MDM设备",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "19": {
+            "data": "Server令牌",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "20": {
+            "data": "设备订单",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "21": {
+            "data": "您的帐户所关联的其他项目",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "22": {
+            "data": "完成升级后，请使用Apple商务管理门户访问您的数据。升级后，您将无法访问Apple部署计划网站。",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "26": {
+            "data": "注册Apple商务管理",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "27": {
+            "data": "要注册Apple商务管理，请前往business.apple.com并点按“立即注册”。您需要提供所在企业的相关信息，包括您的DUNS编号，以及尚未用作任何Apple服务或网站的AppleID的电子邮件地址。",
+            "type": "ordinary",
+            "pid": "26"
+        },
+        "31": {
+            "data": "为管理式AppleID选取一个域名",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "32": {
+            "data": "当您注册或升级到Apple商务管理时，系统会要求您输入所在组织的网站。Apple商务管理将使用您输入的网站，并创建一个保留域名作为管理式AppleID的默认域名。例如，如果您的网站是www.mycompany.com，则您的管理式AppleID将类似于manager@mycompanycom.appleid.com。",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "33": {
+            "data": "您的Apple商务管理管理员可以在升级后更改默认域名，也可以添加其他域名。注册后添加的任何域名在用于管理式AppleID前都必须经过验证。",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "37": {
+            "data": "邀请VPP购买者加入Apple商务管理",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "38": {
+            "data": "您的组织可能有一个或多个单独的VPP帐户。注册或升级到Apple商务管理后，您可以邀请他们加入您的新Apple商务管理帐户。了解如何邀请VPP购买者加入Apple商务管理。",
+            "type": "ordinary",
+            "pid": "37"
+        },
+        "42": {
+            "data": "Apple商务管理中职能方面的调整",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "43": {
+            "data": "Apple商务管理针对您分配给用户的职能做出了一些调整。",
+            "type": "ordinary",
+            "pid": "42"
+        },
+        "44": {
+            "data": "“代理”现在称为“管理员”",
+            "type": "ordinary",
+            "pid": "42"
+        },
+        "45": {
+            "data": "在Apple部署计划中，代理拥有最高级别的管理权限。代理能够代表您的组织接受Apple部署计划的条款和条件。",
+            "type": "ordinary",
+            "pid": "44"
+        },
+        "46": {
+            "data": "在Apple商务管理中，这个职能现在称为“管理员”。您的组织在Apple商务管理中最多可以有五名管理员。",
+            "type": "ordinary",
+            "pid": "44"
+        },
+        "47": {
+            "data": "“管理员”现在称为“经理”",
+            "type": "ordinary",
+            "pid": "42"
+        },
+        "48": {
+            "data": "Apple部署计划中有两类管理员：DEP管理员和VPP管理员。升级到Apple商务管理后，现有的管理员将转变为经理。下表显示了升级前的管理员职能与升级后的经理职能之间的一一对应关系：",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "49": {
+            "data": "单个用户可以在Apple商务管理中拥有多个职能。如果您的用户以前是多个计划的管理员，系统将为他/她分配所有适用于Apple商务管理的职能。升级后，管理员或人员经理可以添加、移除或更改经理职能。",
+            "type": "ordinary",
+            "pid": "47"
+        },
+        "50": {
+            "data": "适用于所有职能的管理式AppleID",
+            "type": "ordinary",
+            "pid": "42"
+        },
+        "51": {
+            "data": "当您之前的代理和管理员首次登录Apple商务管理时，他们的AppleID将转换为管理式AppleID。如果他们的帐户之前没有设置双重认证，则他们应在此时进行设置。",
+            "type": "ordinary",
+            "pid": "50"
+        },
+        "57": {
+            "data": "*要升级到Apple商务管理，您需要使用装有Safari浏览器版本8或更高版本的Mac，或使用装有MicrosoftEdge版本25.10或更高版本的PC。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "58": {
+            "data": "如果您的组织仅使用批量购买计划(VPP)，",
+            "type": "condition",
+            "pid": "1"
+        },
+        "59": {
+            "data": "则您可以注册Apple商务管理，然后邀请现有的VPP购买者加入您的新Apple商务管理帐户。",
+            "type": "solution",
+            "pid": "58"
+        },
+        "60": {
+            "data": "则您需要升级到Apple商务管理。",
+            "type": "solution",
+            "pid": "3"
+        },
+        "61": {
+            "data": "Apple 部署计划中的职能",
+            "type": "table",
+            "pid": "48"
+        },
+        "62": {
+            "data": "DEP 管理员",
+            "type": "object",
+            "pid": "61"
+        },
+        "63": {
+            "data": "VPP 管理员",
+            "type": "object",
+            "pid": "61"
+        },
+        "64": {
+            "data": "可以创建和编辑其他管理员的管理员",
+            "type": "object",
+            "pid": "61"
+        },
+        "65": {
+            "data": "无",
+            "type": "object",
+            "pid": "61"
+        },
+        "66": {
+            "data": "Apple 商务管理中的职能",
+            "type": "attribute",
+            "pid": "62"
+        },
+        "67": {
+            "data": "Apple 商务管理中的职能",
+            "type": "attribute",
+            "pid": "63"
+        },
+        "68": {
+            "data": "Apple 商务管理中的职能",
+            "type": "attribute",
+            "pid": "64"
+        },
+        "69": {
+            "data": "Apple 商务管理中的职能",
+            "type": "attribute",
+            "pid": "65"
+        },
+        "70": {
+            "data": "设备经理",
+            "type": "value",
+            "pid": "66"
+        },
+        "71": {
+            "data": "内容经理",
+            "type": "value",
+            "pid": "67"
+        },
+        "72": {
+            "data": "人员经理",
+            "type": "value",
+            "pid": "68"
+        },
+        "73": {
+            "data": "职员",
+            "type": "value",
+            "pid": "69"
+        }
+    }
+}

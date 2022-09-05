@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想问一下在iOS实现无线局域网漫游的情况",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想了解802.11k、802.11r、802.11v还是检查兼容性或是进一步了解",
+        "act": "multiple-choice",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11v"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "802.11v就是iOS在某些设备上支持哪些802.11v功能",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS、iPadOS和macOS在某些设备上支持以下802.11v功能："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "iOS、iPadOS和macOS在某些设备上支持以下802.11v功能：基本服务集(BSS)转换管理、紧急解除关联、定向多播服务(DMS)、BSS最大空闲服务",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS、iPadOS和macOS在某些设备上支持以下802.11v功能：",
+            "基本服务集(BSS)转换管理",
+            "紧急解除关联",
+            "定向多播服务(DMS)",
+            "BSS最大空闲服务"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那多播流量是如何的",
+        "act": "how",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "DMS可优化无线网络上的多播流量传输。设备会利用这些信息来增强多播通信，并保持电池续航能力。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "DMS可优化无线网络上的多播流量传输。设备会利用这些信息来增强多播通信，并保持电池续航能力",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "DMS可优化无线网络上的多播流量传输。设备会利用这些信息来增强多播通信，并保持电池续航能力。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "就是检查兼容性macOS支持有什么要求",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "macOS支持仅限于搭载Apple芯片的Mac电脑。",
+            "检查兼容性"
+        ],
+        "grounding_id": [
+            "22",
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "macOS支持仅限于搭载Apple芯片的Mac电脑",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "macOS支持仅限于搭载Apple芯片的Mac电脑。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "检查兼容性802.11k和802.11r这个有什么机型",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "检查兼容性",
+            "802.11k和802.11r"
+        ],
+        "grounding_id": [
+            "19",
+            "23"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "802.11k和802.11r，iPhone4s及更新机型；iPadPro及更新机型；iPadAir及更新机型；iPadmini及更新机型；iPad（第3代）及更新机型； iPodtouch（第5代）及更新机型；搭载Apple芯片的Mac电脑",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11k和802.11r",
+            "iPhone4s及更新机型",
+            "iPadPro及更新机型",
+            "iPadAir及更新机型",
+            "iPadmini及更新机型",
+            "iPad（第3代）及更新机型",
+            "iPodtouch（第5代）及更新机型",
+            "搭载Apple芯片的Mac电脑"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+        ]
+    }
+]

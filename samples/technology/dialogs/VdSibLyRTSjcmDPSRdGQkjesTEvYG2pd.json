@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "将HandyTechBraillino显示器与旁白配合使用的话有什么要求吗",
+        "act": "what",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "将HandyTechBraillino显示器与旁白配合使用",
+            "为确保您的盲文显示器使用的表格正确，请确保您使用的是最新版本的iOS。"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "为确保您的盲文显示器使用的表格正确，请确保您使用的是最新版本的iOS。",
+        "act": "ans/open",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "为确保您的盲文显示器使用的表格正确，请确保您使用的是最新版本的iOS。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如果想进一步了解的话可以从哪里获取信息",
+        "act": "where",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "进一步了解"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以参考“用于旁白的常见盲文命令”，查看通用命令列表",
+        "act": "ans/open",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "请参考“用于旁白的常见盲文命令”，查看通用命令列表。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那互动模式里面的“旁白”操作是怎么进行的",
+        "act": "how",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "互动",
+            "“旁白”操作"
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您是想知道显示器按键吗",
+        "act": "verification",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "显示器按键"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "显示器按键"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "右边向上+右边向下",
+        "act": "ans/open",
+        "document": "将HandyTechBraillino显示器与旁白配合使用.json",
+        "grounding": [
+            "右边向上+右边向下"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，AppleWatch上的“SOS紧急联络”功能有什么用呢？",
+        "act": "what",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "使用AppleWatch上的“SOS紧急联络”功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "通过“SOS紧急联络”功能，您可以从AppleWatch方便快速地拨打救援电话并提醒您的紧急联系人。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "通过“SOS紧急联络”功能，您可以从AppleWatch方便快速地拨打救援电话并提醒您的紧急联系人。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "可以关闭吗？",
+        "act": "verification",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "关闭自动拨号"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您指的是关闭什么呢？",
+        "act": "question/open",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "关闭自动拨号"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "关闭自动拨号怎么关？",
+        "act": "how",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "关闭自动拨号"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以更改设置，使按住侧边按钮不会自动呼叫急救服务，打开iPhone上的WatchApp，然后轻点“我的手表”标签页，关闭“按住侧边按钮拨号”就可以了。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "您可以更改设置，使按住侧边按钮不会自动呼叫急救服务：",
+            "打开iPhone上的WatchApp，然后轻点“我的手表”标签页。",
+            "轻点“SOS紧急联络”。",
+            "关闭“按住侧边按钮拨号”。"
+        ],
+        "grounding_id": [
+            "48",
+            "49",
+            "50",
+            "51"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我该怎么在AppleWatch上拨打紧急服务电话呢？",
+        "act": "what",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "如何在AppleWatch上拨打紧急服务电话"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "按住手表的侧边按钮（数码表冠下方的按钮），直到出现“SOS紧急联络”滑块，拖移“SOS紧急联络”滑块以立即开始呼叫。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "按住手表的侧边按钮（数码表冠下方的按钮），直到出现“SOS紧急联络”滑块。",
+            "拖移“SOS紧急联络”滑块以立即开始呼叫。您也可以继续按住侧边按钮。倒计时结束后，您的手表将自动拨打紧急服务电话。"
+        ],
+        "grounding_id": [
+            "19",
+            "20"
+        ]
+    }
+]

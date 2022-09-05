@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，使用“家庭共享”将媒体从电脑共享到其他设备，设置之前有什么要求？",
+        "act": "what",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "使用“家庭共享”将媒体从电脑共享到其他设备",
+            "设置“家庭共享”之前"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "将您的所有Apple设备更新到最新版本的iOS、iPadOS、macOS和AppletvOS。在PC上，确保您装有最新版本的Windows版iTunes。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "将您的所有Apple设备更新到最新版本的iOS、iPadOS、macOS和AppletvOS。在PC上，确保您装有最新版本的Windows版iTunes。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "“家庭共享”最多可以连接几个设备？",
+        "act": "what",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "使用“家庭共享”将媒体从电脑共享到其他设备",
+            "使用“家庭共享”，您最多可以从连接到家庭Wi-Fi网络的五台电脑共享、流化和导入媒体。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用“家庭共享”，您最多可以从连接到家庭Wi-Fi网络的五台电脑共享、流化和导入媒体。你想连接哪个设备？Mac上？PC上？",
+        "act": "multiple-choice",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "使用“家庭共享”，您最多可以从连接到家庭Wi-Fi网络的五台电脑共享、流化和导入媒体。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想在Mac设置“家庭共享”。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "在Mac上设置“家庭共享”"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先选取苹果菜单>“系统偏好设置”。其次点按“共享”。再次 点按“媒体共享”。然后 选择“家庭共享”并使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。最后 点按“打开家庭共享”。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "选取苹果菜单>“系统偏好设置”。",
+            "点按“共享”。",
+            "点按“媒体共享”。",
+            "选择“家庭共享”并使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "点按“打开家庭共享”。"
+        ],
+        "grounding_id": [
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "哦，那账号呢，需要几个AppleID？",
+        "act": "what",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "确保您的所有设备都使用同一AppleID登录并被授权播放使用该AppleID购买的项目。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "确保您的所有设备都使用同一AppleID登录并被授权播放使用该AppleID购买的项目。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "确保您的所有设备都使用同一AppleID登录并被授权播放使用该AppleID购买的项目。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

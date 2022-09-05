@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想要了解AppleTV的一些基础信息",
+        "act": "what",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "如何关闭或重新启动AppleTV"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，您是想了解如何让AppleTV进入睡眠状态 、如何重新启动AppleTV 还是如何拔下AppleTV的电源线",
+        "act": "multiple-choice",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "让AppleTV进入睡眠状态"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何AppleTV进入睡眠状态",
+        "act": "how",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "闲置一段时间后，AppleTV会自动进入睡眠状态。您也可以在“设置”中选择“现在睡眠”，或使用遥控器让AppleTV进入睡眠状态："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "请问您的AppleTVRemote是第几代的？",
+        "act": "question/open",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "在SiriRemote（第1代）或AppleTVRemote（第1代）*上：按住TV/控制中心按钮三秒钟以调出“控制中心”，然后选择“睡眠”。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "应该是第一代的",
+        "act": "ans/open",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "在SiriRemote（第1代）或AppleTVRemote（第1代）*上：按住TV/控制中心按钮三秒钟以调出“控制中心”，然后选择“睡眠”。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您是AppleTVRemote（第1代），那么需要按住TV/控制中心按钮三秒钟以调出“控制中心”，然后选择“睡眠”。",
+        "act": "ans/open",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "在SiriRemote（第1代）或AppleTVRemote（第1代）*上：按住TV/控制中心按钮三秒钟以调出“控制中心”，然后选择“睡眠”。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那睡眠后我该怎么唤醒它？",
+        "act": "how",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "要唤醒AppleTV，请按下遥控器上的“MENU”（菜单）按钮或TV/控制中心按钮。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果要唤醒AppleTV，请按下遥控器上的“MENU”（菜单）按钮或TV/控制中心按钮即可。",
+        "act": "ans/open",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "要唤醒AppleTV，请按下遥控器上的“MENU”（菜单）按钮或TV/控制中心按钮。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我妈妈家的是第二代，操作跟第一代一样吗？",
+        "act": "verification",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "在SiriRemote（第2代）或AppleTVRemote（第2代）*上：按住电源按钮。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在SiriRemote（第2代）或AppleTVRemote（第2代）*上要让它休眠的话只需要按住电源按钮即可。",
+        "act": "ans/open",
+        "document": "如何关闭或重新启动AppleTV.json",
+        "grounding": [
+            "在SiriRemote（第2代）或AppleTVRemote（第2代）*上：按住电源按钮。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    }
+]

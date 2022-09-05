@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我用的是OSXYosemite版本，可以使用AppleID两步验证吗",
+        "act": "verification",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "AppleID两步验证"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不可以，但您可以改用两步验证来保护AppleID的安全。",
+        "act": "ans/no",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "则您可以改用两步验证来保护AppleID的安全。"
+        ],
+        "grounding_id": [
+            "353"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好的，那它的工作原理是什么",
+        "act": "what",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "它的工作原理是什么？"
+        ],
+        "grounding_id": [
+            "87"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "每当您登录帐户页面以管理AppleID、登录iCloud或者使用新设备在iTunes、AppleBooks或AppStore中购买项目时，都需要输入密码和4位验证码来验证您的身份。",
+        "act": "ans/open",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "此后，每当您登录帐户页面以管理AppleID、登录iCloud或者使用新设备在iTunes、AppleBooks或AppStore中购买项目时，都需要输入密码和4位验证码来验证您的身份。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体的流程是什么样的",
+        "act": "what",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "此后，每当您登录帐户页面以管理AppleID、登录iCloud或者使用新设备在iTunes、AppleBooks或AppStore中购买项目时，都需要输入密码和4位验证码来验证您的身份。"
+        ],
+        "grounding_id": [
+            "89"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您照常输入您的AppleID和密码，我们会向您的某台设备发送验证码，您输入验证码来验证您的身份并完成登录。",
+        "act": "ans/open",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "您照常输入您的AppleID和密码。",
+            "我们会向您的某台设备发送验证码。",
+            "您输入验证码来验证您的身份并完成登录。"
+        ],
+        "grounding_id": [
+            "93",
+            "94",
+            "95"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，如果要验证短信号码的话怎么添加或移除呢",
+        "act": "how",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "我应为我的帐户验证哪些短信号码？",
+            "添加或移除短信号码"
+        ],
+        "grounding_id": [
+            "100",
+            "103"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先前往appleid.apple.com，然后输入您的AppleID和密码，在“登录和安全”部分中，点按“帐户安全”，点按“添加受信任电话号码”，要添加号码，请输入电话号码，然后点按“继续”，输入通过短信发送到那个电话号码的验证码，要移除号码，请点按要移除的电话号码旁边的“移除此受信任电话号码”。",
+        "act": "ans/open",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "前往appleid.apple.com，然后输入您的AppleID和密码。",
+            "在“登录和安全”部分中，点按“帐户安全”。",
+            "点按“添加受信任电话号码”。",
+            "要添加号码，请输入电话号码，然后点按“继续”。",
+            "输入通过短信发送到那个电话号码的验证码。",
+            "要移除号码，请点按要移除的电话号码旁边的“移除此受信任电话号码”。"
+        ],
+        "grounding_id": [
+            "104",
+            "108",
+            "109",
+            "110",
+            "111",
+            "112"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "明白了，那验证完身份之后是不是就可以在新设备上登录iCloud",
+        "act": "verification",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "它需要您使用某一设备或其他认可的方法验证您的身份，然后您才能完成以下操作：",
+            "在新设备上或在iCloud.com上登录iCloud"
+        ],
+        "grounding_id": [
+            "77",
+            "79"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "AppleID两步验证.json",
+        "grounding": [
+            "在新设备上或在iCloud.com上登录iCloud"
+        ],
+        "grounding_id": [
+            "79"
+        ]
+    }
+]

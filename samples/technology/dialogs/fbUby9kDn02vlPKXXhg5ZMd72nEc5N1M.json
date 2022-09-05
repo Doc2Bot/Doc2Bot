@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "想问一下在iPhone上登录电视提供商帐户的情况",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的请问您是想了解登录电视提供商帐户还是更改或退出登录电视提供商帐户",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "登录电视提供商帐户"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "登录电视提供商帐户",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "登录电视提供商帐户"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "从iPhone、iPad或iPodtouch登录您一次只能登录到一个电视提供商帐户，这个有具体操作步骤",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "从iPhone、iPad或iPodtouch登录",
+            "您一次只能登录到一个电视提供商帐户。具体操作如下："
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这个iPhone登录还有什么呢",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "从iPhone、iPad或iPodtouch登录"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "*如果您的电视提供商支持登录电视提供商帐户，那么系统将会提示您输入电视提供商的用户名和密码。如果您的电视提供商不支持登录电视提供商帐户，则系统会存储您的电视提供商，因此您无需再次进行选择，但您仍需要使用您的电视提供商帐户信息登录每个App",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "*如果您的电视提供商支持登录电视提供商帐户，那么系统将会提示您输入电视提供商的用户名和密码。如果您的电视提供商不支持登录电视提供商帐户，则系统会存储您的电视提供商，因此您无需再次进行选择，但您仍需要使用您的电视提供商帐户信息登录每个App。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "登录电视提供商帐户这个登录之后，其他受支持的所有App会怎样",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "登录电视提供商帐户",
+            "您可以在“设置”中或首次使用受支持的App时登录电视提供商帐户。登录之后，其他受支持的所有App都会自动登录，您无需再次输入信息。如果您的电视提供商有自己的App，则您的设备在您登录后可能会自动下载这个App。"
+        ],
+        "grounding_id": [
+            "6",
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以在“设置”中或首次使用受支持的App时登录电视提供商帐户。登录之后，其他受支持的所有App都会自动登录，您无需再次输入信息。如果您的电视提供商有自己的App，则您的设备在您登录后可能会自动下载这个App。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "您可以在“设置”中或首次使用受支持的App时登录电视提供商帐户。登录之后，其他受支持的所有App都会自动登录，您无需再次输入信息。如果您的电视提供商有自己的App，则您的设备在您登录后可能会自动下载这个App。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "从iPhone、iPad或iPodtouch登录一次只能登录到一个电视提供商帐户。具体操作步骤是如何",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "从iPhone、iPad或iPodtouch登录",
+            "您一次只能登录到一个电视提供商帐户。具体操作如下："
+        ],
+        "grounding_id": [
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您一次只能登录到一个电视提供商帐户。具体操作如下：首先确保已安装最新版本的iOS或iPadOS。 其次转到“设置”App，然后轻点“电视提供商”。 接着从列表中选择您的电视提供商*。您也可以向下滚动，选取来自不同国家或地区的电视提供商。 再就是输入您的电视提供商帐户信息。如果您不确定，请联系您的电视提供商。最后输入您的电视提供商帐户信息后，轻点“登录”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "您一次只能登录到一个电视提供商帐户。具体操作如下：",
+            "确保已安装最新版本的iOS或iPadOS。",
+            "转到“设置”App，然后轻点“电视提供商”。",
+            "从列表中选择您的电视提供商*。您也可以向下滚动，选取来自不同国家或地区的电视提供商。",
+            "输入您的电视提供商帐户信息。如果您不确定，请联系您的电视提供商。",
+            "输入您的电视提供商帐户信息后，轻点“登录”。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "14",
+            "15",
+            "16",
+            "17"
+        ]
+    }
+]

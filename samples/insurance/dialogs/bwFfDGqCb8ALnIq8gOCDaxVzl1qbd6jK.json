@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一下人保寿险百万身价两全保险（B款）",
+        "act": "what",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "人保寿险百万身价两全保险（B款）  "
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那您是想了解您与我们的合同、您获得的保障、您的义务还是其他内容呢？",
+        "act": "multiple-choice",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "您与我们的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想咨询合同有关的内容。",
+        "act": "what",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "您与我们的合同"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那具体是合同构成还是合同成立与生效的内容呢？",
+        "act": "multiple-choice",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "合同是怎么构成的？",
+        "act": "how",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "合同构成"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "人保寿险百万身价两全保险（B 款）合同（以下简称“本合同”）由保险条款、保 险单、所附的投保单及相关文件、有关的声明、批注单及其他约定书构成。 若上述构成本合同的文件正本需留本公司存档，则其复印件或电子影印件的效力 与正本相同。若复印件或电子影印件的内容与正本不同，则以正本为准。",
+        "act": "ans/open",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "人保寿险百万身价两全保险（B 款）合同（以下简称“本合同”）由保险条款、保 险单、所附的投保单及相关文件、有关的声明、批注单及其他约定书构成。 若上述构成本合同的文件正本需留本公司存档，则其复印件或电子影印件的效力 与正本相同。若复印件或电子影印件的内容与正本不同，则以正本为准。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "基本保险金额是多少？",
+        "act": "what",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "基本保险金额",
+            "您获得的保障"
+        ],
+        "grounding_id": [
+            "8",
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "本合同的基本保险金额由您在投保时与我们约定并在保险单或批注单上载明。若该金额发生变更，则以变更后的金额为基本保险金额。",
+        "act": "ans/open",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "本合同的基本保险金额由您在投保时与我们约定并在保险单或批注单上载明。若 该金额发生变更，则以变更后的金额为基本保险金额。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "保险期间是怎么规定的？",
+        "act": "how",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "本合同的保险期间为 30 年。 除合同另有约定外，自本合同生效日起，我们开始承担保险责任。",
+        "act": "ans/open",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "本合同的保险期间为 30 年。 除合同另有约定外，自本合同生效日起，我们开始承担保险责任。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "合同条款里的公共交用工具是指什么？",
+        "act": "what",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "公共交通工具"
+        ],
+        "grounding_id": [
+            "91"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "公共交通工具指领有营运执照、以客运为目的且以收费方式合法载客的民航班机、列车（包括 地铁、轻轨列车以及其它客运列车）、汽车（包括公共汽车、电车、出租汽车）、 轮船（包括渡轮）。",
+        "act": "ans/open",
+        "document": "人保寿险百万身价两全保险（B款）  .json",
+        "grounding": [
+            "指领有营运执照、以客运为目的且以收费方式合法载客的民航班机、列车（包括 地铁、轻轨列车以及其它客运列车）、汽车（包括公共汽车、电车、出租汽车）、 轮船（包括渡轮）。"
+        ],
+        "grounding_id": [
+            "92"
+        ]
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎样使用“隔空投送”将电影效果模式片段从iPhone传输到Mac？",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频",
+            "您可以使用“隔空投送”将电影效果模式片段从iPhone传输到Mac。"
+        ],
+        "grounding_id": [
+            "1",
+            "45"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以按以下步骤操作： 1.在iPhone上的“照片”中，打开电影效果模式片段或选择多个片段，然后轻点共享按钮。 2.轻点屏幕顶部的“选项”，打开“所有照片数据”，然后轻点“完成”。每次使用“隔空投送”进行传输时，都请打开这个选项。 3.轻点“隔空投送”，然后在“设备”列表中，轻点要将片段传输到的Mac。确保对应Mac上已打开“隔空投送”。对于使用“隔空投送”传输的每个电影效果片段，接收Mac上都会显示一个包含四个文件的文件夹。 4.在这个文件夹中，找到开头不是“IMG_E”的MOV文件，然后将它导入FinalCutPro或导入iMovie剪辑。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在iPhone上的“照片”中，打开电影效果模式片段或选择多个片段，然后轻点共享按钮。",
+            "轻点屏幕顶部的“选项”，打开“所有照片数据”，然后轻点“完成”。每次使用“隔空投送”进行传输时，都请打开这个选项。",
+            "轻点“隔空投送”，然后在“设备”列表中，轻点要将片段传输到的Mac。确保对应Mac上已打开“隔空投送”。对于使用“隔空投送”传输的每个电影效果片段，接收Mac上都会显示一个包含四个文件的文件夹。",
+            "在这个文件夹中，找到开头不是“IMG_E”的MOV文件，然后将它导入FinalCutPro或导入iMovie剪辑。"
+        ],
+        "grounding_id": [
+            "46",
+            "50",
+            "51",
+            "52"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "怎样选择允许FinalCutPro或iMovie剪辑访问我的照片图库？",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频",
+            "从照片图库导入",
+            "检查隐私偏好设置",
+            "您可以选择允许FinalCutPro或iMovie剪辑访问您的照片图库："
+        ],
+        "grounding_id": [
+            "1",
+            "56",
+            "58",
+            "62"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先在Mac上，选取苹果菜单>“系统偏好设置”，点按“安全性与隐私”，然后点按“隐私”。 然后选择“照片”。 最后选择FinalCutPro或iMovie剪辑旁边的复选框，以允许它访问“照片”中的信息。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上，选取苹果菜单>“系统偏好设置”，点按“安全性与隐私”，然后点按“隐私”。",
+            "选择“照片”。",
+            "选择FinalCutPro或iMovie剪辑旁边的复选框，以允许它访问“照片”中的信息。"
+        ],
+        "grounding_id": [
+            "63",
+            "64",
+            "65"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果同时选中了“iCloud照片”和“优化Mac储存空间”要怎样导入片段？",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频",
+            "如果同时选中了“iCloud照片”和“优化Mac储存空间”，请按照以下步骤尝试导入片段："
+        ],
+        "grounding_id": [
+            "1",
+            "82"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在照片图库中选择对应的电影效果模式视频片段。点按工具栏中的逆时针旋转按钮以旋转图像。这确保原始文件会下载到本地。旋转所有电影效果片段后，选取“编辑”>“撤销”。这会将原始电影效果视频片段下载到您的照片图库中，并保留录制期间创建的深度和焦点元数据。完成这些调整后，您就可以将电影效果模式片段导入项目。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在照片图库中选择对应的电影效果模式视频片段。",
+            "点按工具栏中的逆时针旋转按钮以旋转图像。这确保原始文件会下载到本地。",
+            "旋转所有电影效果片段后，选取“编辑”>“撤销”。这会将原始电影效果视频片段下载到您的照片图库中，并保留录制期间创建的深度和焦点元数据。",
+            "完成这些调整后，您就可以将电影效果模式片段导入项目。"
+        ],
+        "grounding_id": [
+            "83",
+            "84",
+            "85",
+            "86"
+        ]
+    }
+]

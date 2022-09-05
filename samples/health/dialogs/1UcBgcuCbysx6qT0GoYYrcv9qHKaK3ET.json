@@ -1,0 +1,190 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下维生素K缺乏症",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症",
+            "维生素"
+        ],
+        "grounding_id": [
+            "1",
+            "T2273"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解哪方面呢",
+        "act": "question/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道维生素K缺乏症在成年人中常见吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "在健康成年人中，维生素K缺乏症不常见，因为许多绿色蔬菜含有维生素K，肠道细菌也能生成维生素K。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "在健康成年人中，维生素K缺乏症不常见，因为许多绿色蔬菜含有维生素K，肠道细菌也能生成维生素K",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "在健康成年人中，维生素K缺乏症不常见，因为许多绿色蔬菜含有维生素K，肠道细菌也能生成维生素K。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那是在孩子中经常出现？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症最常见于婴儿，尤其是接受母乳喂养的婴儿。这种缺乏症可引起出血；因此，所有新生儿都应注射维生素K。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，维生素K缺乏症最常见于婴儿，尤其是接受母乳喂养的婴儿，您需了解别的信息吗",
+        "act": "question/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症最常见于婴儿，尤其是接受母乳喂养的婴儿。这种缺乏症可引起出血；因此，所有新生儿都应注射维生素K。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想知道怎么诊断的呢",
+        "act": "how",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "根据凝血功能检查可诊断。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "根据凝血功能检查可诊断",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "根据凝血功能检查可诊断。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "为什么新生儿会容易出现维生素K缺乏症呢？",
+        "act": "why",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "新生儿容易出现维生素K缺乏症的原因如下："
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "可能是在怀孕期间，母亲只将少量维生素K输送给胎儿，或者出生后的最初几天，新生儿的肠道尚未获得能产生维生素K的细菌",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "在怀孕期间，母亲只将少量维生素K输送给胎儿。",
+            "出生后的最初几天，新生儿的肠道尚未获得能产生维生素K的细菌。"
+        ],
+        "grounding_id": [
+            "42",
+            "43"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果治疗的话应该服用什么",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症患者需口服或注射维生素K",
+            "维生素K缺乏症的治疗方法主要有"
+        ],
+        "grounding_id": [
+            "57",
+            "55"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "维生素K缺乏症患者需口服或注射维生素K",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症患者需口服或注射维生素K"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "新生儿存在发生维生素K缺乏症的风险的原因是什么呢？",
+        "act": "why",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "你知道吗……新生儿存在发生维生素K缺乏症的风险，因为他们在出生前没有获得足够的维生素K，并且还不能自行合成维生素K。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "因为他们在出生前没有获得足够的维生素K，并且还不能自行合成维生素K。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "你知道吗……新生儿存在发生维生素K缺乏症的风险，因为他们在出生前没有获得足够的维生素K，并且还不能自行合成维生素K。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

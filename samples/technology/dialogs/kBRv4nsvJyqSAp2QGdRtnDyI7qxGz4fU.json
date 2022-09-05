@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果想将AppleUSB-A相机转换器与USB-A设备搭配使用的话应该怎么办",
+        "act": "how",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "将AppleUSB-A相机转换器与USB-A设备搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以使用USB-A转换器来连接您的设备，请问您是什么设备呢",
+        "act": "question/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "使用USB-A转换器来连接您的设备",
+            "您可以将以下设备与AppleUSB-A相机转换器搭配使用："
+        ],
+        "grounding_id": [
+            "3",
+            "8"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "以太网转换器可以与AppleUSB-A相机转换器搭配使用吗",
+        "act": "verification",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "以太网转换器",
+            "您可以将以下设备与AppleUSB-A相机转换器搭配使用："
+        ],
+        "grounding_id": [
+            "11",
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以的",
+        "act": "ans/yes",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "您可以将以下设备与AppleUSB-A相机转换器搭配使用：",
+            "以太网转换器"
+        ],
+        "grounding_id": [
+            "8",
+            "11"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那具体是怎么操作的呢",
+        "act": "how",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "您可以使用AppleUSB-A相机转换器将照片从数码相机导入到您的iPhone、iPad或iPodtouch，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch。",
+            "使用USB-A转换器来连接您的设备"
+        ],
+        "grounding_id": [
+            "4",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以使用AppleUSB-A相机转换器将照片从数码相机导入到您的iPhone、iPad或iPodtouch，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "您可以使用AppleUSB-A相机转换器将照片从数码相机导入到您的iPhone、iPad或iPodtouch，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那有什么支持的USB-A以太网转换器推荐吗",
+        "act": "what",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "支持的以太网转换器",
+            "以下是一些可与AppleUSB3相机转换器搭配使用的USB-A以太网转换器："
+        ],
+        "grounding_id": [
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "以下是一些可与AppleUSB3相机转换器搭配使用的USB-A以太网转换器：AppleUSB以太网转换器，BuffaloLUA-U2-GT， LinksysUSB200M，LinksysUSB1000，IO-DataETG-US2，BelkinF5D5055",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "以下是一些可与AppleUSB3相机转换器搭配使用的USB-A以太网转换器：",
+            "AppleUSB以太网转换器",
+            "BuffaloLUA-U2-GT",
+            "LinksysUSB200M",
+            "LinksysUSB1000",
+            "IO-DataETG-US2",
+            "BelkinF5D5055"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果想使用AppleUSB3相机转换器的话应该满足什么条件",
+        "act": "what",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "要使用AppleUSB3相机转换器，您需要一台装有iOS9.3或更高版本的iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要使用AppleUSB3相机转换器，您需要一台装有iOS9.3或更高版本的iPhone、iPad或iPodtouch。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "要使用AppleUSB3相机转换器，您需要一台装有iOS9.3或更高版本的iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

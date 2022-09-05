@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何在句子中使用Therefore？",
+        "act": "how",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "如何在句子中使用Therefore"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“Therefore”是一个连接副词，可以在句子和段落中用作承接词。它表示独立子句之间的因果关系，因此不能用于段落开头，或作为一个独立句子的一部分。如果你想在英文写作中使用“therefore”，要记住几点才能确保正确使用它。还有一些关于“therefore”的常见误用你需要避免。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "“Therefore”是一个连接副词，可以在句子和段落中用作承接词。它表示独立子句之间的因果关系，因此不能用于段落开头，或作为一个独立句子的一部分。如果你想在英文写作中使用“therefore”，要记住几点才能确保正确使用它。还有一些关于“therefore”的常见误用你需要避免。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道“Therefore”的常见用法？",
+        "act": "what",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "如何在句子中使用Therefore",
+            "找出“Therefore”的常见用法"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "1.用“therefore”来表示因果关系。 2.用“therefore”代替同类意义的转换词和短语。 3.加入“therefore”来提高句子的流畅性。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "用“therefore”来表示因果关系。",
+            "用“therefore”代替同类意义的转换词和短语。",
+            "加入“therefore”来提高句子的流畅性。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "“therefore”能代替所有同类意义的转换词和短语？",
+        "act": "verification",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "用“therefore”代替同类意义的转换词和短语。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "在大多数情况下，不要用“therefore”代替并列连词。并列连词包括for、and、nor、but、or、yet和so。这些词语都有特定的含义，它们之间不能互换，也不能改成“therefore”。在使用一个单词或短语之前，你一定要弄清它的含义。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "在大多数情况下，不要用“therefore”代替并列连词。并列连词包括for、and、nor、but、or、yet和so。这些词语都有特定的含义，它们之间不能互换，也不能改成“therefore”。在使用一个单词或短语之前，你一定要弄清它的含义。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎样加入“therefore”来提高句子的流畅性？",
+        "act": "how",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "加入“therefore”来提高句子的流畅性。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在写作中加入“therefore”是提高写作流畅性的好方法。句子或段落在没有过渡的情况下可能听起来不连贯，但是添加一个过渡词“therefore”就会好很多。试着大声朗读你的文章，找出可能需要过渡的地方，然后确定“therefore”是否能用在这个地方。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "在写作中加入“therefore”是提高写作流畅性的好方法。句子或段落在没有过渡的情况下可能听起来不连贯，但是添加一个过渡词“therefore”就会好很多。试着大声朗读你的文章，找出可能需要过渡的地方，然后确定“therefore”是否能用在这个地方。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "使用Therefore时有哪些常见错误？",
+        "act": "what",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "如何在句子中使用Therefore",
+            "避免常见的错误"
+        ],
+        "grounding_id": [
+            "1",
+            "26"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": " 1.使用“therefore”分隔独立的从句。 2.谨慎使用“therefore”。 3.尽量在书面语而不是在口头语中使用“therefore”。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "使用“therefore”分隔独立的从句。",
+            "谨慎使用“therefore”。",
+            "尽量在书面语而不是在口头语中使用“therefore”。"
+        ],
+        "grounding_id": [
+            "27",
+            "32",
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "为什么尽量在书面语而不是在口头语中使用“therefore”？",
+        "act": "why",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "尽量在书面语而不是在口头语中使用“therefore”。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "“therefore”在口语中并不像在书面语中那么常用，因为在日常对话中它听起来有点太正式了。因此，在大多数情况下，你说话的时候应该避免使用“therefore”，而应该选择更随意的过渡语，比如“so”和“then”。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "“therefore”在口语中并不像在书面语中那么常用，因为在日常对话中它听起来有点太正式了。因此，在大多数情况下，你说话的时候应该避免使用“therefore”，而应该选择更随意的过渡语，比如“so”和“then”。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    }
+]

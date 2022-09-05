@@ -1,0 +1,126 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用怎么办?",
+        "act": "how",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "如果“嘿Siri”在您的iPhone或iPad上无法正常使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您可以检查“嘿Siri”是否已打开。首先前往“设置”。 然后轻点“Siri与搜索”。 最后，确保用“嘿Siri”唤醒、锁定时允许使用Siri设置已打开。",
+        "act": "ans/open",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "检查“嘿Siri”是否已打开",
+            "前往“设置”。",
+            "轻点“Siri与搜索”。",
+            "用“嘿Siri”唤醒",
+            "锁定时允许使用Siri"
+        ],
+        "grounding_id": [
+            "3",
+            "4",
+            "5",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我知道了，那我要怎么样让Siri能听出是我在叫它呢？",
+        "act": "how",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "如果“嘿Siri”在您的iPhone或iPad上无法正常使用",
+            "设置“嘿Siri”以帮助Siri识别您的声音"
+        ],
+        "grounding_id": [
+            "1",
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您是想知道怎么设置“嘿Siri”以帮助Siri识别您的声音吗？",
+        "act": "verification",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "设置“嘿Siri”以帮助Siri识别您的声音"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "设置“嘿Siri”以帮助Siri识别您的声音"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "首先前往“设置”。然后轻点“Siri与搜索”。再关闭“用‘嘿Siri’唤醒”，然后重新打开。当出现“设置‘嘿Siri’”屏幕时，轻点“继续”。然后说出您在屏幕上看到的每个命令。最后轻点“完成”就可以了。",
+        "act": "ans/open",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "前往“设置”。",
+            "轻点“Siri与搜索”。",
+            "关闭“用‘嘿Siri’唤醒”，然后重新打开。",
+            "当出现“设置‘嘿Siri’”屏幕时，轻点“继续”。",
+            "说出您在屏幕上看到的每个命令。",
+            "轻点“完成”。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我会了谢谢你，那什么情况下可以在其他设备上使用Siri获取协助呢?",
+        "act": "what",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "就在其他设备上使用Siri获取协助"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "当有错误的设备响应“嘿Siri”就可以。",
+        "act": "ans/open",
+        "document": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用.json",
+        "grounding": [
+            "有错误的设备响应“嘿Siri”？了解“嘿Siri”。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    }
+]

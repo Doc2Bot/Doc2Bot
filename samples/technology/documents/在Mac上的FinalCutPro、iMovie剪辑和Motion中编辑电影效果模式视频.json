@@ -1,0 +1,287 @@
+{
+    "document_id": 216,
+    "domain": "technology",
+    "name": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频",
+    "graph": {
+        "1": {
+            "data": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频",
+            "type": "root",
+            "pid": "0"
+        },
+        "19": {
+            "data": "检查电影效果模式片段是否已做过处理",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "电影效果模式片段必须先在iPhone上的“照片”App中做过处理，然后才能在Mac上进行访问。",
+            "type": "sequence",
+            "pid": "19"
+        },
+        "21": {
+            "data": "在iPhone上打开“照片”。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "22": {
+            "data": "轻点“相簿”标签页，然后选择“电影效果”相簿。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "23": {
+            "data": "轻点屏幕底部的“立即处理”。如果没有显示“立即处理”，则片段已处理过。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "24": {
+            "data": "电影效果模式片段经过处理后，您便可以将它们传输到Mac上。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "25": {
+            "data": "如果您使用“iCloud照片”，也可以等到视频上传至“iCloud照片”后，再从Mac访问这些视频。",
+            "type": "sequence-step",
+            "pid": "20"
+        },
+        "26": {
+            "data": "在FinalCutPro中设置资源库和项目",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "27": {
+            "data": "默认情况下，iPhone会以HDR格式拍摄视频。为了获得最佳质量，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。",
+            "type": "ordinary",
+            "pid": "26"
+        },
+        "28": {
+            "data": "如果您想在SDR项目中使用HDR片段，请在导入片段后使用“HDR工具”效果或通过覆盖对应片段的颜色描述文件，将片段转换为SDR格式。",
+            "type": "ordinary",
+            "pid": "26"
+        },
+        "32": {
+            "data": "将电影效果模式片段导入FinalCutPro或iMovie剪辑",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "33": {
+            "data": "您可以通过USB连接线或“隔空投送”将电影效果模式片段导入FinalCutPro或iMovie剪辑。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "34": {
+            "data": "通过USB连接线导入",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "35": {
+            "data": "要导入电影效果模式片段，最简单快捷的方法是使用USB连接线将iPhone连接到Mac，然后将片段直接导入FinalCutPro或iMovie剪辑：",
+            "type": "ordinary",
+            "pid": "34"
+        },
+        "36": {
+            "data": "从iPhone导入FinalCutPro",
+            "type": "ordinary",
+            "pid": "35"
+        },
+        "40": {
+            "data": "从iPhone导入iMovie剪辑",
+            "type": "ordinary",
+            "pid": "35"
+        },
+        "44": {
+            "data": "通过“隔空投送”传输，然后导入FinalCutPro或iMovie剪辑",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "45": {
+            "data": "您可以使用“隔空投送”将电影效果模式片段从iPhone传输到Mac。",
+            "type": "sequence",
+            "pid": "44"
+        },
+        "46": {
+            "data": "在iPhone上的“照片”中，打开电影效果模式片段或选择多个片段，然后轻点共享按钮。",
+            "type": "sequence-step",
+            "pid": "45"
+        },
+        "50": {
+            "data": "轻点屏幕顶部的“选项”，打开“所有照片数据”，然后轻点“完成”。每次使用“隔空投送”进行传输时，都请打开这个选项。",
+            "type": "sequence-step",
+            "pid": "45"
+        },
+        "51": {
+            "data": "轻点“隔空投送”，然后在“设备”列表中，轻点要将片段传输到的Mac。确保对应Mac上已打开“隔空投送”。对于使用“隔空投送”传输的每个电影效果片段，接收Mac上都会显示一个包含四个文件的文件夹。",
+            "type": "sequence-step",
+            "pid": "45"
+        },
+        "52": {
+            "data": "在这个文件夹中，找到开头不是“IMG_E”的MOV文件，然后将它导入FinalCutPro或导入iMovie剪辑。",
+            "type": "sequence-step",
+            "pid": "45"
+        },
+        "56": {
+            "data": "从照片图库导入",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "57": {
+            "data": "要在FinalCutPro或iMovie剪辑中从照片图库导入电影效果模式片段，请查看这一部分中的设置，以确保正确导入电影效果模式片段。",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "58": {
+            "data": "检查隐私偏好设置",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "59": {
+            "data": "FinalCutPro或iMovie剪辑可能无法访问您的照片图库，具体取决于这个App中显示的内容：",
+            "type": "ordinary",
+            "pid": "58"
+        },
+        "60": {
+            "data": "如果在FinalCutPro的“照片和音频”边栏中看不到“照片”App。",
+            "type": "ordinary",
+            "pid": "59"
+        },
+        "61": {
+            "data": "如果在iMovie剪辑的“资源库”列表中看到了“照片”App，但没有看到已导入“照片”的电影效果模式片段。",
+            "type": "ordinary",
+            "pid": "59"
+        },
+        "62": {
+            "data": "您可以选择允许FinalCutPro或iMovie剪辑访问您的照片图库：",
+            "type": "sequence",
+            "pid": "58"
+        },
+        "63": {
+            "data": "在Mac上，选取苹果菜单>“系统偏好设置”，点按“安全性与隐私”，然后点按“隐私”。",
+            "type": "sequence-step",
+            "pid": "62"
+        },
+        "64": {
+            "data": "选择“照片”。",
+            "type": "sequence-step",
+            "pid": "62"
+        },
+        "65": {
+            "data": "选择FinalCutPro或iMovie剪辑旁边的复选框，以允许它访问“照片”中的信息。",
+            "type": "sequence-step",
+            "pid": "62"
+        },
+        "66": {
+            "data": "指定系统照片图库",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "67": {
+            "data": "如果您在FinalCutPro的“照片和音频”边栏或iMovie剪辑的“资源库”列表中看到了“照片”App，但没有看到已导入照片图库的电影效果模式片段，请指定要用作系统照片图库的照片图库。",
+            "type": "ordinary",
+            "pid": "66"
+        },
+        "71": {
+            "data": "检查“iCloud照片”处于打开还是关闭状态",
+            "type": "ordinary",
+            "pid": "56"
+        },
+        "72": {
+            "data": "在Mac上的“照片”App中，选取“照片”>“偏好设置”，再选取“iCloud”，然后检查以下设置：",
+            "type": "ordinary",
+            "pid": "71"
+        },
+        "73": {
+            "data": "如果同时选中了“iCloud照片”和“下载原片”，您可以将电影效果模式片段导入FinalCutPro或iMovie剪辑。",
+            "type": "ordinary",
+            "pid": "72"
+        },
+        "77": {
+            "data": "如果不使用“iCloud照片”（“iCloud照片”选项处于未选中状态），您可以将电影效果模式片段导入FinalCutPro或iMovie剪辑。如果选中了“iCloud照片”，请不要取消选择它。",
+            "type": "ordinary",
+            "pid": "72"
+        },
+        "82": {
+            "data": "如果同时选中了“iCloud照片”和“优化Mac储存空间”，请按照以下步骤尝试导入片段：",
+            "type": "ordinary",
+            "pid": "72"
+        },
+        "83": {
+            "data": "在照片图库中选择对应的电影效果模式视频片段。",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "84": {
+            "data": "点按工具栏中的逆时针旋转按钮以旋转图像。这确保原始文件会下载到本地。",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "85": {
+            "data": "旋转所有电影效果片段后，选取“编辑”>“撤销”。这会将原始电影效果视频片段下载到您的照片图库中，并保留录制期间创建的深度和焦点元数据。",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "86": {
+            "data": "完成这些调整后，您就可以将电影效果模式片段导入项目。",
+            "type": "ordinary",
+            "pid": "82"
+        },
+        "89": {
+            "data": "为片段启用和调整电影效果控制",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "90": {
+            "data": "成功导入电影效果模式片段后，将片段添加到项目中。在电影效果模式片段添加到项目中后，您可以启用电影效果控制：",
+            "type": "ordinary",
+            "pid": "89"
+        },
+        "91": {
+            "data": "在FinalCutPro中，启用电影效果模式视频调整、调整电影效果模式片段中的焦点，以及调整电影效果模式片段中的景深。",
+            "type": "ordinary",
+            "pid": "90"
+        },
+        "95": {
+            "data": "在Mac上的iMovie剪辑中，调整电影效果模式视频片段。",
+            "type": "ordinary",
+            "pid": "90"
+        },
+        "99": {
+            "data": "在Motion中处理电影效果模式片段",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "100": {
+            "data": "要在Motion中处理电影效果模式片段，请在将电影效果模式片段传输到Mac上后再导入Motion，然后启用电影效果模式视频调整。",
+            "type": "ordinary",
+            "pid": "99"
+        },
+        "104": {
+            "data": "如果电影效果控制仍不可用",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "105": {
+            "data": "如果屏幕上没有显示电影效果模式片段的电影效果控制，则可能是导入对应片段时，在“照片”偏好设置中选择了“iCloud照片”和“优化Mac储存空间”。请尝试以下选项来访问电影效果控制：",
+            "type": "ordinary",
+            "pid": "104"
+        },
+        "106": {
+            "data": "删除对应片段在资源库和任何项目中的所有副本，然后通过USB连接线将设备连接到Mac来直接导入。",
+            "type": "ordinary",
+            "pid": "105"
+        },
+        "107": {
+            "data": "从手机或从照片图库再次导入电影效果模式片段。",
+            "type": "ordinary",
+            "pid": "105"
+        },
+        "111": {
+            "data": "如果电影效果控制仍不可用，",
+            "type": "condition",
+            "pid": "104"
+        },
+        "112": {
+            "data": "则可能需要更新到macOSMonterey。",
+            "type": "solution",
+            "pid": "111"
+        }
+    }
+}

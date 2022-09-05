@@ -1,0 +1,250 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的iPhone无法更新，也无法恢复，我该如何操作？？",
+        "act": "how",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "如果您无法更新或恢复iPhone或iPodtouch"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请将您的设备置于恢复模式并再次进行设置。",
+        "act": "ans/open",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "将您的设备置于恢复模式并再次进行设置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "具体怎么设置呢？",
+        "act": "how",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "将您的设备置于恢复模式并再次进行设置"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "步骤1: 确保Mac系统已更新至最新版本；步骤2: 在装有macOSCatalina的Mac上，打开“访达”。步骤3: 使设备保持连接并耐心等待，直到出现恢复模式屏幕；步骤4: 在电脑上查找您的设备。步骤5: 当“更新”或“恢复”完成后，请设置您的设备。",
+        "act": "ans/open",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "确保Mac系统已更新至最新版本。如果您在使用iTunes，请确保您装有最新版本的iTunes。",
+            "在装有macOSCatalina的Mac上，打开“访达”。在装有macOSMojave或更低版本的Mac上或者在PC上，打开iTunes。如果iTunes已打开，请关闭后再将它重新打开。确定您的Mac使用的是哪个macOS版本。",
+            "使设备保持连接并耐心等待，直到出现恢复模式屏幕：",
+            "在电脑上查找您的设备。当看到“恢复”或“更新”选项时，请选择“更新”。您的电脑将尝试在不抹掉数据的情况下重新安装软件。请等待电脑下载您设备的软件。如果下载耗时超过15分钟，并且设备退出恢复模式屏幕，请等待下载完成，然后重复第3步。",
+            "当“更新”或“恢复”完成后，请设置您的设备。"
+        ],
+        "grounding_id": [
+            "12",
+            "16",
+            "20",
+            "25",
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果我用的是iTunes，也要确保是最新版本的iTunes吗？",
+        "act": "verification",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "确保Mac系统已更新至最新版本。如果您在使用iTunes，请确保您装有最新版本的iTunes。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "确保Mac系统已更新至最新版本。如果您在使用iTunes，请确保您装有最新版本的iTunes。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果我的Mac上用的是macOSMojave版本，我该如何操作？",
+        "act": "how",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "在装有macOSCatalina的Mac上，打开“访达”。在装有macOSMojave或更低版本的Mac上或者在PC上，打开iTunes。如果iTunes已打开，请关闭后再将它重新打开。确定您的Mac使用的是哪个macOS版本。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "在装有macOSMojave或更低版本的Mac上或者在PC上，打开iTunes。如果iTunes已打开，请关闭后再将它重新打开。",
+        "act": "ans/open",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "在装有macOSCatalina的Mac上，打开“访达”。在装有macOSMojave或更低版本的Mac上或者在PC上，打开iTunes。如果iTunes已打开，请关闭后再将它重新打开。确定您的Mac使用的是哪个macOS版本。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我用的手机是iPhone8，步骤3具体该如何操作呢？",
+        "act": "how",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "使设备保持连接并耐心等待，直到出现恢复模式屏幕：",
+            "iPhone8或更新机型，包括iPhoneSE（第2代）：按下调高音量按钮再快速松开。按下调低音量按钮再快速松开。然后，按住侧边按钮，直到您看到恢复模式屏幕。"
+        ],
+        "grounding_id": [
+            "20",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "iPhone8或更新机型，包括iPhoneSE（第2代）：按下调高音量按钮再快速松开。按下调低音量按钮再快速松开。然后，按住侧边按钮，直到您看到恢复模式屏幕。",
+        "act": "ans/open",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "iPhone8或更新机型，包括iPhoneSE（第2代）：按下调高音量按钮再快速松开。按下调低音量按钮再快速松开。然后，按住侧边按钮，直到您看到恢复模式屏幕。"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "步骤4的详细操作方法是什么？",
+        "act": "what",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "在电脑上查找您的设备。当看到“恢复”或“更新”选项时，请选择“更新”。您的电脑将尝试在不抹掉数据的情况下重新安装软件。请等待电脑下载您设备的软件。如果下载耗时超过15分钟，并且设备退出恢复模式屏幕，请等待下载完成，然后重复第3步。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "当看到“恢复”或“更新”选项时，请选择“更新”。您的电脑将尝试在不抹掉数据的情况下重新安装软件。请等待电脑下载您设备的软件。",
+        "act": "ans/open",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "在电脑上查找您的设备。当看到“恢复”或“更新”选项时，请选择“更新”。您的电脑将尝试在不抹掉数据的情况下重新安装软件。请等待电脑下载您设备的软件。如果下载耗时超过15分钟，并且设备退出恢复模式屏幕，请等待下载完成，然后重复第3步。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我都下载了20分钟了，而且设备也退出了恢复复模式屏幕，我该怎么办？",
+        "act": "how",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "在电脑上查找您的设备。当看到“恢复”或“更新”选项时，请选择“更新”。您的电脑将尝试在不抹掉数据的情况下重新安装软件。请等待电脑下载您设备的软件。如果下载耗时超过15分钟，并且设备退出恢复模式屏幕，请等待下载完成，然后重复第3步。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果下载耗时超过15分钟，并且设备退出恢复模式屏幕，请等待下载完成，然后重复步骤3。",
+        "act": "ans/open",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "在电脑上查找您的设备。当看到“恢复”或“更新”选项时，请选择“更新”。您的电脑将尝试在不抹掉数据的情况下重新安装软件。请等待电脑下载您设备的软件。如果下载耗时超过15分钟，并且设备退出恢复模式屏幕，请等待下载完成，然后重复第3步。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "出现什么情况时，我可能需要使用恢复模式来恢复我的设备？",
+        "act": "what",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "出现以下情况时，您可能需要使用恢复模式来恢复您的设备："
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "第一，您的电脑无法识别设备，或显示设备处于恢复模式。第二，屏幕上持续显示Apple标志长达几分钟时间，但没有显示进度条。第三，您看到恢复模式屏幕",
+        "act": "ans/open",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "您的电脑无法识别设备，或显示设备处于恢复模式。",
+            "屏幕上持续显示Apple标志长达几分钟时间，但没有显示进度条。",
+            "您看到恢复模式屏幕。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我将iOS设备置于恢复模式，然后需要使用电脑进行恢复吗？",
+        "act": "verification",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "您可以将iOS设备置于恢复模式，然后使用电脑进行恢复。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的。",
+        "act": "ans/yes",
+        "document": "如果您无法更新或恢复iPhone或iPodtouch.json",
+        "grounding": [
+            "您可以将iOS设备置于恢复模式，然后使用电脑进行恢复。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    }
+]

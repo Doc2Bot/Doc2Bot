@@ -1,0 +1,202 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "治疗颈椎病需要手术吗?",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病",
+            "治疗",
+            "治疗方法主要有：",
+            "有时需要进行手术"
+        ],
+        "grounding_id": [
+            "1",
+            "34",
+            "35",
+            "38"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有时需要进行手术",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "有时需要进行手术"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那有什么辅助的器具吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病",
+            "治疗",
+            "治疗方法主要有：",
+            "柔软的颈圈"
+        ],
+        "grounding_id": [
+            "1",
+            "34",
+            "35",
+            "37"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以使用柔软的颈圈",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "柔软的颈圈"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那一般是怎么判断颈椎出现问题的呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "诊断",
+            "主要诊断方法有："
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "磁共振成像或计算机断层扫描",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "磁共振成像或计算机断层扫描"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "磁共振成像(MRI)和计算机断层扫描是都需要做吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "磁共振成像(MRI)、计算机断层扫描或(CT)或使用CT进行脊髓造影可以确诊。MRI能显示脊髓和神经根，可提供更多信息，CT则不会显示。但两种检查手段都可以判断颈椎管狭窄部位、脊髓受压情况、哪些神经根受影响等。",
+            "磁共振成像或计算机断层扫描"
+        ],
+        "grounding_id": [
+            "31",
+            "29"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "根据医生的诊断选择，您需要了解二者的区别吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "磁共振成像(MRI)、计算机断层扫描或(CT)或使用CT进行脊髓造影可以确诊。MRI能显示脊髓和神经根，可提供更多信息，CT则不会显示。但两种检查手段都可以判断颈椎管狭窄部位、脊髓受压情况、哪些神经根受影响等。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "嗯，这两项有什么差别？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "磁共振成像(MRI)、计算机断层扫描或(CT)或使用CT进行脊髓造影可以确诊。MRI能显示脊髓和神经根，可提供更多信息，CT则不会显示。但两种检查手段都可以判断颈椎管狭窄部位、脊髓受压情况、哪些神经根受影响等。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "MRI能显示脊髓和神经根，可提供更多信息，CT则不会显示。但两种检查手段都可以判断颈椎管狭窄部位、脊髓受压情况、哪些神经根受影响等。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "磁共振成像(MRI)、计算机断层扫描或(CT)或使用CT进行脊髓造影可以确诊。MRI能显示脊髓和神经根，可提供更多信息，CT则不会显示。但两种检查手段都可以判断颈椎管狭窄部位、脊髓受压情况、哪些神经根受影响等。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那如果不治疗的话会不会更加严重？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "虽然部分颈椎病不经过治疗，脊髓功能紊乱也能够得到缓解与稳定，但仍存在加重的可能性。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "虽然部分颈椎病不经过治疗，脊髓功能紊乱也能够得到缓解与稳定，但仍存在加重的可能性。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "虽然部分颈椎病不经过治疗，脊髓功能紊乱也能够得到缓解与稳定，但仍存在加重的可能性。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "好吧，那有没有什么缓解的药呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "治疗方法主要有：",
+            "非甾体类抗炎药"
+        ],
+        "grounding_id": [
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以服用非甾体类抗炎药",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "非甾体类抗炎药"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    }
+]

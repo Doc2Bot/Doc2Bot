@@ -1,0 +1,222 @@
+{
+    "document_id": 261,
+    "domain": "wikihow",
+    "name": "兴趣与手艺_如何画加菲猫",
+    "graph": {
+        "1": {
+            "data": "兴趣与手艺_如何画加菲猫",
+            "type": "root",
+            "pid": "0"
+        },
+        "2": {
+            "data": "卡通角色，特别是动物角色的绘画是简单有趣的。本文将教你如何画加菲猫。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "3": {
+            "data": "可选方法",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "画横向椭圆",
+            "type": "sequence",
+            "pid": "3"
+        },
+        "5": {
+            "data": "画一个横向椭圆做头。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "6": {
+            "data": "再画一个稍小的横向椭圆在其下方与其重叠做腹部。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "7": {
+            "data": "画几条斜线做腿。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "8": {
+            "data": "在腿的底下画几个横向椭圆做脚。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "9": {
+            "data": "在头上画几个斜椭圆做耳朵。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "10": {
+            "data": "把椭圆纵横一分为二来定位眼睛、鼻子和嘴。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "11": {
+            "data": "在肚子上方画个倒“S”做弯曲的胳膊。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "12": {
+            "data": "另画一条曲线做尾巴。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "13": {
+            "data": "再画几个重叠的椭圆做眼睛。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "14": {
+            "data": "在头上的横向二分线两边各画一条曲线。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "15": {
+            "data": "在曲线的边缘各画一个椭圆做脸颊。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "16": {
+            "data": "在腿的轴线上添加线条增添腿的厚度。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "17": {
+            "data": "在尾巴曲线的尖上也画一个椭圆。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "18": {
+            "data": "在尾巴曲线的两边各画曲线增添尾巴的厚度。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "19": {
+            "data": "基于导线完成绘画。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "20": {
+            "data": "擦除线条。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "21": {
+            "data": "上色。",
+            "type": "sequence-step",
+            "pid": "4"
+        },
+        "22": {
+            "data": "画斜椭圆",
+            "type": "sequence",
+            "pid": "3"
+        },
+        "23": {
+            "data": "画个斜椭圆做头部。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "24": {
+            "data": "画个大的类似的斜椭圆与其重叠做肚子。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "25": {
+            "data": "多画一个椭圆做后腿。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "26": {
+            "data": "在头部椭圆上画两个椭圆做耳朵。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "27": {
+            "data": "再画两个椭圆做眼睛。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "28": {
+            "data": "在眼睛之间放个三角做鼻子。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "29": {
+            "data": "从鼻尖和小嘴处画两条曲线。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "30": {
+            "data": "再画几个椭圆（纵向和横向的）做猫爪。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "31": {
+            "data": "如图用线条连接椭圆做前腿和身体线。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "32": {
+            "data": "在后腿顶部画一个椭圆做尾巴尖。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "33": {
+            "data": "连接曲线做尾巴。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "34": {
+            "data": "画线做腿，连着猫爪。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "35": {
+            "data": "整齐地画好最后的线条。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "36": {
+            "data": "擦除之前的导线。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "37": {
+            "data": "用合适的阴影上色。",
+            "type": "sequence-step",
+            "pid": "22"
+        },
+        "38": {
+            "data": "你需要准备",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "39": {
+            "data": "纸",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "40": {
+            "data": "铅笔",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "41": {
+            "data": "铅笔刨",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "42": {
+            "data": "橡皮",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "43": {
+            "data": "彩色铅笔、蜡笔、记号笔或水彩笔。",
+            "type": "ordinary",
+            "pid": "38"
+        }
+    }
+}

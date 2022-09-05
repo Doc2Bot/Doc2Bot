@@ -1,0 +1,77 @@
+{
+    "document_id": 279,
+    "domain": "technology",
+    "name": "识别AppleTV遥控器",
+    "graph": {
+        "1": {
+            "data": "识别AppleTV遥控器",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "SiriRemote（第2代）或AppleTVRemote（第2代）",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "5": {
+            "data": "详细信息：SiriRemote（第2代）或AppleTVRemote（第2代）随附于AppleTV4K（第2代）*，并配备触控式点按板，供进行浏览操作。这款遥控器使用蓝牙5.0与AppleTV4K通信，并使用红外线技术来控制其他设备。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "10": {
+            "data": "SiriRemote（第1代）或AppleTVRemote（第1代）",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "11": {
+            "data": "描述：黑色铝金属外壳和玻璃触控表面连接：蓝牙4.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：AppleTV4K和AppleTVHD序列号：在“设置”>“遥控器与设备”>“遥控器”中列出",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "12": {
+            "data": "详细信息：SiriRemote（第1代）或AppleTVRemote（第1代）随附于AppleTV4K（第1代）和AppleTVHD*，并配备触控表面，供进行触控浏览。这款遥控器使用蓝牙4.0与AppleTV通信，并使用红外线技术来控制其他设备。",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "17": {
+            "data": "AppleRemote（铝金属）",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "18": {
+            "data": "描述：银色铝金属外壳连接：红外线发射器电池：可更换CR2032或BR20323V纽扣锂电池序列号：位于电池盒内部兼容性：任何AppleTV",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "19": {
+            "data": "详细信息：AppleRemote（铝金属）随附于AppleTV（第2代和第3代）。它还可以搭配其他AppleTV机型使用，但功能可能会受限。遥控器的铝金属主体有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "24": {
+            "data": "AppleRemote（白色）",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "25": {
+            "data": "描述：白色外壳连接：红外线发射器电池：可更换CR20323V纽扣锂电池序列号：位于背面兼容性：任何AppleTV",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "26": {
+            "data": "详细信息：AppleRemote（白色）随附于AppleTV（第1代）。它还可以搭配其他AppleTV机型使用，但功能可能会受限。遥控器有专门的“MENU”（菜单）按钮和播放按钮，还有一个圆形导航按钮可供向上、向下、向左和向右按动。",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "27": {
+            "data": "*AppleTV4K和AppleTVHD在不同地区随附提供的遥控器都一样。在支持Siri的国家和地区，这个遥控器被称为SiriRemote。在其他国家和地区则被称为AppleTVRemote。只要AppleTV4K或AppleTVHD中设置的语言和国家或地区支持Siri，就可以在任一遥控器上使用Siri。",
+            "type": "ordinary",
+            "pid": "1"
+        }
+    }
+}

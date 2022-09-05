@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解一下劲椎病是怎么样的呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病",
+            "医学主题",
+            "脑、脊髓及神经障碍",
+            "脊髓疾病"
+        ],
+        "grounding_id": [
+            "1",
+            "T3",
+            "T1371",
+            "T1389"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，颈椎病是指颈骨、颈椎骨以及它们之间的椎间盘的退化，从而压迫颈部的脊髓。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病是指颈骨（颈椎骨）以及它们之间的椎间盘的退化，从而压迫（挤压）颈部的脊髓。（另请参见脊髓疾病概述）",
+            "骨关节炎是颈椎病最常见的原因。",
+            "颈椎病"
+        ],
+        "grounding_id": [
+            "5",
+            "6",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那一般脊椎病是出现在年龄多大的人身上呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "颈椎病是困扰中老年人的常见疾病。它是60岁以上人群脊髓功能障碍的常见原因。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病是困扰中老年人的常见疾病。它是60岁以上人群脊髓功能障碍的常见原因。"
+        ],
+        "grounding_id": [
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "请问有什么诊断方法呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "主要诊断方法有："
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "诊断的方法还是建议通过磁共振成像或计算机断层扫描进行确诊的。一般根据症状怀疑颈椎病，尤其是老年人或骨关节炎患者。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "根据症状怀疑颈椎病，尤其是老年人或骨关节炎患者。",
+            "磁共振成像或计算机断层扫描"
+        ],
+        "grounding_id": [
+            "30",
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T3"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "需要了解一下劲椎病的治疗办法吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "1",
+            "T3"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "想要了解。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "1",
+            "T3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "劲椎病的治疗包括颈托保护、非甾体类抗炎药物、肌松药以及手术。请根据医生建议选择适合的治疗。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "治疗包括颈托保护、非甾体类抗炎药物、肌松药以及手术。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

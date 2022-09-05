@@ -1,0 +1,182 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问下如何将AppleUSB-A相机转换器与USB-A设备搭配使用？",
+        "act": "how",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "将AppleUSB-A相机转换器与USB-A设备搭配使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解使用USB-A转换器来连接您的设备，还是使用USB3转换器获得更多电量？",
+        "act": "multiple-choice",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "使用USB-A转换器来连接您的设备"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问下，使用USB-A转换器来连接设备后，可以做些什么？",
+        "act": "what",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "使用USB-A转换器来连接您的设备"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您可以使用AppleUSB-A相机转换器将照片从数码相机导入到您的iPhone、iPad或iPodtouch，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "您可以使用AppleUSB-A相机转换器将照片从数码相机导入到您的iPhone、iPad或iPodtouch，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哪些设备可以与AppleUSB-A相机转换器搭配使用？",
+        "act": "what",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "您可以将以下设备与AppleUSB-A相机转换器搭配使用："
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "音频/MIDI接口和设备；集线器；以太网转换器；SD卡读卡器；条形码扫描仪。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "音频/MIDI接口和设备",
+            "集线器",
+            "以太网转换器",
+            "SD卡读卡器",
+            "条形码扫描仪"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "什么情况下，需要使用USB3转换器获得更多电量？",
+        "act": "what",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "使用USB3转换器获得更多电量"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "某些设备所需的电量超过您的iPhone、iPad或iPodtouch可以提供的电量。如果您连接了这类设备之一，则可能会看到警告“所连接的配件耗电量太大”。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "某些设备所需的电量超过您的iPhone、iPad或iPodtouch可以提供的电量。如果您连接了这类设备之一，则可能会看到警告“所连接的配件耗电量太大”。请尝试以下某一步骤："
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那应该怎么做？",
+        "act": "how",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "使用USB3转换器获得更多电量"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "请尝试以下某一步骤：将设备连接到有源USB-A集线器或备用电源。或者使用闪电转USB3相机转换器。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "某些设备所需的电量超过您的iPhone、iPad或iPodtouch可以提供的电量。如果您连接了这类设备之一，则可能会看到警告“所连接的配件耗电量太大”。请尝试以下某一步骤：",
+            "将设备连接到有源USB-A集线器或备用电源。",
+            "使用闪电转USB3相机转换器。"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "都支持哪些以太网转换器？",
+        "act": "what",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "支持的以太网转换器"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "以下是一些可与AppleUSB3相机转换器搭配使用的USB-A以太网转换器： AppleUSB以太网转换器；BuffaloLUA-U2-GT；LinksysUSB200M；LinksysUSB1000；IO-DataETG-US2；BelkinF5D5055。",
+        "act": "ans/open",
+        "document": "将AppleUSB-A相机转换器与USB-A设备搭配使用.json",
+        "grounding": [
+            "以下是一些可与AppleUSB3相机转换器搭配使用的USB-A以太网转换器：",
+            "AppleUSB以太网转换器",
+            "BuffaloLUA-U2-GT",
+            "LinksysUSB200M",
+            "LinksysUSB1000",
+            "IO-DataETG-US2",
+            "BelkinF5D5055"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29"
+        ]
+    }
+]

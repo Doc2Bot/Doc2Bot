@@ -1,0 +1,166 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我最近在院子里面种了一些植物，但是有了很多蚂蚁、蚊子，想了解一些关于蚂蚁和蚊子的问题。",
+        "act": "what",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "家居与园艺"
+        ],
+        "grounding_id": [
+            "T177"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道如何防蚊还是如何不用杀虫剂消灭蚂蚁呢？",
+        "act": "multiple-choice",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "如何防蚊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道如何防蚊？",
+        "act": "how",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "如何防蚊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "防蚊的最佳办法就是限制蚊子生长、繁殖的空间。防蚊不仅可以免除被蚊子叮咬的烦恼，还能预防感染西尼罗河病毒、疟疾及登革热。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "防蚊的最佳办法就是限制蚊子生长、繁殖的空间。防蚊不仅可以免除被蚊子叮咬的烦恼，还能预防感染西尼罗河病毒、疟疾及登革热。本文就将教你如何防蚊。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那具体有什么方法防蚊",
+        "act": "what",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "如何防蚊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "清除积水、调整打理花园的习惯、制作驱蚊剂、自制涂在皮肤上的驱蚊剂都可以防蚊，您具体想了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "清除积水",
+            "调整打理花园的习惯",
+            "制作驱蚊剂",
+            "自制涂在皮肤上的驱蚊剂。"
+        ],
+        "grounding_id": [
+            "4",
+            "19",
+            "28",
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "你给我说说清除积水这个吧。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "清除积水"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以把家里的暗坑及坑坑洼洼的地方填平或者把瓶瓶罐罐收起来，这样雨天或下雪天就不会积水了。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "把家里的暗坑及坑坑洼洼的地方填平。",
+            "把瓶瓶罐罐收起来，这样雨天或下雪天就不会积水了。"
+        ],
+        "grounding_id": [
+            "5",
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这样啊，那为什么要把家里的暗坑及坑坑洼洼的地方填平啊？",
+        "act": "why",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "把家里的暗坑及坑坑洼洼的地方填平。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "因为这种凹凸不平的地方最容易积水，蚊子就会大肆繁殖了。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "因为这种凹凸不平的地方最容易积水，蚊子就会大肆繁殖了。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我知道了，那具体怎么做呢?",
+        "act": "how",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "把家里的暗坑及坑坑洼洼的地方填平。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "自己去买点浇地基或铺马路用的水泥，当然也可以请人用专业的工具为你把洞填平。",
+        "act": "ans/open",
+        "document": "家居与园艺_如何防蚊.json",
+        "grounding": [
+            "自己去买点浇地基或铺马路用的水泥，当然也可以请人用专业的工具为你把洞填平。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

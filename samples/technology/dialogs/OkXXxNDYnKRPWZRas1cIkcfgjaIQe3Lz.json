@@ -1,0 +1,228 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询一些关于在iPhone上登录电视提供商帐户的相关问题？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，您想咨询登录电视提供商帐户，还是更改或退出登录电视提供商帐户？",
+        "act": "multiple-choice",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "登录电视提供商帐户"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解登录电视提供商帐户。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "登录电视提供商帐户"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "具体想咨询些什么呢？",
+        "act": "question/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "登录电视提供商帐户"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想问一下从iPhone上登录的时，一次只能登录到一个电视提供商帐户吗？",
+        "act": "verification",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "您一次只能登录到一个电视提供商帐户。具体操作如下：",
+            "从iPhone、iPad或iPodtouch登录"
+        ],
+        "grounding_id": [
+            "9",
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的。您一次只能登录到一个电视提供商帐户。",
+        "act": "ans/yes",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "您一次只能登录到一个电视提供商帐户。具体操作如下："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "具体操作步骤是什么？",
+        "act": "what",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "您一次只能登录到一个电视提供商帐户。具体操作如下："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先您要确保已安装最新版本的iOS。然后转到“设置”App，轻点“电视提供商”。从列表中选择您的电视提供商*。您也可以向下滚动，选取来自不同国家或地区的电视提供商。最后输入您的电视提供商帐户信息。输入您的电视提供商帐户信息后，轻点“登录”。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "确保已安装最新版本的iOS或iPadOS。",
+            "转到“设置”App，然后轻点“电视提供商”。",
+            "从列表中选择您的电视提供商*。您也可以向下滚动，选取来自不同国家或地区的电视提供商。",
+            "输入您的电视提供商帐户信息。如果您不确定，请联系您的电视提供商。",
+            "输入您的电视提供商帐户信息后，轻点“登录”。"
+        ],
+        "grounding_id": [
+            "10",
+            "14",
+            "15",
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果我不确定电视提供商的帐户信息，该怎么办？",
+        "act": "how",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "输入您的电视提供商帐户信息。如果您不确定，请联系您的电视提供商。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果您不确定，请联系您的电视提供商。",
+        "act": "ans/open",
+        "document": "在iPhone、iPad或iPodtouch上登录您的电视提供商帐户.json",
+        "grounding": [
+            "输入您的电视提供商帐户信息。如果您不确定，请联系您的电视提供商。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我第一次将 iPhone连接到电脑时，iPhone会显示一条警告，询问我要不要信任这台电脑？我该如何操作呢？",
+        "act": "how",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告",
+            "选择要不要信任电脑",
+            "将iPhone、iPad或iPodtouch连接到您的电脑或其他设备。"
+        ],
+        "grounding_id": [
+            "1",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先输入您的密码，以解锁iPhone，如果要允许电脑访问您设备上的信息，请在“访达”中选择您的设备，然后点按“信任”；然后在iPhone确认您允许电脑或其他设备访问您的数据。如果您不想信任这台电脑或连接的其他设备，请在设备上轻点“不信任”。如果要信任电脑，请轻点“信任”。",
+        "act": "ans/open",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "输入您的密码（如果有的话），以解锁iPhone、iPad或iPodtouch。",
+            "如果要允许电脑访问您设备上的信息，请在“访达”中选择您的设备，然后点按“信任”；如果您使用的是iTunes，请点按“继续”。",
+            "在iPhone、iPad或iPodtouch上，确认您允许电脑或其他设备访问您的数据。如果您不想信任这台电脑或连接的其他设备，请在设备上轻点“不信任”。如果要信任电脑，请轻点“信任”。"
+        ],
+        "grounding_id": [
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "我可以为受信任的电脑更改设置吗？",
+        "act": "verification",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "为受信任的电脑更改设置"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "可以。",
+        "act": "ans/yes",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "为受信任的电脑更改设置"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "设备会记住我选择信任的电脑吗？",
+        "act": "verification",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "设备会记住您选择信任的电脑。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "会的。",
+        "act": "ans/yes",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "设备会记住您选择信任的电脑。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    }
+]

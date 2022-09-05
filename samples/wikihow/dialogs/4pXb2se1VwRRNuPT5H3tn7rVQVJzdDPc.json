@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解艺术与娱乐的相关问题",
+        "act": "what",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "艺术与娱乐"
+        ],
+        "grounding_id": [
+            "T360"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解如何折纸爪子还是如何发展多个领域的才能？",
+        "act": "multiple-choice",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "如何折纸爪子"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何折纸爪子",
+        "act": "ans/open",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "如何折纸爪子"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "1.购买或制作折纸。 2.把纸对折。 3.沿对角轴折叠纸张。 4.再次沿对角轴折叠纸张。 5.做一个竖向的手前折，使折叠部分构成山谷的外形。 6.把右边的尖角塞进开口。",
+        "act": "ans/open",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "购买或制作折纸。",
+            "把纸对折。",
+            "沿对角轴折叠纸张。",
+            "再次沿对角轴折叠纸张。",
+            "做一个竖向的手前折，使折叠部分构成山谷的外形。",
+            "把右边的尖角塞进开口。"
+        ],
+        "grounding_id": [
+            "32",
+            "35",
+            "37",
+            "39",
+            "41",
+            "43"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "怎样才能对折纸？",
+        "act": "how",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "把纸对折。"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "想象有一条线，从左上角画到右下角。沿着这条线折出一个直角三角形。",
+        "act": "ans/open",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "想象有一条线，从左上角画到右下角。沿着这条线折出一个直角三角形。"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "怎样才能沿对角轴折叠纸张？",
+        "act": "how",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "沿对角轴折叠纸张。"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "你要把直角三角形折成一个不规则三角形。折痕一定要压平。",
+        "act": "ans/open",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "你要把直角三角形折成一个不规则三角形。折痕一定要压平。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "之后要怎么做？",
+        "act": "how",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "再次沿对角轴折叠纸张。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "再次沿对角轴折叠纸张。",
+        "act": "ans/open",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "再次沿对角轴折叠纸张。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "最后要做什么？",
+        "act": "what",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "把右边的尖角塞进开口。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "把右边的尖角塞进开口。",
+        "act": "ans/open",
+        "document": "艺术与娱乐_如何折纸爪子.json",
+        "grounding": [
+            "把右边的尖角塞进开口。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    }
+]

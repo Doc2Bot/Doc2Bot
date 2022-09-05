@@ -1,0 +1,174 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想将一些内容迁移到新的一台mac上，应该怎么操作？",
+        "act": "how",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "将内容迁移到一台新的Mac上"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“迁移助理”可将您的所有文件从旧Mac拷贝到新Mac上，让您不必手动拷贝这些文件。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "“迁移助理”可将您的所有文件从旧Mac拷贝到新Mac上，让您不必手动拷贝这些文件。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我前期也得先做些准备工作呀，电脑什么的都需要什么样的配置之类的，你详细跟我说一下？",
+        "act": "what",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "将内容迁移到一台新的Mac上",
+            "准备工作"
+        ],
+        "grounding_id": [
+            "1",
+            "12"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "好的，首先在两台电脑上安装所有可用的软件更新， 如果两台电脑使用的都是macOSSierra或更高版本，那么请将它们彼此靠近放置并打开无线局域网，在旧Mac上，选取苹果菜单>“系统偏好设置”，然后点按“共享”，最后如果您在两台Mac上安装有防病毒软件或防火墙软件，请关闭该软件，直到迁移完成。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "在两台电脑上安装所有可用的软件更新。如果您的旧Mac使用的不是OSXLion或更高版本，并且您的新Mac使用的不是OSXMavericks或更高版本，那么请改为按照MountainLion迁移步骤操作。",
+            "如果两台电脑使用的都是macOSSierra或更高版本，那么请将它们彼此靠近放置并打开无线局域网。如果其中有一台电脑使用的是OSXElCapitan或更低版本，请确保两者位于同一网络上。",
+            "在旧Mac上，选取苹果菜单>“系统偏好设置”，然后点按“共享”。确保“电脑名称”栏中显示一个名称。",
+            "如果您在两台Mac上安装有防病毒软件或防火墙软件，请关闭该软件，直到迁移完成。"
+        ],
+        "grounding_id": [
+            "13",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果其中有一台电脑使用的是低版本怎么办？",
+        "act": "how",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "如果两台电脑使用的都是macOSSierra或更高版本，那么请将它们彼此靠近放置并打开无线局域网。如果其中有一台电脑使用的是OSXElCapitan或更低版本，请确保两者位于同一网络上。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那请确保两者位于同一网络上。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "如果两台电脑使用的都是macOSSierra或更高版本，那么请将它们彼此靠近放置并打开无线局域网。如果其中有一台电脑使用的是OSXElCapitan或更低版本，请确保两者位于同一网络上。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "好的，接下来呢，怎么找出“迁移助理”？",
+        "act": "how",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "具体步骤",
+            "您现已准备就绪，可以使用“迁移助理”将文件从旧Mac移到新Mac。"
+        ],
+        "grounding_id": [
+            "23",
+            "21"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "首先选择要传输的信息，然后点按“继续”以开始传输，“迁移助理”完成操作后，最后在两台电脑上退出“迁移助理”，然后在新Mac上登录迁移的帐户以查看它的文件。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "选择要传输的信息。在这个示例中，MichaelCavanna是一个macOS用户帐户。如果这个帐户与新Mac上已有的帐户同名，则系统会提示您重命名这个旧帐户或替换新Mac上的帐户。如果进行重命名，则这个旧帐户会作为单独的用户出现在新Mac上，并且拥有单独的个人文件夹和登录名。如果进行替换，则这个旧帐户会删除并随后替换新Mac上的帐户，包括相应个人文件夹中的所有内容。",
+            "点按“继续”以开始传输。大型传输可能需要几个小时才能完成。",
+            "“迁移助理”完成操作后，在两台电脑上退出“迁移助理”，然后在新Mac上登录迁移的帐户以查看它的文件。"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果是大型的传输需要多久能完事啊？",
+        "act": "when",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "点按“继续”以开始传输。大型传输可能需要几个小时才能完成。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "大型传输可能需要几个小时才能完成。",
+        "act": "ans/open",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "点按“继续”以开始传输。大型传输可能需要几个小时才能完成。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，知道了如果在在旧Mac上看到了安全码，直接点按继续吗？",
+        "act": "verification",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "在旧Mac上",
+            "请确保其与新Mac上显示的安全码相同。然后，点按“继续”。"
+        ],
+        "grounding_id": [
+            "31",
+            "33"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "是的，如果看到安全码，请确保其与新Mac上显示的安全码相同。然后，点按“继续”。",
+        "act": "ans/yes",
+        "document": "将内容迁移到一台新的Mac上.json",
+        "grounding": [
+            "请确保其与新Mac上显示的安全码相同。然后，点按“继续”。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    }
+]

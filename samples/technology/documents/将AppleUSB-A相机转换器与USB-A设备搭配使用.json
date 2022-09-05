@@ -1,0 +1,152 @@
+{
+    "document_id": 141,
+    "domain": "technology",
+    "name": "将AppleUSB-A相机转换器与USB-A设备搭配使用",
+    "graph": {
+        "1": {
+            "data": "将AppleUSB-A相机转换器与USB-A设备搭配使用",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "使用USB-A转换器来连接您的设备",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "您可以使用AppleUSB-A相机转换器将照片从数码相机导入到您的iPhone、iPad或iPodtouch，或者将其他USB-A设备连接到您的iPhone、iPad或iPodtouch。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "8": {
+            "data": "您可以将以下设备与AppleUSB-A相机转换器搭配使用：",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "9": {
+            "data": "音频/MIDI接口和设备",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "10": {
+            "data": "集线器",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "11": {
+            "data": "以太网转换器",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "12": {
+            "data": "SD卡读卡器",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "13": {
+            "data": "条形码扫描仪",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "14": {
+            "data": "使用USB3转换器获得更多电量",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "15": {
+            "data": "某些设备所需的电量超过您的iPhone、iPad或iPodtouch可以提供的电量。如果您连接了这类设备之一，则可能会看到警告“所连接的配件耗电量太大”。请尝试以下某一步骤：",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "16": {
+            "data": "将设备连接到有源USB-A集线器或备用电源。",
+            "type": "ordinary",
+            "pid": "15"
+        },
+        "17": {
+            "data": "使用闪电转USB3相机转换器。",
+            "type": "ordinary",
+            "pid": "15"
+        },
+        "21": {
+            "data": "闪电转USB3相机转换器有内置的闪电端口，您可以将该转换器连接到USB-A电源适配器。这样就能为您的iOS设备和所连设备供电。",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "22": {
+            "data": "支持的以太网转换器",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "23": {
+            "data": "以下是一些可与AppleUSB3相机转换器搭配使用的USB-A以太网转换器：",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "24": {
+            "data": "AppleUSB以太网转换器",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "25": {
+            "data": "BuffaloLUA-U2-GT",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "26": {
+            "data": "LinksysUSB200M",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "27": {
+            "data": "LinksysUSB1000",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "28": {
+            "data": "IO-DataETG-US2",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "29": {
+            "data": "BelkinF5D5055",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "30": {
+            "data": "要使用AppleUSB3相机转换器，您需要一台装有iOS9.3或更高版本的iPhone、iPad或iPodtouch。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "31": {
+            "data": "获取协助",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "32": {
+            "data": "如果您无法连接支持的设备，请尝试以下步骤：",
+            "type": "sequence",
+            "pid": "31"
+        },
+        "33": {
+            "data": "断开AppleUSB相机转换器与iOS设备的连接。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "34": {
+            "data": "断开所有连接到AppleUSB相机转换器的设备的连接。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "35": {
+            "data": "重新启动iOS设备。",
+            "type": "sequence-step",
+            "pid": "32"
+        },
+        "36": {
+            "data": "插入AppleUSB相机转换器，并再次尝试连接USB设备。",
+            "type": "sequence-step",
+            "pid": "32"
+        }
+    }
+}

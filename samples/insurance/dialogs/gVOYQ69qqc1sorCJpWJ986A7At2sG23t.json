@@ -1,0 +1,110 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "请问泰康手术津贴团体医疗保险里面有保险凭证吗？",
+        "act": "verification",
+        "document": "泰康手术津贴团体医疗保险  .json",
+        "grounding": [
+            "泰康手术津贴团体医疗保险  ",
+            "合同的订立",
+            "合同构成"
+        ],
+        "grounding_id": [
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有的",
+        "act": "ans/yes",
+        "document": "泰康手术津贴团体医疗保险  .json",
+        "grounding": [
+            "本合同是投保人与本公司约定保险权利义务关系的协议，包括本保险条款、保险 单或者其他保险凭证、投保单、与本合同有关的投保文件、合法有效的声明、批 注、批单及其他投保人与本公司共同认可的书面协议。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我还想知道这个合同的成立条件",
+        "act": "what",
+        "document": "泰康手术津贴团体医疗保险  .json",
+        "grounding": [
+            "合同成立及生效"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "投保人提出保险申请且本公司同意承保，本合同成立",
+        "act": "ans/open",
+        "document": "泰康手术津贴团体医疗保险  .json",
+        "grounding": [
+            "投保人提出保险申请且本公司同意承保，本合同成立。 本合同的成立日、生效日以保险单记载的日期为准。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "好的，那保险的金额怎么确定的呢？",
+        "act": "how",
+        "document": "泰康手术津贴团体医疗保险  .json",
+        "grounding": [
+            "保险金额"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同项下各被保险人名下的保险金额由投保人在投保时与本公司约定，并在保 险单上载明。",
+        "act": "ans/open",
+        "document": "泰康手术津贴团体医疗保险  .json",
+        "grounding": [
+            "本合同项下各被保险人名下的保险金额由投保人在投保时与本公司约定，并在保 险单上载明。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "保险的时间是一年吗？",
+        "act": "verification",
+        "document": "泰康手术津贴团体医疗保险  .json",
+        "grounding": [
+            "保险期间"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，本合同的保险期间为 1 年，自本合同生效日零时开始，至保险单上载明的保险期 间期满日的 24 时止。",
+        "act": "ans/yes",
+        "document": "泰康手术津贴团体医疗保险  .json",
+        "grounding": [
+            "本合同的保险期间为 1 年，自本合同生效日零时开始，至保险单上载明的保险期 间期满日的 24 时止。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    }
+]

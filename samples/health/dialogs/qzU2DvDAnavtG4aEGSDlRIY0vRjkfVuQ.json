@@ -1,0 +1,149 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下Bartter综合征与Gitelman综合征的信息",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是哪个方面呢？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道Bartter综合征与Gitelman综合征是可以遗传的吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征是遗传性的，且通常是因隐性基因发病()。因此，Bartter综合征或Gitelman综合征患者必须分别从双亲各获得一个隐性致病基因。由于隐性基因发病同时需要具备两个基因，因此一般没有其他直系亲属患有此类综合征。虽然都很少见，但Gitelman综合征要比Bartter综合征更常见。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Bartter综合征与Gitelman综合征是遗传性的，且通常是因隐性基因发病()。因此，Bartter综合征或Gitelman综合征患者必须分别从双亲各获得一个隐性致病基因。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征是遗传性的，且通常是因隐性基因发病()。因此，Bartter综合征或Gitelman综合征患者必须分别从双亲各获得一个隐性致病基因。由于隐性基因发病同时需要具备两个基因，因此一般没有其他直系亲属患有此类综合征。虽然都很少见，但Gitelman综合征要比Bartter综合征更常见。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那这两种综合症之间的区别主要是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "两种综合征之间的主要区别是"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "主要区别为涉及的基因，受累的肾小管部分，以及症状开始时的年龄",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "涉及的基因",
+            "受累的肾小管部分",
+            "症状开始时的年龄"
+        ],
+        "grounding_id": [
+            "21",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果轻度脱水的话会有什么结果",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "system",
+        "utterance": "请问您还要了解别的医学问题吗",
+        "act": "question/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "代谢性碱中毒"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "user",
+        "utterance": "我还想问一下什么是碱中毒",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "代谢性碱中毒"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "system",
+        "utterance": "碱中毒是血液中的碱度过高，可由血中的碳酸氢盐过多或酸过少引起（代谢性碱中毒）；或由呼吸加快、加深导致血液中二氧化碳水平降低引起（呼吸性酸中毒）。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "碱中毒是血液中的碱度过高，可由血中的碳酸氢盐过多或酸过少引起（代谢性碱中毒）；或由呼吸加快、加深导致血液中二氧化碳水平降低引起（呼吸性酸中毒）。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    }
+]

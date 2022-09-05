@@ -1,0 +1,158 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "将我的组织升级到Apple校园教务管理后，Apple校园教务管理会获取哪些信息？",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "将您的组织升级到Apple校园教务管理",
+            "升级到Apple校园教务管理",
+            "升级后，Apple校园教务管理将拥有以下所有信息："
+        ],
+        "grounding_id": [
+            "1",
+            "5",
+            "10"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "帐户、帐户登录信息、MDM服务器、MDM设备、Server令牌、设备订单、您的帐户所关联的其他项目。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "帐户",
+            "帐户登录信息",
+            "MDM服务器",
+            "MDM设备",
+            "Server令牌",
+            "设备订单",
+            "您的帐户所关联的其他项目"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "升级到Apple校园教务管理后，系统会申请获取什么信息？",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "将您的组织升级到Apple校园教务管理",
+            "升级到Apple校园教务管理",
+            "为管理式AppleID选取一个域名",
+            "当您升级到Apple校园教务管理后，系统会要求您输入所在学校的网址。Apple校园教务管理将使用学校网址创建一个保留域名，作为您的管理式AppleID的默认域名。例如，如果您的网址是www.myschool.edu，则您的管理式AppleID将类似于student@myschooledu.appleid.com。"
+        ],
+        "grounding_id": [
+            "1",
+            "5",
+            "22",
+            "23"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "当您升级到Apple校园教务管理后，系统会要求您输入所在学校的网址。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "当您升级到Apple校园教务管理后，系统会要求您输入所在学校的网址。Apple校园教务管理将使用学校网址创建一个保留域名，作为您的管理式AppleID的默认域名。例如，如果您的网址是www.myschool.edu，则您的管理式AppleID将类似于student@myschooledu.appleid.com。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "要我所在学校的网址是要做什么？",
+        "act": "why",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "当您升级到Apple校园教务管理后，系统会要求您输入所在学校的网址。Apple校园教务管理将使用学校网址创建一个保留域名，作为您的管理式AppleID的默认域名。例如，如果您的网址是www.myschool.edu，则您的管理式AppleID将类似于student@myschooledu.appleid.com。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "Apple校园教务管理将使用学校网址创建一个保留域名，作为您的管理式AppleID的默认域名。例如，如果您的网址是www.myschool.edu，则您的管理式AppleID将类似于student@myschooledu.appleid.com。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "当您升级到Apple校园教务管理后，系统会要求您输入所在学校的网址。Apple校园教务管理将使用学校网址创建一个保留域名，作为您的管理式AppleID的默认域名。例如，如果您的网址是www.myschool.edu，则您的管理式AppleID将类似于student@myschooledu.appleid.com。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "Apple部署计划的截止日期是什么时候？",
+        "act": "when",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "将您的组织升级到Apple校园教务管理",
+            "升级到Apple校园教务管理以继续使用设备注册计划和批量购买计划。Apple部署计划自2019年12月1日起不再提供。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Apple部署计划自2019年12月1日起不再提供。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "升级到Apple校园教务管理以继续使用设备注册计划和批量购买计划。Apple部署计划自2019年12月1日起不再提供。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "Apple校园教务管理是为谁设计的？",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "将您的组织升级到Apple校园教务管理",
+            "Apple校园教务管理是一项服务，让您可以购买内容、在移动设备管理(MDM)解决方案中配置自动设备注册，以及为您的学生和教职人员创建帐户。Apple校园教务管理以网页形式供用户访问，并且专为技术经理、IT管理员、教职人员和讲师设计。"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "Apple校园教务管理专为技术经理、IT管理员、教职人员和讲师设计。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "Apple校园教务管理是一项服务，让您可以购买内容、在移动设备管理(MDM)解决方案中配置自动设备注册，以及为您的学生和教职人员创建帐户。Apple校园教务管理以网页形式供用户访问，并且专为技术经理、IT管理员、教职人员和讲师设计。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

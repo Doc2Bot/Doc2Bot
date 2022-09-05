@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果颈椎疼的话可以吃什么药呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "治疗",
+            "颈椎病",
+            "脑、脊髓及神经障碍",
+            "脊髓疾病"
+        ],
+        "grounding_id": [
+            "34",
+            "1",
+            "T1371",
+            "T1389"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "如果出现肌肉痉挛，可以服用巴氯芬来缓解症状",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "如果出现肌肉痉挛，可以服用巴氯芬来缓解症状。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那这个颈椎问题主要是什么呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "通常指脊神经根被压迫",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "通常，脊神经根(位于脊髓旁边的脊神经部分——见图脊柱是如何组织的)也被压迫。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果脖子、肩膀和头都疼的话是什么情况？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病",
+            "症状"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您说的是颈部出现疼痛并且向头、肩或上肢等部位放射吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "如果是神经根受压，颈部通常出现疼痛并且向头、肩或上肢等部位放射。单侧或双侧上肢肌肉可能无力和萎缩。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "如果是神经根受压，颈部通常出现疼痛并且向头、肩或上肢等部位放射。单侧或双侧上肢肌肉可能无力和萎缩。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那可能是神经根受压",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "如果是神经根受压，颈部通常出现疼痛并且向头、肩或上肢等部位放射。单侧或双侧上肢肌肉可能无力和萎缩。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的，那严重的话会有什么后果呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "颈椎病",
+            "症状"
+        ],
+        "grounding_id": [
+            "1",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "严重压迫可损害大小便功能。如果轻微颈部创伤严重损伤脊髓，则四肢可能全部突然瘫痪。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_脑、脊髓及神经障碍_脊髓疾病_颈椎病.json",
+        "grounding": [
+            "严重压迫可损害大小便功能。如果轻微颈部创伤严重损伤脊髓，则四肢可能全部突然瘫痪。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+{
+    "document_id": 19,
+    "domain": "technology",
+    "name": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用",
+    "graph": {
+        "1": {
+            "data": "如果“嘿Siri”在您的iPhone或iPad上无法正常使用",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "检查“嘿Siri”是否已打开",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "4": {
+            "data": "前往“设置”。",
+            "type": "sequence-step",
+            "pid": "3"
+        },
+        "5": {
+            "data": "轻点“Siri与搜索”。",
+            "type": "sequence-step",
+            "pid": "3"
+        },
+        "6": {
+            "data": "在这里，确保以下设置已打开：",
+            "type": "sequence-step",
+            "pid": "3"
+        },
+        "8": {
+            "data": "用“嘿Siri”唤醒",
+            "type": "ordinary",
+            "pid": "6"
+        },
+        "9": {
+            "data": "锁定时允许使用Siri",
+            "type": "ordinary",
+            "pid": "6"
+        },
+        "10": {
+            "data": "设置“嘿Siri”以帮助Siri识别您的声音",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "11": {
+            "data": "前往“设置”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "12": {
+            "data": "轻点“Siri与搜索”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "13": {
+            "data": "关闭“用‘嘿Siri’唤醒”，然后重新打开。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "14": {
+            "data": "当出现“设置‘嘿Siri’”屏幕时，轻点“继续”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "15": {
+            "data": "说出您在屏幕上看到的每个命令。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "16": {
+            "data": "轻点“完成”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "17": {
+            "data": "如果Siri没有响应",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "18": {
+            "data": "默认情况下，只要没有在“设置”>“辅助功能”>“Siri”中打开“始终用‘嘿Siri’唤醒”，那么当设备屏幕朝下或被挡住时，Siri不会响应。",
+            "type": "ordinary",
+            "pid": "17"
+        },
+        "19": {
+            "data": "就在其他设备上使用Siri获取协助",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "有错误的设备响应“嘿Siri”？了解“嘿Siri”。",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "28": {
+            "data": "如果Siri在您的HomePod上无法正常使用，请检查“家庭”App中的设置。",
+            "type": "ordinary",
+            "pid": "19"
+        }
+    }
+}

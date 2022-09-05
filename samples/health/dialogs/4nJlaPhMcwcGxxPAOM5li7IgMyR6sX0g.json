@@ -1,0 +1,118 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想学习一下儿童神经系统方面相关的疾病。",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童神经系统疾病_脑性瘫痪（CP）.json",
+        "grounding": [
+            "儿童神经系统疾病"
+        ],
+        "grounding_id": [
+            "T1120"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想学习哪一种疾病呢？儿童神经系统疾病下还有脑性瘫痪、高热惊厥、儿童癫痫、婴儿痉挛等分类。",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童神经系统疾病_脑性瘫痪（CP）.json",
+        "grounding": [
+            "脑性瘫痪（CP）"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下脑性瘫痪方面的知识，这个病一般有啥症状？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童神经系统疾病_脑性瘫痪（CP）.json",
+        "grounding": [
+            "脑性瘫痪（CP）",
+            "脑性瘫痪的症状"
+        ],
+        "grounding_id": [
+            "1",
+            "34"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "脑性瘫痪的症状还有四个主要类型，分别是痉挛型、手足徐动型、共济失调型和混合型脑瘫，您想先了解哪一种呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童神经系统疾病_脑性瘫痪（CP）.json",
+        "grounding": [
+            "脑性瘫痪有四个主要类型：",
+            "痉挛",
+            "手足徐动症",
+            "共济失调",
+            "混合型"
+        ],
+        "grounding_id": [
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "你先给我说一下痉挛型脑瘫的症状吧？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童神经系统疾病_脑性瘫痪（CP）.json",
+        "grounding": [
+            "痉挛型脑瘫"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "痉挛型脑瘫发作时可能发生内斜视、弱视或眼睛漂移不定和其他视力问题。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童神经系统疾病_脑性瘫痪（CP）.json",
+        "grounding": [
+            "可能发生内斜视、弱视或眼睛漂移不定（斜视）和其他视力问题。"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "听起来这个脑性瘫痪有点复杂，能不能给我推荐一些其他更多的资料信息呀？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童神经系统疾病_脑性瘫痪（CP）.json",
+        "grounding": [
+            "有关脑性瘫痪的更多信息"
+        ],
+        "grounding_id": [
+            "106"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "那您可以去看看美国脑瘫联合协会、Miller,F和Bachrach,SJ发布的资料。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童神经系统疾病_脑性瘫痪（CP）.json",
+        "grounding": [
+            "美国脑瘫联合协会：为父母和家庭提供的许多资源，包括教育、辅助技术、安全、旅行和交通",
+            "Miller,F和Bachrach,SJ：脑性瘫痪：完整的护理指南，3.巴尔的摩，约翰·霍普金斯大学出版社，2017年。"
+        ],
+        "grounding_id": [
+            "109",
+            "112"
+        ]
+    }
+]

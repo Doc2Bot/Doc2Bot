@@ -1,0 +1,84 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，无症状性菌尿症什么情况下容易发作？",
+        "act": "what",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路感染(UTI)_无症状性菌尿症.json",
+        "grounding": [
+            "若患者已有导致尿路感染(UTI)极易发的情况，则属例外。这些情况包括"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "比较多，比如妊娠。你还想了解其他肾脏及尿路疾病吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路感染(UTI)_无症状性菌尿症.json",
+        "grounding": [
+            "妊娠",
+            "肾脏及尿路疾病"
+        ],
+        "grounding_id": [
+            "12",
+            "T1602"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "肾盂肾炎是怎么回事？",
+        "act": "what",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路感染(UTI)_无症状性菌尿症.json",
+        "grounding": [
+            "肾盂肾炎是单侧或双侧肾脏的细菌性感染。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "肾盂肾炎是单侧或双侧肾脏的细菌性感染。是肾脏感染的一种。还有吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路感染(UTI)_无症状性菌尿症.json",
+        "grounding": [
+            "肾盂肾炎是单侧或双侧肾脏的细菌性感染。",
+            "肾盂肾炎"
+        ],
+        "grounding_id": [
+            "39",
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "膀胱炎呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路感染(UTI)_无症状性菌尿症.json",
+        "grounding": [
+            "膀胱炎是膀胱的感染。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "膀胱炎是膀胱的感染，是膀胱感染的一种。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路感染(UTI)_无症状性菌尿症.json",
+        "grounding": [
+            "膀胱炎是膀胱的感染。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    }
+]

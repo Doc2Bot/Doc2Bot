@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "之前听说过升级Apple校园教务管理，我不太明白是什么意思，你能帮我解释一下吗？",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "将您的组织升级到Apple校园教务管理"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "Apple校园教务管理是一项服务，让您可以购买内容、在移动设备管理(MDM)解决方案中配置自动设备注册，以及为您的学生和教职人员创建帐户。Apple校园教务管理以网页形式供用户访问，并且专为技术经理、IT管理员、教职人员和讲师设计。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "Apple校园教务管理是一项服务，让您可以购买内容、在移动设备管理(MDM)解决方案中配置自动设备注册，以及为您的学生和教职人员创建帐户。Apple校园教务管理以网页形式供用户访问，并且专为技术经理、IT管理员、教职人员和讲师设计。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我升级之后Apple校园教务管理里面都有什么信息呢？",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "升级后，Apple校园教务管理将拥有以下所有信息："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "第一帐户，然后帐户登录信息，还有 MDM服务器和MDM设备， Server令牌，设备订单还有您的帐户所关联的其他项目。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "帐户",
+            "帐户登录信息",
+            "MDM服务器",
+            "MDM设备",
+            "Server令牌",
+            "设备订单",
+            "您的帐户所关联的其他项目"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "假如升级之后我还能访问Apple部署计划网站吗？",
+        "act": "verification",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "完成升级后，请使用Apple校园教务管理门户访问您的数据。升级后，您将无法访问Apple部署计划网站。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "升级后，您将无法访问Apple部署计划网站，请使用Apple校园教务管理门户访问您的数据。",
+        "act": "ans/no",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "完成升级后，请使用Apple校园教务管理门户访问您的数据。升级后，您将无法访问Apple部署计划网站。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "Apple校园教务管理中职能方面代理是什么意思？",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "“代理”现在称为“管理员”",
+            "Apple校园教务管理中职能方面的调整"
+        ],
+        "grounding_id": [
+            "35",
+            "33"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "“代理”现在称为“管理员”。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "“代理”现在称为“管理员”"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "你可以详细跟我说一下吗？",
+        "act": "verification",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "“代理”现在称为“管理员”"
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在Apple部署计划中，代理拥有最高级别的管理权限。代理能够代表您的组织接受Apple部署计划的条款和条件。 在Apple校园教务管理中，这个职能现在称为“管理员”。您的组织在Apple校园教务管理中最多可以有五名管理员。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "在Apple部署计划中，代理拥有最高级别的管理权限。代理能够代表您的组织接受Apple部署计划的条款和条件。",
+            "在Apple校园教务管理中，这个职能现在称为“管理员”。您的组织在Apple校园教务管理中最多可以有五名管理员。"
+        ],
+        "grounding_id": [
+            "36",
+            "37"
+        ]
+    }
+]

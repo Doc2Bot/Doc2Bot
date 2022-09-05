@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我养了斗鱼作为宠物，想咨询一些相关知识。",
+        "act": "what",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "宠物与动物"
+        ],
+        "grounding_id": [
+            "T49"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想知道如何判断斗鱼是不是生病了还是斗鱼的生活习惯呢？",
+        "act": "multiple-choice",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "如何判断斗鱼是不是生病了"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解下如何判断斗鱼是不是生病了，我怀疑我家的鱼已经生病了。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "如何判断斗鱼是不是生病了"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "您想了解斗鱼哪些病，是丝绒病还是细菌类的病呢？",
+        "act": "multiple-choice",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "应对丝绒病"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我想了解应对丝绒病我该怎么做呢？",
+        "act": "what",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "应对丝绒病"
+        ],
+        "grounding_id": [
+            "55"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "步骤1: 用手电筒照鱼。步骤2: 使用“鱼救”。步骤3: 处理鱼缸。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "用手电筒照鱼。",
+            "使用“鱼救”。",
+            "处理鱼缸。"
+        ],
+        "grounding_id": [
+            "56",
+            "59",
+            "63"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那我要把生病的鱼隔离出来换一个鱼吗？",
+        "act": "verification",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "处理鱼缸。",
+            "你在隔离生病的鱼的同时也要处理一下鱼缸，因为这种病会传染的。"
+        ],
+        "grounding_id": [
+            "63",
+            "64"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，在隔离生病的鱼的同时也要处理一下鱼缸，因为这种病会传染的。",
+        "act": "ans/yes",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "你在隔离生病的鱼的同时也要处理一下鱼缸，因为这种病会传染的。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我看鱼的肚子鼓鼓囊囊的怎么回事？",
+        "act": "what",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "看看鱼儿有没有浮肿。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "那是鱼儿便秘了，需要处理。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "处理鱼儿便秘",
+            "如果有的话，它有可能便秘了。"
+        ],
+        "grounding_id": [
+            "26",
+            "28"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我要怎么处理便秘呢？还要给他喂食吗？",
+        "act": "what",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "处理鱼儿便秘",
+            "断食几天。"
+        ],
+        "grounding_id": [
+            "26",
+            "29"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先是给鱼儿断食几天，让它把食物彻底消化排空。",
+        "act": "ans/open",
+        "document": "宠物与动物_如何判断斗鱼是不是生病了.json",
+        "grounding": [
+            "首先是给鱼儿断食几天，让它把食物彻底消化排空。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    }
+]

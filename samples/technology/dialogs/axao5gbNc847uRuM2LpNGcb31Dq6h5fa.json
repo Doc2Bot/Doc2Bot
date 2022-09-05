@@ -1,0 +1,94 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我朋友很我跟我说让我把组织升级到Apple商务管理，可是我不知道有什么 用处呢？",
+        "act": "what",
+        "document": "将您的组织升级到Apple商务管理.json",
+        "grounding": [
+            "将您的组织升级到Apple商务管理",
+            "升级到Apple商务管理以继续使用设备注册计划和批量购买计划。Apple部署计划自2019年12月1日起不再提供。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "升级到Apple商务管理以继续使用设备注册计划和批量购买计划。因卫Apple部署计划自2019年12月1日起不再提供。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple商务管理.json",
+        "grounding": [
+            "升级到Apple商务管理以继续使用设备注册计划和批量购买计划。Apple部署计划自2019年12月1日起不再提供。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那升级之后都有什么呢？",
+        "act": "what",
+        "document": "将您的组织升级到Apple商务管理.json",
+        "grounding": [
+            "升级后，Apple商务管理将拥有以下所有信息："
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "帐户 帐户登录信息 MDM服务器 MDM设备Server令牌 设备订单 和您的帐户所关联的其他项目",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple商务管理.json",
+        "grounding": [
+            "帐户",
+            "帐户登录信息",
+            "MDM服务器",
+            "MDM设备",
+            "Server令牌",
+            "设备订单",
+            "您的帐户所关联的其他项目"
+        ],
+        "grounding_id": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我最后还想问一下，我朋友说要我升级到Apple商务管理可是为什么需要这么做呢？",
+        "act": "why",
+        "document": "将您的组织升级到Apple商务管理.json",
+        "grounding": [
+            "则您需要升级到Apple商务管理。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "因为您的组织目前使用设备注册计划(DEP)，所以您需要升级到Apple商务管理。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple商务管理.json",
+        "grounding": [
+            "则您需要升级到Apple商务管理。"
+        ],
+        "grounding_id": [
+            "60"
+        ]
+    }
+]

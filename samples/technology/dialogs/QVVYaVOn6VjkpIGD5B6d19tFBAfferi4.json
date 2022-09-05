@@ -1,0 +1,108 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "AppleWatch上的“SOS紧急联络”功能是可以使用的吗？",
+        "act": "verification",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "使用AppleWatch上的“SOS紧急联络”功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "可以的，通过“SOS紧急联络”功能，您可以从AppleWatch方便快速地拨打救援电话并提醒您的紧急联系人。",
+        "act": "ans/yes",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "通过“SOS紧急联络”功能，您可以从AppleWatch方便快速地拨打救援电话并提醒您的紧急联系人。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你可以详细介绍一下AppleWatch上的“SOS紧急联络”功能吗？",
+        "act": "what",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "使用AppleWatch上的“SOS紧急联络”功能"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用“SOS紧急联络”功能拨打电话时，AppleWatch会自动呼叫当地紧急服务并与这些机构共享您的位置。在某些国家和地区，您可能需要选取所需的紧急服务。例如，在中国大陆，您可以选取警察、火警或救护车。如果您拥有AppleWatchSeries5或更新机型（GPS+蜂窝网络）或AppleWatchSE（GPS+蜂窝网络），当您在其他国家或地区旅行时，您的手表还可以呼叫当地紧急服务。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "使用“SOS紧急联络”功能拨打电话时，AppleWatch会自动呼叫当地紧急服务并与这些机构共享您的位置。在某些国家和地区，您可能需要选取所需的紧急服务。例如，在中国大陆，您可以选取警察、火警或救护车。如果您拥有AppleWatchSeries5或更新机型（GPS+蜂窝网络）或AppleWatchSE（GPS+蜂窝网络），当您在其他国家或地区旅行时，您的手表还可以呼叫当地紧急服务。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "噢，意思就是会提供共享位置，所以他们会找到我对吗？",
+        "act": "verification",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "停止共享您的位置",
+            "使用AppleWatch上的“SOS紧急联络”功能"
+        ],
+        "grounding_id": [
+            "26",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，紧急呼叫结束后，AppleWatch会每4小时提醒您一次，让您知道正在与紧急联系人共享您的位置信息。",
+        "act": "ans/yes",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "紧急呼叫结束后，AppleWatch会每4小时提醒您一次，让您知道正在与紧急联系人共享您的位置信息。轻点通知中的“停止共享”，即可停止共享您的位置。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那停止共享位置怎么操作？",
+        "act": "how",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "停止共享您的位置"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "轻点通知中的“停止共享”，即可停止共享您的位置。",
+        "act": "ans/open",
+        "document": "使用AppleWatch上的“SOS紧急联络”功能.json",
+        "grounding": [
+            "紧急呼叫结束后，AppleWatch会每4小时提醒您一次，让您知道正在与紧急联系人共享您的位置信息。轻点通知中的“停止共享”，即可停止共享您的位置。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    }
+]

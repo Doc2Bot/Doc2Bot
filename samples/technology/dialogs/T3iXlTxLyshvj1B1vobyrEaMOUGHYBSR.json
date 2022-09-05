@@ -1,0 +1,120 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想在FinalCutPro里编辑电影效果模式的视频，为啥我的iPhone导入进来的视频没办法编辑，这个要怎么操作呢？",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解检查电影效果模式片段是否已做过处理、在FinalCutPro中设置资源库和项目、将电影效果模式片段导入FinalCutPro或iMovie剪辑中的哪一个呢？",
+        "act": "multiple-choice",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "检查电影效果模式片段是否已做过处理"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "怎么检查电影效果模式片段是否已做过处理？",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "检查电影效果模式片段是否已做过处理"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "电影效果模式片段必须先在iPhone上做过处理才能访问，首先要打开iPhone上的照片，然后点相簿，选电影效果，接着点屏幕底部的“立即处理”，电影效果模式片段经过处理后就可以传输到Mac上啦。你也可以使用iCloud照片，上传完毕后，再从Mac访问这些视频。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "电影效果模式片段必须先在iPhone上的“照片”App中做过处理，然后才能在Mac上进行访问。",
+            "在iPhone上打开“照片”。",
+            "轻点“相簿”标签页，然后选择“电影效果”相簿。",
+            "轻点屏幕底部的“立即处理”。如果没有显示“立即处理”，则片段已处理过。",
+            "电影效果模式片段经过处理后，您便可以将它们传输到Mac上。",
+            "如果您使用“iCloud照片”，也可以等到视频上传至“iCloud照片”后，再从Mac访问这些视频。"
+        ],
+        "grounding_id": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那我要怎么设置资源库和项目呢？",
+        "act": "how",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "在FinalCutPro中设置资源库和项目"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您的视频是HDR格式的，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和Rec.2020HLG项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "默认情况下，iPhone会以HDR格式拍摄视频。为了获得最佳质量，请在FinalCutPro中将HDR电影效果模式片段导入广色域HDR资源库和(Rec.2020HLG)项目中。如果电影效果模式片段是以SDR格式录制的，请在FinalCutPro中创建标准的Rec.709项目。"
+        ],
+        "grounding_id": [
+            "27"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "明白了，但是我FinalCutPro显示无法访问照片图库，这个是为什么呢？",
+        "act": "what",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "FinalCutPro或iMovie剪辑可能无法访问您的照片图库，具体取决于这个App中显示的内容："
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "这个具体取决于这个App中显示的内容，如果在FinalCutPro的“照片和音频”边栏中看不到“照片”App。如果在iMovie剪辑的“资源库”列表中看到了“照片”App，但没有看到已导入“照片”的电影效果模式片段。则需不同方式去解决。",
+        "act": "ans/open",
+        "document": "在Mac上的FinalCutPro、iMovie剪辑和Motion中编辑电影效果模式视频.json",
+        "grounding": [
+            "FinalCutPro或iMovie剪辑可能无法访问您的照片图库，具体取决于这个App中显示的内容：",
+            "如果在FinalCutPro的“照片和音频”边栏中看不到“照片”App。",
+            "如果在iMovie剪辑的“资源库”列表中看到了“照片”App，但没有看到已导入“照片”的电影效果模式片段。"
+        ],
+        "grounding_id": [
+            "59",
+            "60",
+            "61"
+        ]
+    }
+]

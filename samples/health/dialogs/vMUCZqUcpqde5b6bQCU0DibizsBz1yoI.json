@@ -1,0 +1,142 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "怎么检查维生素K缺乏症呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症",
+            "营养障碍",
+            "根据凝血功能检查可诊断。"
+        ],
+        "grounding_id": [
+            "1",
+            "T2263",
+            "7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "根据凝血功能检查可诊断",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "根据凝血功能检查可诊断。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那刚出生的孩子为什么会出现这种情况呢？",
+        "act": "why",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症的病因",
+            "新生儿容易出现维生素K缺乏症的原因如下："
+        ],
+        "grounding_id": [
+            "29",
+            "41"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可能是在怀孕期间，母亲只将少量维生素K输送给胎儿，或者出生后的最初几天，新生儿的肠道尚未获得能产生维生素K的细菌。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "在怀孕期间，母亲只将少量维生素K输送给胎儿。",
+            "出生后的最初几天，新生儿的肠道尚未获得能产生维生素K的细菌。"
+        ],
+        "grounding_id": [
+            "42",
+            "43"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那和饮食有没有关系呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症可能由以下原因引起：",
+            "饮食中缺乏维生素K"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "饮食中缺乏维生素K也会引起维生素K缺乏症",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "饮食中缺乏维生素K"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那凝血功能检查是不是就是血液检查？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "血液检查"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "血液检查"
+        ],
+        "grounding_id": [
+            "51"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "知道了，那什么情况会怀疑有维生素K缺乏症呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "有不正常出血的患者，且有危险因素时，应怀疑有维生素K缺乏。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有不正常出血的患者，且有危险因素时",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "有不正常出血的患者，且有危险因素时，应怀疑有维生素K缺乏。"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    }
+]

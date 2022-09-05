@@ -1,0 +1,128 @@
+{
+    "document_id": 615,
+    "domain": "technology",
+    "name": "更新iPhone、iPad或iPodtouch",
+    "graph": {
+        "1": {
+            "data": "更新iPhone、iPad或iPodtouch",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "您可以通过无线方式将iPhone、iPad或iPodtouch更新至最新版本的iOS或iPadOS。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "如果您使用的是iOS、iPadOS14.5或更高版本，您可能会看到一个选项，要您在两个软件更新版本之间进行选择。您可以在iOS或iPadOS15发布后立即升级到最新版本，或者继续使用iOS或iPadOS14，同时在一段时间内仍然获取重要的安全性更新。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "5": {
+            "data": "如果您无法在设备上看到更新，可以使用电脑手动更新设备。如果您使用的是装有macOSCatalina或更高版本的Mac，或者如果您使用的是装有macOSMojave或更低版本的Mac或使用的是WindowsPC，请了解如何手动更新您的设备。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "9": {
+            "data": "通过无线方式更新iPhone、iPad或iPodtouch",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "10": {
+            "data": "具体步骤",
+            "type": "sequence",
+            "pid": "9"
+        },
+        "11": {
+            "data": "使用iCloud或电脑备份您的设备。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "15": {
+            "data": "将设备插接到电源，然后通过无线局域网连接到互联网。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "19": {
+            "data": "前往“设置”>“通用”，然后轻点“软件更新”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "20": {
+            "data": "如果看到两个可用的软件更新选项，请选取要安装的那个。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "21": {
+            "data": "轻点“现在安装”。如果您看到“下载并安装”，请轻点它以下载更新，输入密码，然后轻点“现在安装”。了解如果您忘记了密码，该怎么做。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "22": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "21"
+        },
+        "23": {
+            "data": "了解如果您忘记了密码，该怎么做",
+            "type": "see-more",
+            "pid": "22",
+            "target": "如果您忘记了iPhone密码.json"
+        },
+        "25": {
+            "data": "您可能会看到设备当前的版本是最新的，但有一个可用的升级。例如，即使您的设备已更新至最新版本的iOS14，仍可能显示升级至iOS15的选项。当您将配件与iPhone配对时，您可能需要升级iOS。",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "26": {
+            "data": "如果通过无线方式更新时看到警告",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "31": {
+            "data": "某些软件更新无法通过无线方式获取。VPN或代理连接可能会妨碍设备与更新服务器通信。",
+            "type": "ordinary",
+            "pid": "26"
+        },
+        "32": {
+            "data": "如果需要更多空间才能通过无线方式进行更新",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "33": {
+            "data": "如果软件需要更多空间来完成更新，并显示一条信息要求您暂时移除App，请轻点“继续”以允许移除App。安装完成后，这些App会自动重新安装。如果您改为轻点“取消”，则您可以从设备中手动删除内容，从而增加更多空间。",
+            "type": "ordinary",
+            "pid": "32"
+        },
+        "37": {
+            "data": "自定自动更新",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "38": {
+            "data": "您的设备可以在夜晚充电时自动更新。",
+            "type": "sequence",
+            "pid": "37"
+        },
+        "39": {
+            "data": "前往“设置”>“通用”>“软件更新”。",
+            "type": "sequence-step",
+            "pid": "38"
+        },
+        "40": {
+            "data": "轻点“自动更新”，然后打开“下载iOS更新”。",
+            "type": "sequence-step",
+            "pid": "38"
+        },
+        "41": {
+            "data": "打开“安装iOS更新”。您的设备会自动更新至最新版本的iOS或iPadOS。某些更新可能需要手动安装。",
+            "type": "sequence-step",
+            "pid": "38"
+        },
+        "42": {
+            "data": "升级至最新版本的iOS或iPadOS软件可提供最新的功能、安全性更新和错误修复。并非所有设备或所有国家和地区都可提供所有功能。电池和系统性能可能会受多种因素影响，包括网络状况和个人使用情况；实际结果可能会有所不同。",
+            "type": "ordinary",
+            "pid": "37"
+        }
+    }
+}

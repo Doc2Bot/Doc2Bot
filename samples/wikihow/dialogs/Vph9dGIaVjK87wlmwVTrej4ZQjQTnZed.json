@@ -1,0 +1,224 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我最近一直想通过运动健身，但是我平时都是坐的时间比较多，该怎么办呢？",
+        "act": "how",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "运动与保健"
+        ],
+        "grounding_id": [
+            "T317"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解如何坐着练腹肌还是如何通过运动快速减肥呢？",
+        "act": "multiple-choice",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "如何坐着练腹肌"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解一些如何坐着练腹肌。",
+        "act": "ans/open",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "如何坐着练腹肌"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "坐着练腹肌有许多方式有冲拳练习、提膝练习、腹肌前屈、抬腿练习，您想了解哪方面呢？",
+        "act": "multiple-choice",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "冲拳（拳击）练习"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "原来有着面多，都想了解，能先和我说一下冲拳练习步骤吗？",
+        "act": "what",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "冲拳（拳击）练习"
+        ],
+        "grounding_id": [
+            "46"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "冲拳练习步骤1: 身体坐直，两腿分开。步骤2: 双臂直接向前冲拳，练习1分钟。",
+        "act": "ans/open",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "冲拳（拳击）练习",
+            "身体坐直，两腿分开。",
+            "双臂直接向前冲拳，练习1分钟。"
+        ],
+        "grounding_id": [
+            "46",
+            "47",
+            "49"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那么提膝练习靠呼吸能收缩腹肌吗？",
+        "act": "verification",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "提膝练习",
+            "两腿分开，双手置于脑后，形成基本姿势。"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是可以的，两腿分开，双手置于脑后，形成基本姿势。充分收缩腹肌。吸气。",
+        "act": "ans/yes",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "两腿分开，双手置于脑后，形成基本姿势。",
+            "充分收缩腹肌。吸气。"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我听说腹肌前屈能在家里做，想了解如何做？我不想去健身房。",
+        "act": "how",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "腹肌前屈"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "您是想了解腹肌前屈的动作步骤还是效果呢？",
+        "act": "multiple-choice",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "腹肌前屈"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我想了解腹肌前屈的步骤。",
+        "act": "ans/open",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "腹肌前屈"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "步骤1: 坐在椅子上，背部保持挺直，两腿微张，向外侧伸出。步骤2: 收缩腹肌。步骤3: 身体前屈，臀部微微靠近椅背，同时呼气。步骤4: 加快练习速度，吸气1秒，呼气1秒。",
+        "act": "ans/open",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "坐在椅子上，背部保持挺直，两腿微张，向外侧伸出。",
+            "收缩腹肌。",
+            "身体前屈，臀部微微靠近椅背，同时呼气。",
+            "加快练习速度，吸气1秒，呼气1秒。"
+        ],
+        "grounding_id": [
+            "16",
+            "19",
+            "21",
+            "23"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "这个步骤四要循环多少次呢？",
+        "act": "what",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "加快练习速度，吸气1秒，呼气1秒。"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "整个动作过程中要让腹肌充分收缩。重复30至60秒，休息片刻后继续下个动作。",
+        "act": "ans/open",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "整个动作过程中要让腹肌充分收缩。重复30至60秒，休息片刻后继续下个动作。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那么抬腿练习也可以配合家里椅子做吗？",
+        "act": "verification",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "抬腿练习"
+        ],
+        "grounding_id": [
+            "52"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "是可以的，抬左腿离开椅子，伸直保持2秒，放下后再保持2秒。",
+        "act": "ans/open",
+        "document": "运动与保健_如何坐着练腹肌.json",
+        "grounding": [
+            "抬左腿离开椅子，伸直保持2秒，放下后再保持2秒。"
+        ],
+        "grounding_id": [
+            "59"
+        ]
+    }
+]

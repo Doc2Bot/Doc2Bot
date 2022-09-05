@@ -1,0 +1,160 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我家宝宝是刚出生的，前段时间我亲戚说可能有甲状腺功能亢进，这个病一般有啥症状？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "新生儿甲状腺功能亢进",
+            "症状包括烦躁不安、心跳加快、眼睛鼓胀和体重增加延迟。"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "新生儿甲状腺功能亢进症状可能有烦躁不安、心跳加快、眼睛鼓胀和体重增加延迟。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "症状包括烦躁不安、心跳加快、眼睛鼓胀和体重增加延迟。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "刚出生的宝宝也看不出来呀，这个一般去医院检查是咋诊断的？",
+        "act": "how",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "诊断基于甲状腺功能检查。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一般是基于甲状腺功能检查进行诊断。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "诊断基于甲状腺功能检查。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那如果确诊后需要治疗的话，是怎么治？",
+        "act": "how",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "治疗通常包括抗甲状腺药物和β-受体阻断剂。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "治疗通常包括使用抗甲状腺药物和β-受体阻断剂两种方式。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "治疗通常包括抗甲状腺药物和β-受体阻断剂。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "唉，听起来就很困难，我想知道刚出生的宝宝为什么会得这种病？",
+        "act": "why",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "新生儿甲状腺功能亢进通常是由母亲的Graves病引起的。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "新生儿甲状腺功能亢进通常是由母亲的Graves病引起的。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "新生儿甲状腺功能亢进通常是由母亲的Graves病引起的。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有时候家长没有经验，刚出生的宝宝很容易就被忽视了这个病，这个如何避免啊？",
+        "act": "how",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "新生儿甲状腺功能亢进的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "35"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "一般新生儿筛查检测也是诊断甲状腺功能亢进最主要的方法。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "新生儿筛查检测"
+        ],
+        "grounding_id": [
+            "36"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "如果得了这种病的宝宝没有及时治疗会引起什么后果？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "如果不及时治疗，这种疾病可能致死。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "如果不及时治疗，这种疾病可能致死。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童激素紊乱_新生儿甲状腺功能亢进.json",
+        "grounding": [
+            "如果不及时治疗，这种疾病可能致死。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

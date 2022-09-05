@@ -1,0 +1,232 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于iPhone上的要信任此电脑吗警告问题？",
+        "act": "what",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想了解：设备上的信任设置有什么用，选择要不要信任电脑，为受信任的电脑更改设置，还是获取协助？",
+        "act": "multiple-choice",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "设备上的信任设置有什么用"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下，什么情况下才会出现这种警告？",
+        "act": "what",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "设备上的信任设置有什么用",
+            "首次将iPhone、iPad或iPodtouch连接到电脑或其他设备时，iPhone、iPad或iPodtouch会显示一条警告，询问您要不要信任这台电脑："
+        ],
+        "grounding_id": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首次将iPhone、iPad或iPodtouch连接到电脑或其他设备时，iPhone、iPad或iPodtouch会显示一条警告，询问您要不要信任这台电脑。",
+        "act": "ans/open",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "首次将iPhone、iPad或iPodtouch连接到电脑或其他设备时，iPhone、iPad或iPodtouch会显示一条警告，询问您要不要信任这台电脑："
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "如果选择不信任某台电脑，会怎么样？",
+        "act": "what",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "如果选择不信任某台电脑，"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果选择不信任某台电脑，则会禁止它访问您设备上的内容。",
+        "act": "ans/open",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "如果选择不信任某台电脑，",
+            "则会禁止它访问您设备上的内容。每次将设备与这台电脑进行连接时，您都会看到信任警告。"
+        ],
+        "grounding_id": [
+            "9",
+            "50"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那下次是不是就不会看到信任警告了？",
+        "act": "verification",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "则会禁止它访问您设备上的内容。每次将设备与这台电脑进行连接时，您都会看到信任警告。"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不是的。每次将设备与这台电脑进行连接时，您都会看到信任警告。",
+        "act": "ans/no",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "则会禁止它访问您设备上的内容。每次将设备与这台电脑进行连接时，您都会看到信任警告。"
+        ],
+        "grounding_id": [
+            "50"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "受信任的电脑可以做什么？",
+        "act": "what",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "受信任的电脑可以与您的设备同步、创建备份，还可以访问您设备上的照片、视频、通讯录和其他内容。这些电脑会保持受信任状态，除非您更改受信任的电脑或抹掉设备。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "受信任的电脑可以与您的设备同步、创建备份，还可以访问您设备上的照片、视频、通讯录和其他内容。",
+        "act": "ans/open",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "受信任的电脑可以与您的设备同步、创建备份，还可以访问您设备上的照片、视频、通讯录和其他内容。这些电脑会保持受信任状态，除非您更改受信任的电脑或抹掉设备。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "这些电脑会一直保持受信任的状态吗？",
+        "act": "verification",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "受信任的电脑可以与您的设备同步、创建备份，还可以访问您设备上的照片、视频、通讯录和其他内容。这些电脑会保持受信任状态，除非您更改受信任的电脑或抹掉设备。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "这些电脑会保持受信任状态，除非您更改受信任的电脑或抹掉设备。",
+        "act": "ans/open",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "受信任的电脑可以与您的设备同步、创建备份，还可以访问您设备上的照片、视频、通讯录和其他内容。这些电脑会保持受信任状态，除非您更改受信任的电脑或抹掉设备。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "如果您轻点“信任”或“不信任”而系统不显示信任警告怎么办？",
+        "act": "how",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "获取协助",
+            "如果您轻点“信任”或“不信任”而系统不接受您的回答，或者如果不显示信任警告，请按照以下步骤操作。每完成一步后，都请再次尝试："
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "如果您轻点“信任”或“不信任”而系统不接受您的回答，或者如果不显示信任警告，请按照以下步骤操作。每完成一步后，都请再次尝试：1.确保您的电脑装有最新版本的macOS或最新版本的iTunes。 2.断开设备与电脑的连接，然后重新连接。 3.重新启动电脑。 5.还原您的信任设置。",
+        "act": "ans/open",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "如果您轻点“信任”或“不信任”而系统不接受您的回答，或者如果不显示信任警告，请按照以下步骤操作。每完成一步后，都请再次尝试：",
+            "确保您的电脑装有最新版本的macOS或最新版本的iTunes。",
+            "断开设备与电脑的连接，然后重新连接。",
+            "重新启动电脑。",
+            "重新启动设备：",
+            "还原您的信任设置。"
+        ],
+        "grounding_id": [
+            "19",
+            "20",
+            "24",
+            "25",
+            "27",
+            "40"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如何选择要不要信任电脑？",
+        "act": "how",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "选择要不要信任电脑"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "首先，将iPhone、iPad或iPodtouch连接到您的电脑或其他设备。然后，输入您的密码（如果有的话），以解锁iPhone、iPad或iPodtouch。 接着，如果要允许电脑访问您设备上的信息，请在“访达”中选择您的设备，然后点按“信任”；如果您使用的是iTunes，请点按“继续”。最后，在iPhone、iPad或iPodtouch上，确认您允许电脑或其他设备访问您的数据。如果您不想信任这台电脑或连接的其他设备，请在设备上轻点“不信任”。如果要信任电脑，请轻点“信任”。",
+        "act": "ans/open",
+        "document": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告.json",
+        "grounding": [
+            "将iPhone、iPad或iPodtouch连接到您的电脑或其他设备。",
+            "输入您的密码（如果有的话），以解锁iPhone、iPad或iPodtouch。",
+            "如果要允许电脑访问您设备上的信息，请在“访达”中选择您的设备，然后点按“信任”；如果您使用的是iTunes，请点按“继续”。",
+            "在iPhone、iPad或iPodtouch上，确认您允许电脑或其他设备访问您的数据。如果您不想信任这台电脑或连接的其他设备，请在设备上轻点“不信任”。如果要信任电脑，请轻点“信任”。"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    }
+]

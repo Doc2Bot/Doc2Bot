@@ -1,0 +1,254 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，一到冬天我的脚就会很冰凉，我想问下如何给脚保暖？",
+        "act": "how",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "如何给脚保暖"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有5种方法：穿暖和舒适的袜子，利用热源暖脚，改变环境，加强身体活动，自制暖脚装置，您想了解哪个？",
+        "act": "multiple-choice",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "可选方法",
+            "利用热源暖脚"
+        ],
+        "grounding_id": [
+            "3",
+            "14"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "先说下利用热源暖脚的方法吧。",
+        "act": "ans/open",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "利用热源暖脚"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "利用热源暖脚: 如果你觉得脚很冷，可以倒一盆热水泡脚，或者用按摩足浴盆泡脚。 加热一个米袋，然后用它裹住脚。 再用装满热水的瓶子放在脚面上或者垫在脚底下，可以让脚立刻暖和起来。",
+        "act": "ans/open",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "利用热源暖脚",
+            "如果你觉得脚很冷，可以倒一盆热水泡脚，或者用按摩足浴盆泡脚。",
+            "加热一个米袋，然后用它裹住脚。",
+            "用装满热水的瓶子放在脚面上或者垫在脚底下，可以让脚立刻暖和起来。"
+        ],
+        "grounding_id": [
+            "14",
+            "15",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "足浴时，可以在水里加东西吗？",
+        "act": "verification",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "如果你觉得脚很冷，可以倒一盆热水泡脚，或者用按摩足浴盆泡脚。",
+            "这样可以让脚立刻暖和起来，足浴时还可以在热水里加点儿泡泡浴露或护足霜。"
+        ],
+        "grounding_id": [
+            "15",
+            "16"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "当然可以。可以在热水里加点儿泡泡浴露或护足霜。",
+        "act": "ans/yes",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "这样可以让脚立刻暖和起来，足浴时还可以在热水里加点儿泡泡浴露或护足霜。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "用热水瓶暖脚，需要注意些什么？",
+        "act": "what",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "用装满热水的瓶子放在脚面上或者垫在脚底下，可以让脚立刻暖和起来。"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "记得过会儿要把瓶子拿开，因为一会儿瓶子就冷了。还有，如果你打算用热水瓶子暖脚，一定要给瓶子套个套子，确保水不太烫，而且脚上也要穿好袜子，即使是薄袜子也可以。",
+        "act": "ans/open",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "记得过会儿要把瓶子拿开，因为一会儿瓶子就冷了。如果你打算用热水瓶子暖脚，一定要给瓶子套个套子，确保水不太烫，而且脚上也要穿好袜子，即使是薄袜子也可以。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "有时候盖着毛毯，感觉身体很暖和，就是脚冰凉，这该怎么办？",
+        "act": "how",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "你靠在躺椅上，盖好了毛毯，感觉全身都暖和，可就是脚很冷。那该怎么办呢？找一双干净的袜子换上，或者稍微按摩一下，就能让冰冷的双脚立刻暖和起来！"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你靠在躺椅上，盖好了毛毯，感觉全身都暖和，可就是脚很冷。那该怎么办呢？找一双干净的袜子换上，或者稍微按摩一下，就能让冰冷的双脚立刻暖和起来！",
+        "act": "ans/open",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "你靠在躺椅上，盖好了毛毯，感觉全身都暖和，可就是脚很冷。那该怎么办呢？找一双干净的袜子换上，或者稍微按摩一下，就能让冰冷的双脚立刻暖和起来！"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "穿暖和舒适的袜子这种方法，具体怎么做？",
+        "act": "how",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "穿暖和舒适的袜子"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "穿暖和舒适的袜子: 可以先换袜子，换一双暖和的厚袜子。然后把袜子烘热。",
+        "act": "ans/open",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "穿暖和舒适的袜子",
+            "换袜子。",
+            "换一双暖和的厚袜子。",
+            "把袜子烘热。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "7",
+            "12"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "穿上厚袜子后，需要做些什么？",
+        "act": "what",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "换一双暖和的厚袜子。",
+            "穿上后用两只脚相互摩擦。"
+        ],
+        "grounding_id": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "穿上后用两只脚相互摩擦。",
+        "act": "ans/open",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "穿上后用两只脚相互摩擦。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "如果还觉得有点冷怎么办？",
+        "act": "how",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "穿上袜子后再套上拖鞋，加强保暖。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "穿上袜子后再套上拖鞋，加强保暖。",
+        "act": "ans/open",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "穿上袜子后再套上拖鞋，加强保暖。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "哪种材质的棉袜保暖效果更好？",
+        "act": "what",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "羊毛袜比棉袜或化纤袜的保暖效果好得多。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "羊毛袜比棉袜或化纤袜的保暖效果好得多。",
+        "act": "ans/open",
+        "document": "运动与保健_如何给脚保暖.json",
+        "grounding": [
+            "羊毛袜比棉袜或化纤袜的保暖效果好得多。"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    }
+]

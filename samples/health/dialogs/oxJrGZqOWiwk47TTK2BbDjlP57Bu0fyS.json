@@ -1,0 +1,252 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好想咨询一下男性健康问题",
+        "act": "what",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "男性健康问题"
+        ],
+        "grounding_id": [
+            "T2867"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的您是想问男性生殖系统生物学还是阴茎和睾丸疾病或是男性性功能障碍再或是良性前列腺疾病",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "阴茎和睾丸疾病"
+        ],
+        "grounding_id": [
+            "T2868"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "阴茎和睾丸疾病",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "阴茎和睾丸疾病"
+        ],
+        "grounding_id": [
+            "T2868"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "那您具体是想了解包茎和包皮嵌顿还是睾丸炎再或是阴茎炎症等等哪个方面呢",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "想了解睾丸炎",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "睾丸炎是睾丸的感染，通常是由病毒，如腮腺炎病毒引起。您是想了解睾丸炎的症状还是诊断或者是治疗",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎的诊断"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "睾丸炎的诊断这个有什么诊断方式呀",
+        "act": "what",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎的诊断",
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "17",
+            "18"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "诊断方式有医师的评估还有尿液分析和血液检查",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "诊断方式：",
+            "医师的评估",
+            "尿液分析和血液检查"
+        ],
+        "grounding_id": [
+            "18",
+            "19",
+            "20"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "睾丸炎的症状有什么",
+        "act": "what",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎的症状"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在患有腮腺炎的男孩或男性中，睾丸炎在唾液腺肿胀后的4至7天之间发病。睾丸肿胀且疼痛。有时，两个睾丸均受累。发烧、恶心、头痛和肌肉酸痛也可能发生",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "在患有腮腺炎的男孩或男性中，睾丸炎在唾液腺肿胀后的4至7天之间发病。睾丸肿胀且疼痛。有时，两个睾丸均受累。发烧、恶心、头痛和肌肉酸痛也可能发生。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那这个睾丸炎医生是通过什么来诊断呢",
+        "act": "what",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "医生通过体格检查和尿分析来诊断睾丸炎。",
+            "睾丸炎"
+        ],
+        "grounding_id": [
+            "8",
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "医生通过体格检查和尿分析来诊断睾丸炎",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "医生通过体格检查和尿分析来诊断睾丸炎。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "还有这个睾丸炎的治疗有什么治疗方式呀",
+        "act": "what",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎的治疗",
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "治疗方式一个是缓解疼痛的措施还有一个是有时使用抗生素",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "治疗方式：",
+            "缓解疼痛的措施",
+            "有时使用抗生素"
+        ],
+        "grounding_id": [
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "睾丸炎的治疗还有什么吗",
+        "act": "what",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎的治疗"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "睾丸炎的治疗方法通常包括卧床休息、止痛剂、在阴囊部位用冰袋冷敷。应用合适的抗生素治疗细菌感染",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎的治疗方法通常包括卧床休息、止痛剂、在阴囊部位用冰袋冷敷。应用合适的抗生素治疗细菌感染。"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "睾丸炎是不是睾丸会肿胀疼痛呀",
+        "act": "verification",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸炎",
+            "睾丸肿胀且疼痛。"
+        ],
+        "grounding_id": [
+            "1",
+            "7"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "是的",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_男性健康问题_阴茎和睾丸疾病_睾丸炎.json",
+        "grounding": [
+            "睾丸肿胀且疼痛。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

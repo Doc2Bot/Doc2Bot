@@ -1,0 +1,138 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道意外伤害保险合同是由什么构成的？",
+        "act": "what",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "合同构成",
+            "泰康如意宝（2014）意外伤害保险"
+        ],
+        "grounding_id": [
+            "3",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您具体是想知道哪一种保险合同的构成呢？",
+        "act": "question/open",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "合同构成",
+            "泰康如意宝（2014）意外伤害保险"
+        ],
+        "grounding_id": [
+            "3",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "泰康如意宝（2014）意外伤害保险。",
+        "act": "ans/open",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "泰康如意宝（2014）意外伤害保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "泰康如意宝（2014）意外伤害保险合同的构成包括本保险条款、保险单或者其 他保险凭证、投保单、与本合同有关的投保文件、合法有效（见 7.1）的声明、批 注、批单及其他您与我们共同认可的书面或者电子协议。",
+        "act": "ans/open",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "本合同是您与我们约定保险权利义务关系的协议，包括本保险条款、保险单或者其 他保险凭证、投保单、与本合同有关的投保文件、合法有效（见 7.1）的声明、批 注、批单及其他您与我们共同认可的书面或者电子协议。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "泰康如意宝（2014）意外伤害保险的成立生效日是什么时候？",
+        "act": "when",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "合同成立及生效",
+            "泰康如意宝（2014）意外伤害保险"
+        ],
+        "grounding_id": [
+            "5",
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "本合同的成立日、生效日以保险单记载的日期为准。您找一下保险单就能知道具体日期了。",
+        "act": "ans/open",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "您提出保险申请且我们同意承保，本合同成立。 本合同的成立日、生效日以保险单记载的日期为准。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我想给孩子办理这个保险，为什么办不了呢？",
+        "act": "why",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "泰康如意宝（2014）意外伤害保险"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "要到投保年龄才能办理，您孩子的投保年龄的是否合适呢？",
+        "act": "question/open",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "投保年龄"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "投保年龄是什么呀？",
+        "act": "what",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "投保年龄"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "投保年龄指您投保时被保险人的年龄，以周岁计算。",
+        "act": "ans/open",
+        "document": "泰康如意宝（2014）意外伤害保险.json",
+        "grounding": [
+            "投保年龄指您投保时被保险人的年龄，以周岁（见 7.2）计算。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

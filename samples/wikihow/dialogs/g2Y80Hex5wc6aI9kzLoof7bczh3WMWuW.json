@@ -1,0 +1,310 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "做油炸食品时，是要裹上一层面粉的，但是这个面粉是怎么裹上去的呢？",
+        "act": "how",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "饮食与休闲"
+        ],
+        "grounding_id": [
+            "T283"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您是想学习如何制作面糊，还是如何油炸食物呢？",
+        "act": "multiple-choice",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "如何制作面糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道该如何做裹在油炸食物上的面糊？",
+        "act": "how",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "如何制作面糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "中筋面粉: 首先准备需要油炸的食物。 然后把制作面糊的原料在碗中混合。 在锅里倒入足量的，能将食材全部淹没的油，然后开火加热。 用食物蘸面糊。 最后食物炸到焦黄就可以出锅了。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "中筋面粉",
+            "准备需要油炸的食物。",
+            "把制作面糊的原料在碗中混合。",
+            "在锅里倒入足量的，能将食材全部淹没的油，然后开火加热。",
+            "用食物蘸面糊。",
+            "食物炸到焦黄就可以出锅了。"
+        ],
+        "grounding_id": [
+            "4",
+            "5",
+            "10",
+            "16",
+            "21",
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "什么食物用油炸之后比较好吃呢？",
+        "act": "what",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "准备需要油炸的食物。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "洋葱片、墨西哥辣椒片，或者其它切成片的蔬菜。无骨鸡胸肉（切成条或小块），或带骨鸡肉。鳕鱼、罗非鱼、黑线鳕等鱼类。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "洋葱片、墨西哥辣椒片，或者其它切成片的蔬菜。",
+            "无骨鸡胸肉（切成条或小块），或带骨鸡肉",
+            "鳕鱼、罗非鱼、黑线鳕等鱼类"
+        ],
+        "grounding_id": [
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "第三步你说倒入足量的油，足量是多少呢？",
+        "act": "what",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "在锅里倒入足量的，能将食材全部淹没的油，然后开火加热。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "油需要盖过食物3到5厘米。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "油炸食物要选择厚实的深锅，这样食物才能受热均匀。大多数时候，油需要盖过食物3到5厘米。用中高火开始加热，几分钟后检查油温。你可以使用专门测量油温的温度计。当油温达到170℃时就可以开始炸了。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那油温要加热到什么程度呢？",
+        "act": "what",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "在锅里倒入足量的，能将食材全部淹没的油，然后开火加热。"
+        ],
+        "grounding_id": [
+            "16"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "当油温达到170℃时就可以开始炸了。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "油炸食物要选择厚实的深锅，这样食物才能受热均匀。大多数时候，油需要盖过食物3到5厘米。用中高火开始加热，几分钟后检查油温。你可以使用专门测量油温的温度计。当油温达到170℃时就可以开始炸了。"
+        ],
+        "grounding_id": [
+            "17"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那我的面糊做到什么样才算是好的呢？",
+        "act": "what",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "如何制作面糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "面糊必须调得稀一点，油炸食物吃起来才酥脆。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "面糊必须调得稀一点，油炸食物吃起来才酥脆。轻薄的面糊能够更加均匀地包裹在食物上，保持食物的水分和柔软的口感。用中筋面粉做成的面糊非常百搭，裹上任何食物油炸后都很美味。你还可以尝试别的配方，调配出酪乳面糊、啤酒面糊，以及天妇罗面糊。准备时间（中筋面粉）：15分钟"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "为什么要用中筋面粉啊？",
+        "act": "why",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "如何制作面糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "用中筋面粉做成的面糊非常百搭，裹上任何食物油炸后都很美味。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "面糊必须调得稀一点，油炸食物吃起来才酥脆。轻薄的面糊能够更加均匀地包裹在食物上，保持食物的水分和柔软的口感。用中筋面粉做成的面糊非常百搭，裹上任何食物油炸后都很美味。你还可以尝试别的配方，调配出酪乳面糊、啤酒面糊，以及天妇罗面糊。准备时间（中筋面粉）：15分钟"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "好的，那我还可以怎么做呢？",
+        "act": "how",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "您是想了解其他制作面糊的方法吗？",
+        "act": "verification",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "如何制作面糊"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "是的，除了中筋面粉之外，还有其他可选择的吗？",
+        "act": "ans/yes",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "可选方法"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "啤酒面糊",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "啤酒面糊"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "啤酒面糊？麻烦说一下具体步骤。",
+        "act": "what",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "啤酒面糊"
+        ],
+        "grounding_id": [
+            "28"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "首先准备需要油炸的食物。 然后混合面糊。 在锅里倒入足量的，能将食材全部淹没的油，然后开火加热。 再在上浆挂糊前，先用面粉包裹食物。 最后把食物炸至焦黄。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "准备需要油炸的食物。",
+            "混合面糊。",
+            "在锅里倒入足量的，能将食材全部淹没的油，然后开火加热。",
+            "在上浆挂糊前，先用面粉包裹食物。",
+            "把食物炸至焦黄。"
+        ],
+        "grounding_id": [
+            "29",
+            "31",
+            "33",
+            "37",
+            "40"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "啤酒在什么时候用呢？",
+        "act": "how",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "混合面糊。"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "制作啤酒面糊的原料不多，方法很简单。只要把面粉、调味料，以及一瓶340毫升的啤酒倒入碗中，用手动打蛋器搅拌到顺滑就可以了。",
+        "act": "ans/open",
+        "document": "饮食与休闲_如何制作面糊.json",
+        "grounding": [
+            "制作啤酒面糊的原料不多，方法很简单。只要把面粉、调味料，以及一瓶340毫升的啤酒倒入碗中，用手动打蛋器搅拌到顺滑就可以了。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    }
+]

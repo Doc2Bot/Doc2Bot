@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我的iPhone耳机不能正常连接使用了，我应该检查哪些位置看看是否是坏了？",
+        "act": "what",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "检查下有没有碎屑、损坏，或连接有没有松动。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "检查有没有碎屑、损坏，或连接有没有松动"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "你可以具体说一下检查步骤吗？",
+        "act": "what",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "具体步骤",
+            "检查有没有碎屑、损坏，或连接有没有松动"
+        ],
+        "grounding_id": [
+            "4",
+            "3"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": " 首先检查iPhone、iPad或iPodtouch上的耳机端口中有没有碎屑，然后检查耳机线缆、插头、线控和耳塞有没有损坏，如磨损或破裂， 接着查看每个耳塞的网眼中有没有碎屑。最后 将耳机重新插紧，如果您的iOS设备有保护壳，请取下保护壳以确保牢固连接。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "检查耳机线缆、插头、线控和耳塞有没有损坏，如磨损或破裂。",
+            "检查iPhone、iPad或iPodtouch上的耳机端口中有没有碎屑。",
+            "查看每个耳塞的网眼中有没有碎屑。要清除碎屑，请使用干净、干燥的软毛小刷子轻轻地刷扫所有开口处。",
+            "将耳机重新插紧。如果您的iOS设备有保护壳，请取下保护壳以确保牢固连接。"
+        ],
+        "grounding_id": [
+            "6",
+            "5",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "要是有碎屑应该怎么清理呢？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "查看每个耳塞的网眼中有没有碎屑。要清除碎屑，请使用干净、干燥的软毛小刷子轻轻地刷扫所有开口处。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "使用干净、干燥的软毛小刷子轻轻地刷扫所有开口处。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "查看每个耳塞的网眼中有没有碎屑。要清除碎屑，请使用干净、干燥的软毛小刷子轻轻地刷扫所有开口处。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那如果听不到耳机发出的声音，声音模糊不清或麦克风无法正常使用时，可以寻求帮助吗？",
+        "act": "verification",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "当您听不到耳机发出的声音，声音模糊不清或麦克风无法正常使用时，请寻求帮助。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，请寻求帮助。",
+        "act": "ans/yes",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "当您听不到耳机发出的声音，声音模糊不清或麦克风无法正常使用时，请寻求帮助。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果只有一侧的耳机能正常使用，另一只听不见应该怎办？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您无法听到任何声音，或只有一侧的耳机能正常使用"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我朋友之前麦克风也不太好用，应该怎么检查看看是哪出问题了？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的麦克风无法正常使用"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "确保您的耳机有内建麦克风，检查您的麦克风有没有被碎屑、绒毛或塑料包装等堵塞。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "确保您的耳机有内建麦克风。",
+            "检查您的麦克风有没有被碎屑、绒毛或塑料包装等堵塞。"
+        ],
+        "grounding_id": [
+            "20",
+            "21"
+        ]
+    }
+]

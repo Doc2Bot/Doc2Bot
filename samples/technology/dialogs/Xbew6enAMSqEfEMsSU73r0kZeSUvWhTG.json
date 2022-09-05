@@ -1,0 +1,172 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我听我朋友说可以在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游，可是我想问一下802.11k是什么？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游",
+            "802.11k"
+        ],
+        "grounding_id": [
+            "1",
+            "4"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "802.11k标准可帮助设备快速搜索附近可作为漫游目标的接入点。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "通过创建优化的频道列表，802.11k标准可帮助设备快速搜索附近可作为漫游目标的接入点。如果当前接入点的信号强度变弱，您的设备将进行扫描来确定是否有此列表中的目标接入点。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那802.11v又是啥呢？有什么用处？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11v"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "它具备“紧急解除关联”功能的BSS转换管理可向网络的控制层提供附近接入点的负载信息，从而影响客户端漫游行为。设备在确定可能的漫游目标时会考量这些信息。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "具备“紧急解除关联”功能的BSS转换管理可向网络的控制层提供附近接入点的负载信息，从而影响客户端漫游行为。设备在确定可能的漫游目标时会考量这些信息。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我还想问一下兼容性的问题？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "检查兼容性"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "你是想问802.11k、802.11r和802.11v的哪一个",
+        "act": "multiple-choice",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11k和802.11r"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "802.11k和802.11r",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11k和802.11r"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "iPhone4s及更新机型 iPadPro及更新机型 iPadAir及更新机型 iPadmini及更新机型 iPad（第3代）及更新机型 iPodtouch（第5代）及更新机型 搭载Apple芯片的Mac电脑",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iPhone4s及更新机型",
+            "iPadPro及更新机型",
+            "iPadAir及更新机型",
+            "iPadmini及更新机型",
+            "iPad（第3代）及更新机型",
+            "iPodtouch（第5代）及更新机型",
+            "搭载Apple芯片的Mac电脑"
+        ],
+        "grounding_id": [
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "802.11工作组标准的k、r和v有什么用呢？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS、iPadOS和macOS在企业无线局域网上支持优化的客户端漫游。802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS、iPadOS和macOS在企业无线局域网上支持优化的客户端漫游。802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，谢谢，我最后还想问一下802.11r有什么用？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11r"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "自适应802.11r提供FT，无需在已配置的Cisco无线网络上启用802.11r。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS10及更高版本、iPadOS和macOS12支持Cisco无线网络上的自适应802.11r。自适应802.11r提供FT，无需在已配置的Cisco无线网络上启用802.11r。为了支持自适应802.11r，Cisco网络必须使用控制器代码8.3版或更高版本。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    }
+]

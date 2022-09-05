@@ -1,0 +1,132 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想了解青少年的相关问题",
+        "act": "what",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "青少年"
+        ],
+        "grounding_id": [
+            "T151"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想了解如何判断男孩是否进入青春期还是如何养成良好的卫生习惯（女生）？",
+        "act": "multiple-choice",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "如何判断男孩是否进入青春期"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "如何判断男孩是否进入青春期",
+        "act": "ans/open",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "如何判断男孩是否进入青春期"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "有些男孩乳头下方会肿胀",
+        "act": "ans/open",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "有些男孩乳头下方会肿胀"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这正常吗？",
+        "act": "verification",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "这叫作男性乳头发育症，是完全正常的生理现象。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "这叫作男性乳头发育症，是完全正常的生理现象。",
+        "act": "ans/open",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "这叫作男性乳头发育症，是完全正常的生理现象。"
+        ],
+        "grounding_id": [
+            "44"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "阴囊皮肤会变薄吗？",
+        "act": "verification",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "阴囊皮肤变薄"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "会的，随着睾丸增大，睾丸周围的皮肤也开始发生变化。",
+        "act": "ans/open",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "随着睾丸增大，睾丸周围的皮肤也开始发生变化。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "开始长粉刺也正常吗？",
+        "act": "verification",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "开始长粉刺"
+        ],
+        "grounding_id": [
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "虽然不受待见，粉刺也是男孩性成熟后身体出现的一种完全正常的变化。",
+        "act": "ans/open",
+        "document": "青少年_如何判断男孩是否进入青春期.json",
+        "grounding": [
+            "虽然不受待见，粉刺也是男孩性成熟后身体出现的一种完全正常的变化。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    }
+]

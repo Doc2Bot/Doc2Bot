@@ -1,0 +1,58 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好！想咨询一下女性健康问题",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_不孕_未知不孕不育因素.json",
+        "grounding": [
+            "医学主题",
+            "女性健康问题"
+        ],
+        "grounding_id": [
+            "T3",
+            "T504"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好！您是想了解哪方面？不孕的问题，还是分娩并发症？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_不孕_未知不孕不育因素.json",
+        "grounding": [
+            "不孕"
+        ],
+        "grounding_id": [
+            "T552"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "不孕的问题。不孕的治疗方式有哪些？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_不孕_未知不孕不育因素.json",
+        "grounding": [
+            "治疗方式："
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "受控卵巢刺激；有时借助辅助生殖技术",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_不孕_未知不孕不育因素.json",
+        "grounding": [
+            "受控卵巢刺激",
+            "有时借助辅助生殖技术"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    }
+]

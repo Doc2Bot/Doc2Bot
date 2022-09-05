@@ -1,0 +1,336 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道如何配制泡泡水",
+        "act": "how",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "如何配制泡泡水",
+            "可选方法"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您要做的是哪一种呢",
+        "act": "question/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "超级泡泡水"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "超级泡泡水，相关的步骤是什么呢",
+        "act": "what",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "超级泡泡水"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "首先把玉米淀粉用水溶化，然后加入洗碗液、泡打粉、甘油，将各种原料搅拌均匀，小心别搅出泡泡，最后把溶液静置一个小时后再使用",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "把玉米淀粉用水溶化。",
+            "加入洗碗液、泡打粉、甘油。",
+            "将各种原料搅拌均匀，小心别搅出泡泡。",
+            "把溶液静置一个小时后再使用。"
+        ],
+        "grounding_id": [
+            "23",
+            "27",
+            "31",
+            "33"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "搅拌的话用什么工具比较合适",
+        "act": "what",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "将各种原料搅拌均匀，小心别搅出泡泡。",
+            "长柄勺子最适合用来搅拌原料，因为不容易起泡。不停地搅，直到洗碗液、泡打粉、甘油完全溶解。"
+        ],
+        "grounding_id": [
+            "31",
+            "32"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "长柄勺子最适合用来搅拌原料，因为不容易起泡。",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "长柄勺子最适合用来搅拌原料，因为不容易起泡。不停地搅，直到洗碗液、泡打粉、甘油完全溶解。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那搅拌到什么时候停止呢",
+        "act": "when",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "长柄勺子最适合用来搅拌原料，因为不容易起泡。不停地搅，直到洗碗液、泡打粉、甘油完全溶解。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "不停地搅，直到洗碗液、泡打粉、甘油完全溶解。",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "长柄勺子最适合用来搅拌原料，因为不容易起泡。不停地搅，直到洗碗液、泡打粉、甘油完全溶解。"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "如果想要让泡泡更好看的话需要加什么",
+        "act": "what",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "吹泡泡真好玩！可泡泡水用完了怎么办？别担心，你可以在家轻松制作泡泡水。虽说用少许洗碗液和水也能吹出泡泡，但要是再添加些糖或者甘油，吹出的泡泡会保持得更久。你甚至可以在溶液里添加食用色素或者香草精，提升泡泡的颜值。",
+            "如何配制泡泡水"
+        ],
+        "grounding_id": [
+            "2",
+            "1"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在溶液里添加食用色素或者香草精，提升泡泡的颜值",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "吹泡泡真好玩！可泡泡水用完了怎么办？别担心，你可以在家轻松制作泡泡水。虽说用少许洗碗液和水也能吹出泡泡，但要是再添加些糖或者甘油，吹出的泡泡会保持得更久。你甚至可以在溶液里添加食用色素或者香草精，提升泡泡的颜值。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好的，那基础的泡泡水怎么做呢",
+        "act": "how",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "基础泡泡水"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "首先往大罐子里倒入950毫升温水，然后把115克白糖倒入水中，搅拌直至白糖溶化，再在液体中搅入20毫升洗碗液，最后等泡泡水静置几小时后再用",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "往大罐子里倒入950毫升温水。",
+            "把115克白糖倒入水中，搅拌直至白糖溶化。",
+            "在液体中搅入20毫升洗碗液。",
+            "等泡泡水静置几小时后再用。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "14",
+            "18"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "必须用罐子吗？",
+        "act": "verification",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "往大罐子里倒入950毫升温水。",
+            "你也可以使用其它容器，比如碗或者水壶，但必须足够大，能装下950毫升液体。容器够大才能放下其它原料。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "你也可以使用其它容器，比如碗或者水壶，但必须足够大，能装下950毫升液体。容器够大才能放下其它原料。",
+        "act": "ans/no",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "你也可以使用其它容器，比如碗或者水壶，但必须足够大，能装下950毫升液体。容器够大才能放下其它原料。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那可以少加点水吗",
+        "act": "verification",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "你可以少用水，但是其它原料的用量也要相应减少。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "可以少用水，但是其它原料的用量也要相应减少。",
+        "act": "ans/yes",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "你可以少用水，但是其它原料的用量也要相应减少。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "水温大概需要多少度呢",
+        "act": "what",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "水的温度不用太准确。你可以打开水龙头，取最热的水。如果有纯净水就最好了。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "水的温度不用太准确。你可以打开水龙头，取最热的水。如果有纯净水就最好了。",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "水的温度不用太准确。你可以打开水龙头，取最热的水。如果有纯净水就最好了。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 18,
+        "role": "user",
+        "utterance": "那静置的话大概要等多长时间",
+        "act": "when",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "等泡泡水静置几小时后再用。",
+            "如果你能等到第二天再用就更好了。出于某种原因，静置后的溶液吹出更好的泡泡更持久。"
+        ],
+        "grounding_id": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "turn": 19,
+        "role": "system",
+        "utterance": "如果你能等到第二天再用就更好了。出于某种原因，静置后的溶液吹出更好的泡泡更持久。",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "如果你能等到第二天再用就更好了。出于某种原因，静置后的溶液吹出更好的泡泡更持久。"
+        ],
+        "grounding_id": [
+            "19"
+        ]
+    },
+    {
+        "turn": 20,
+        "role": "user",
+        "utterance": "如果没有用完的话怎么保存呢",
+        "act": "how",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "把剩下的泡泡水放在阴凉处。冰箱能够延长泡泡水的保质期。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 21,
+        "role": "system",
+        "utterance": "可以把剩下的泡泡水放在阴凉处，冰箱也能够延长泡泡水的保质期。",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "把剩下的泡泡水放在阴凉处。冰箱能够延长泡泡水的保质期。"
+        ],
+        "grounding_id": [
+            "20"
+        ]
+    },
+    {
+        "turn": 22,
+        "role": "user",
+        "utterance": "那可以保存多久呢",
+        "act": "when",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "泡泡水越快用完越好。溶液里有白糖，所以只能放1到2周。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 23,
+        "role": "system",
+        "utterance": "泡泡水越快用完越好。溶液里有白糖，所以只能放1到2周。",
+        "act": "ans/open",
+        "document": "假期与节日_如何配制泡泡水.json",
+        "grounding": [
+            "泡泡水越快用完越好。溶液里有白糖，所以只能放1到2周。"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    }
+]

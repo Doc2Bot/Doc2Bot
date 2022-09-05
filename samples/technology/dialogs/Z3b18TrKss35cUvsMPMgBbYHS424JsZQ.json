@@ -1,0 +1,218 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想咨询下关于在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游的相关问题？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "iOS、iPadOS和macOS在企业无线局域网上支持优化的客户端漫游。802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS、iPadOS和macOS在企业无线局域网上支持优化的客户端漫游。802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。"
+        ],
+        "grounding_id": [
+            "3"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "可以具体讲一下吗？",
+        "act": "verification",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "802.11k， 802.11r ，802.11v，您想具体了解哪一个？",
+        "act": "multiple-choice",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11k"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "先说下802.11k吧。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11k"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "通过创建优化的频道列表，802.11k标准可帮助设备快速搜索附近可作为漫游目标的接入点。如果当前接入点的信号强度变弱，您的设备将进行扫描来确定是否有此列表中的目标接入点。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "通过创建优化的频道列表，802.11k标准可帮助设备快速搜索附近可作为漫游目标的接入点。如果当前接入点的信号强度变弱，您的设备将进行扫描来确定是否有此列表中的目标接入点。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "再具体说下802.11v的功能吧？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11v"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "iOS、iPadOS和macOS在某些设备上支持以下802.11v功能：基本服务集(BSS)转换管理；紧急解除关联；定向多播服务；BSS最大空闲服务。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "iOS、iPadOS和macOS在某些设备上支持以下802.11v功能：",
+            "基本服务集(BSS)转换管理",
+            "紧急解除关联",
+            "定向多播服务(DMS)",
+            "BSS最大空闲服务"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "为什么会影响客户端漫游行为？",
+        "act": "why",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "具备“紧急解除关联”功能的BSS转换管理可向网络的控制层提供附近接入点的负载信息，从而影响客户端漫游行为。设备在确定可能的漫游目标时会考量这些信息。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "具备“紧急解除关联”功能的BSS转换管理可向网络的控制层提供附近接入点的负载信息，从而影响客户端漫游行为。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "具备“紧急解除关联”功能的BSS转换管理可向网络的控制层提供附近接入点的负载信息，从而影响客户端漫游行为。设备在确定可能的漫游目标时会考量这些信息。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "什么情况下会考量这些信息？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "具备“紧急解除关联”功能的BSS转换管理可向网络的控制层提供附近接入点的负载信息，从而影响客户端漫游行为。设备在确定可能的漫游目标时会考量这些信息。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "设备在确定可能的漫游目标时会考量这些信息。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "具备“紧急解除关联”功能的BSS转换管理可向网络的控制层提供附近接入点的负载信息，从而影响客户端漫游行为。设备在确定可能的漫游目标时会考量这些信息。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "最后再具体说下802.11r的功能吧？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "802.11r"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "FT适用于哪种认证方法？",
+        "act": "what",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "FT适用于预共享密钥(PSK)和802.1X认证方法。",
+        "act": "ans/open",
+        "document": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游.json",
+        "grounding": [
+            "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

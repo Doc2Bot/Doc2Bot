@@ -1,0 +1,56 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下张力性气胸的信息",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "张力性气胸"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想了解的是张力性气胸的症状，诊断还是治疗",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "张力性气胸的诊断"
+        ],
+        "grounding_id": [
+            "21"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道诊断的主要方法是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "张力性气胸的诊断",
+            "诊断方法主要是："
+        ],
+        "grounding_id": [
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "主要根据医师的评估诊断",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "医师的评估"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    }
+]

@@ -1,0 +1,144 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好我想将RadeonProW6800XMPX模块与MacPro搭配使用，已经使用了“启动转换”并且安装了AMD提供的第三方图形卡，就不需要在Windows中使用不同的AMD驱动程序了吧？",
+        "act": "verification",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "您可能需要在Windows中使用不同的AMD驱动程序。",
+            "将RadeonProW6800XMPX模块与MacPro搭配使用"
+        ],
+        "grounding_id": [
+            "57",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "不是的，如果您使用了“启动转换”并且安装了AMD提供的第三方图形卡，还需要在Windows中使用不同的AMD驱动程序。",
+        "act": "ans/no",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "您可能需要在Windows中使用不同的AMD驱动程序。"
+        ],
+        "grounding_id": [
+            "57"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "三台分辨率为6016x3384、频率为60Hz的ProDisplayXDR连接方式是什么呢？",
+        "act": "what",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "三台分辨率为6016x3384、频率为60Hz的ProDisplayXDR连接方式如下："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一台显示器连接到总线0上，一台显示器连接到总线1上， 一台显示器连接到Mac顶部*或背面（AppleI/O卡）的雷雳3端口上。",
+        "act": "ans/open",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "一台显示器连接到总线0上",
+            "一台显示器连接到总线1上",
+            "一台显示器连接到Mac顶部*或背面（AppleI/O卡）的雷雳3端口上"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那同样的分辨率和频率六台的情况下怎么样链接？",
+        "act": "how",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "六台分辨率为6016x3384、频率为60Hz的ProDisplayXDR连接方式如下："
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "两台显示器：每个图形卡的总线0上分别连接一台，两台显示器：每个图形卡的总线1上分别连接一台， 一台显示器连接到Mac顶部*的雷雳3端口上，一台显示器连接到Mac背面（AppleI/O卡）的雷雳3端口上。",
+        "act": "ans/open",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "两台显示器：每个图形卡的总线0上分别连接一台",
+            "两台显示器：每个图形卡的总线1上分别连接一台",
+            "一台显示器连接到Mac顶部*的雷雳3端口上",
+            "一台显示器连接到Mac背面（AppleI/O卡）的雷雳3端口上"
+        ],
+        "grounding_id": [
+            "25",
+            "26",
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果显示器连接到一个RadeonProW6800XMPX模块该怎么办？",
+        "act": "how",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "将显示器连接到一个RadeonProW6800XMPX模块"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "您可以使用雷雳3连接最多六台显示器。",
+        "act": "ans/open",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "如果您安装了一个RadeonProW6800XMPX模块，则在采用以下配置的情况下，您可以使用雷雳3连接最多六台显示器。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "关于端口和总线的问题你可以详细跟我说一下吗？",
+        "act": "verification",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "关于端口和总线"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "如果将一台显示器连接到MPX模块上的HDMI端口，则总线0上的雷雳3端口可额外支持一台分辨率为4K或更低的显示器。如果您需要将音频输出到已连接至HDMI端口的显示器，并通过雷雳3连接其他显示器，请不要将显示器连接到HDMI端口旁边的雷雳3端口。",
+        "act": "ans/open",
+        "document": "将RadeonProW6800XMPX模块与MacPro搭配使用.json",
+        "grounding": [
+            "如果将一台显示器连接到MPX模块上的HDMI端口，则总线0上的雷雳3端口可额外支持一台分辨率为4K或更低的显示器。如果您需要将音频输出到已连接至HDMI端口的显示器，并通过雷雳3连接其他显示器，请不要将显示器连接到HDMI端口旁边的雷雳3端口。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

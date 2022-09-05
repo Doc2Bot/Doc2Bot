@@ -1,0 +1,146 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想问一下关于将组织升级到Apple校园教务管理",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "将您的组织升级到Apple校园教务管理"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "那你具体是想问什么呢？",
+        "act": "question/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "将您的组织升级到Apple校园教务管理"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想问一下在什么条件下我才可以升级到Apple校园教务管理",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "则您需要升级到Apple校园教务管理。"
+        ],
+        "grounding_id": [
+            "63"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您的组织目前使用设备注册计划或批量购买计划等Apple部署计划，则您需要升级到Apple校园教务管理。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "如果您的组织目前使用设备注册计划或批量购买计划等Apple部署计划，",
+            "则您需要升级到Apple校园教务管理。"
+        ],
+        "grounding_id": [
+            "3",
+            "63"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "想要升级的话应该怎么做？",
+        "act": "how",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "升级到Apple校园教务管理"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请使用您的Apple部署计划代理帐户登录school.apple.com，然后按照屏幕上的说明操作*。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "请使用您的Apple部署计划代理帐户登录school.apple.com，然后按照屏幕上的说明操作*。"
+        ],
+        "grounding_id": [
+            "64"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "Apple校园教务管理到底是什么呢？其实我也不是很懂。",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "Apple校园教务管理是一项服务，让您可以购买内容、在移动设备管理(MDM)解决方案中配置自动设备注册，以及为您的学生和教职人员创建帐户。Apple校园教务管理以网页形式供用户访问，并且专为技术经理、IT管理员、教职人员和讲师设计。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Apple校园教务管理是一项服务，让您可以购买内容、在移动设备管理(MDM)解决方案中配置自动设备注册，以及为您的学生和教职人员创建帐户。Apple校园教务管理以网页形式供用户访问，并且专为技术经理、IT管理员、教职人员和讲师设计。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "Apple校园教务管理是一项服务，让您可以购买内容、在移动设备管理(MDM)解决方案中配置自动设备注册，以及为您的学生和教职人员创建帐户。Apple校园教务管理以网页形式供用户访问，并且专为技术经理、IT管理员、教职人员和讲师设计。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好的吧，升级之后Apple校园教务管理将会拥有什么信息呢？",
+        "act": "what",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "升级后，Apple校园教务管理将拥有以下所有信息："
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "帐户，帐户登录信息， MDM服务器， MDM设备，Server令牌，设备订单，您的帐户所关联的其他项目。",
+        "act": "ans/open",
+        "document": "将您的组织升级到Apple校园教务管理.json",
+        "grounding": [
+            "帐户",
+            "帐户登录信息",
+            "MDM服务器",
+            "MDM设备",
+            "Server令牌",
+            "设备订单",
+            "您的帐户所关联的其他项目"
+        ],
+        "grounding_id": [
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17"
+        ]
+    }
+]

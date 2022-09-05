@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想问一下股骨头骨骺滑脱（SCFE）的信息",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱（SCFE）",
+            "儿童骨骼疾病"
+        ],
+        "grounding_id": [
+            "1",
+            "T1057"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "股骨头骨骺滑脱是在髋关节生长板处大腿骨（股骨）末端发生脱位或分离。您想了解的是股骨头骨骺滑脱的病因，症状，诊断还是治疗",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的诊断"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我在知道诊断方法有哪些",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的诊断",
+            "股骨头骨骺滑脱的诊断方法主要有："
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "X线检查，有时也会进行磁共振成像(MRI)或超声检查，您需要了解哪一种",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "X线检查",
+            "有时会进行磁共振成像(MRI)或超声检查"
+        ],
+        "grounding_id": [
+            "28",
+            "29"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "X线检查是对哪里进行检查呢",
+        "act": "where",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "拍摄双髋的X射线。通过对受累髋部X线检查，可观察到股骨头从其他骨部位滑脱或脱离。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "拍摄双髋的X射线。通过对受累髋部X线检查，可观察到股骨头从其他骨部位滑脱或脱离。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "拍摄双髋的X射线。通过对受累髋部X线检查，可观察到股骨头从其他骨部位滑脱或脱离。"
+        ],
+        "grounding_id": [
+            "30"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那什么是X光平片",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "X射线"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "X-线是高能辐射波，可穿透绝大多数物体（程度不同）。极低剂量下，X光用于生成帮助医生诊断疾病的图像。高剂量时，X光（放射疗法）用于治疗癌症。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "X-线是高能辐射波，可穿透绝大多数物体（程度不同）。极低剂量下，X光用于生成帮助医生诊断疾病的图像。高剂量时，X光（放射疗法）用于治疗癌症。"
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "超声检查对诊断股骨头骨骺滑脱的有用吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的诊断",
+            "股骨头骨骺滑脱（SCFE）",
+            "超声检查和MRI也很有用，特别是在X射线结果正常的情况下。股骨头骨骺滑脱的早期诊断很重要，因为在后期治疗变得更加困难，结果却不太令人满意。"
+        ],
+        "grounding_id": [
+            "26",
+            "1",
+            "33"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "超声检查和MRI也很有用，特别是在X射线结果正常的情况下。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "超声检查和MRI也很有用，特别是在X射线结果正常的情况下。股骨头骨骺滑脱的早期诊断很重要，因为在后期治疗变得更加困难，结果却不太令人满意。"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那什么是磁共振成像",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "MRI",
+            "MRI"
+        ],
+        "grounding_id": [
+            "36",
+            "36"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "磁共振利用强磁场和极高频率电波以产生高度精细图像。MRI并不使用X光，通常非常安全。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "磁共振利用强磁场和极高频率电波以产生高度精细图像。MRI并不使用X光，通常非常安全。（另请参见成像检查概述。）"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    }
+]

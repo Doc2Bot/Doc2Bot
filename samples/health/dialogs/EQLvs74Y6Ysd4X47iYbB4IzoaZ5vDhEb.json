@@ -1,0 +1,114 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "您好，我想咨询一些疾病的问题。",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "家庭版",
+            "医学主题"
+        ],
+        "grounding_id": [
+            "T2",
+            "T3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "好的，那具体是脑、脊髓及神经障碍、损伤及中毒、精神健康障碍还是其他疾病的有关问题呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "损伤及中毒"
+        ],
+        "grounding_id": [
+            "T1174"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "张力性气胸的诊断方法是什么？",
+        "act": "what",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "张力性气胸",
+            "张力性气胸的诊断",
+            "诊断方法主要是："
+        ],
+        "grounding_id": [
+            "1",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "主要的诊断方法是医师的评估",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "医师的评估"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "具体医生会如何做呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "张力性气胸",
+            "张力性气胸的诊断"
+        ],
+        "grounding_id": [
+            "1",
+            "21"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "医生一般根据患者病史、症状以及检查结果确诊该病。例如，一侧胸部可能凸出（膨胀），医生进行叩诊时能听到鼓音。当医生用听诊器听诊胸部时，可能听不到任何肺部的气流声。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "医生一般根据患者病史、症状以及检查结果确诊该病。例如，一侧胸部可能凸出（膨胀），医生进行叩诊时能听到鼓音。当医生用听诊器听诊胸部时，可能听不到任何肺部的气流声。"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "这个病需要立即治疗吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "由于张力性气胸属于医疗急症，医生需立即开始治疗，而不是进行检查。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "由于张力性气胸属于医疗急症，医生需立即开始治疗，而不是进行检查。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_损伤及中毒_胸部创伤_张力性气胸.json",
+        "grounding": [
+            "由于张力性气胸属于医疗急症，医生需立即开始治疗，而不是进行检查。"
+        ],
+        "grounding_id": [
+            "25"
+        ]
+    }
+]

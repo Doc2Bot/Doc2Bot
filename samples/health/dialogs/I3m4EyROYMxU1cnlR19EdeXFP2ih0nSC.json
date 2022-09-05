@@ -1,0 +1,300 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我身体有点发热，咳嗽不停，主要是怀孕了，不知道是不是感冒了？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "COVID-19与怀孕",
+            "女性健康问题"
+        ],
+        "grounding_id": [
+            "1",
+            "T504"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您这种情况，不一定是感冒，有可能是患了COVID-19病毒建议您做一个病毒鉴定测试。",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "怀孕期间COVID-19的诊断",
+            "病毒鉴定测试",
+            "怀孕期间COVID-19的诊断方法主要有",
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "21",
+            "24",
+            "22",
+            "1"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那我做一下病毒鉴定测试吧，怎么检测？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "病毒鉴定测试",
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "24",
+            "1"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "医生从呼吸道采集液体样本进行检测，聚合酶链反应PCR技术可帮助医生鉴定病毒。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "怀孕期间COVID-19的诊断",
+            "为了确诊，医生可从呼吸道采集液体样本进行检测。聚合酶链反应（PCR）技术可帮助医生鉴定病毒。可使用该检测对该病毒的遗传物质进行大量复制，籍此降低鉴定难度。如果不方便进行此检测，或症状轻微，诊断可基于症状和暴露的可能性（如果能够确定的话）。",
+            "病毒鉴定测试"
+        ],
+        "grounding_id": [
+            "21",
+            "28",
+            "24"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "鉴定新冠病毒的测试方法只有这一种吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "病毒鉴定测试",
+            "COVID-19与怀孕",
+            "怀孕期间COVID-19的诊断",
+            "怀孕期间COVID-19的诊断方法主要有"
+        ],
+        "grounding_id": [
+            "24",
+            "1",
+            "21",
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，为了看是否确诊目前就这种测试方法。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "病毒鉴定测试",
+            "怀孕期间COVID-19的诊断方法主要有",
+            "COVID-19与怀孕",
+            "怀孕期间COVID-19的诊断"
+        ],
+        "grounding_id": [
+            "24",
+            "22",
+            "1",
+            "21"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "我是孕妇也跟正常诊断一样呗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "怀孕期间COVID-19的诊断",
+            "COVID-19与怀孕",
+            "病毒鉴定测试"
+        ],
+        "grounding_id": [
+            "21",
+            "1",
+            "24"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的孕妇的诊断与非孕妇患者的诊断相似。有发热、咳嗽、突然失去嗅觉或味觉，呼吸困难，且曾暴露于该病毒，则怀疑是",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "孕妇中COVID-19的诊断与非孕妇COVID-19患者中的诊断相似。如果有发热、咳嗽、突然失去嗅觉或味觉，和/或呼吸困难，且曾暴露于该病毒，则可怀疑COVID-19。",
+            "怀孕期间COVID-19的诊断",
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "25",
+            "21",
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那除了做测试，还有其他诊断得新冠的方法吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "怀孕期间COVID-19的诊断方法主要有",
+            "病毒鉴定测试",
+            "COVID-19与怀孕",
+            "怀孕期间COVID-19的诊断"
+        ],
+        "grounding_id": [
+            "22",
+            "24",
+            "1",
+            "21"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "有的，还有医师的评估。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "医师的评估",
+            "怀孕期间COVID-19的诊断",
+            "怀孕期间COVID-19的诊断方法主要有",
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "23",
+            "21",
+            "22",
+            "1"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "要是真的感染了，对我其他的病有没有影响？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "你这边还有其他的病吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "是的，我有糖尿病",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "COVID-19与怀孕",
+            "一些证据表明，与未怀孕的女性相比，COVID-19更容易在有COVID-19症状的孕妇中引起重度疾病，特别是当她们患有某些疾病（如糖尿病或心脏病）时。"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "患糖尿病或者心脏病的话，COVID-19更容易在有COVID-19症状的孕妇中引起重度疾病。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "一些证据表明，与未怀孕的女性相比，COVID-19更容易在有COVID-19症状的孕妇中引起重度疾病，特别是当她们患有某些疾病（如糖尿病或心脏病）时。",
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "9",
+            "1"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "治疗的话是用 什么药物？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "怀孕期间COVID-19的治疗",
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "51",
+            "1"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "用乙酰氨基酚减轻发热和疼痛，如肌肉酸痛。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "对乙酰氨基酚可用于减轻发热和疼痛，如肌肉酸痛。",
+            "怀孕期间COVID-19的治疗",
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "55",
+            "51",
+            "1"
+        ]
+    },
+    {
+        "turn": 16,
+        "role": "user",
+        "utterance": "我这是二胎，老大还没断奶，喝的母乳，我该怎么办？",
+        "act": "how",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "母乳喂养",
+            "COVID-19与怀孕"
+        ],
+        "grounding_id": [
+            "43",
+            "1"
+        ]
+    },
+    {
+        "turn": 17,
+        "role": "system",
+        "utterance": "这要看你是否确诊，没有确诊的话，我们建议挤出母乳，由未被感染的看护者喂给婴儿。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠合并症_COVID-19与怀孕.json",
+        "grounding": [
+            "挤出母乳，由未被感染的看护者喂给婴儿。",
+            "COVID-19与怀孕",
+            "母乳喂养",
+            "母亲通过母乳传播病毒的风险低，或不存在。但需要更多信息来确定被感染的母亲是否以通过母乳将此病毒传给婴儿。如果母亲希望母乳喂养自己的孩子，她应采取以下措施，除非医护人员已确定她没有被感染："
+        ],
+        "grounding_id": [
+            "47",
+            "1",
+            "43",
+            "45"
+        ]
+    }
+]

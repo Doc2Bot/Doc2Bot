@@ -1,0 +1,170 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如果之前流产过是不是之后流产的可能也更大？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "流产",
+            "流产的病因",
+            "女性健康问题",
+            "妊娠期并发症"
+        ],
+        "grounding_id": [
+            "1",
+            "15",
+            "T504",
+            "T610"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "流产次数越多，再次流产的几率越大。再次流产的风险也取决于原因，但总的来说，多次流产的女性在以后的妊娠中流产的几率约为1/4。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "流产次数越多，再次流产的几率越大。再次流产的风险也取决于原因，但总的来说，多次流产的女性在以后的妊娠中流产的几率约为1/4。"
+        ],
+        "grounding_id": [
+            "54"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那还有什么流产的原因吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "流产",
+            "流产的病因"
+        ],
+        "grounding_id": [
+            "1",
+            "15"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "Rh不相容（当孕妇血液为Rh阴性，胎儿血液为Rh阳性）也会增加流产的风险。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "Rh不相容（当孕妇血液为Rh阴性，胎儿血液为Rh阳性）也会增加流产的风险。"
+        ],
+        "grounding_id": [
+            "49"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "出现病毒感染会不会也对怀孕有影响呢？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "感染，例如巨细胞病毒感染或风疹"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "请问您说的是巨细胞病毒感染或风疹吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "感染，例如巨细胞病毒感染或风疹"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "是哦",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "感染，例如巨细胞病毒感染或风疹"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "感染也会增大流产的风险",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "感染，例如巨细胞病毒感染或风疹"
+        ],
+        "grounding_id": [
+            "34"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那孕育的年龄对流产有没有影响？",
+        "act": "verification",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "流产",
+            "流产的病因",
+            "流产的风险因素（增加疾病风险的情况）包括："
+        ],
+        "grounding_id": [
+            "1",
+            "15",
+            "22"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "大龄（35岁以上）风险会增大",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "大龄（35岁以上）"
+        ],
+        "grounding_id": [
+            "23"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "好吧，那还有什么别的风险因素吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "流产的风险因素（增加疾病风险的情况）包括："
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "生殖器官结构异常，例如子宫肌瘤、瘢痕组织、双子宫或子宫颈松弛（宫颈机能不全），其随着子宫的扩大而趋向于打开（扩张）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_女性健康问题_妊娠期并发症_流产.json",
+        "grounding": [
+            "生殖器官结构异常，例如子宫肌瘤、瘢痕组织、双子宫或子宫颈松弛（宫颈机能不全），其随着子宫的扩大而趋向于打开（扩张）"
+        ],
+        "grounding_id": [
+            "24"
+        ]
+    }
+]

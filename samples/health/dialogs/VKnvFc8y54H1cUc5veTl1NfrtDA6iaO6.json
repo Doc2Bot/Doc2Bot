@@ -1,0 +1,150 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道Bartter综合征与Gitelman综合征对肾脏有什么影响？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "先天性肾小管病",
+            "Bartter综合征与Gitelman综合征"
+        ],
+        "grounding_id": [
+            "T851",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "在Bartter综合征与Gitelman综合征中，肾小管先天缺陷会导致肾脏分泌过量的电解质（钾、钠和氯化物），引起生长、电解质以及一些神经和肌肉异常。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "在Bartter综合征与Gitelman综合征中，肾小管先天缺陷会导致肾脏分泌过量的电解质（钾、钠和氯化物），引起生长、电解质以及一些神经和肌肉异常。"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那需要做什么检查来确定吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征",
+            "诊断"
+        ],
+        "grounding_id": [
+            "1",
+            "35"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "通过测量血液和尿液中的电解质水平来诊断，您需要了解更多的确诊依据吗？",
+        "act": "question/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "测量血液和尿液中的电解质水平",
+            "而血液内肾素和醛固酮水平过高以及尿液内钠、氯化物以及钾水平过高可作为任一综合征诊断的确诊依据。"
+        ],
+        "grounding_id": [
+            "37",
+            "39"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "嗯，什么情况就确诊呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征",
+            "诊断",
+            "诊断方式：",
+            "测量血液和尿液中的电解质水平"
+        ],
+        "grounding_id": [
+            "1",
+            "35",
+            "36",
+            "37"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "血液内肾素和醛固酮水平过高以及尿液内钠、氯化物以及钾水平过高可作为任一综合征诊断的确诊依据。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "而血液内肾素和醛固酮水平过高以及尿液内钠、氯化物以及钾水平过高可作为任一综合征诊断的确诊依据。"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那还有什么别的诊断方式吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征",
+            "诊断",
+            "诊断方式："
+        ],
+        "grounding_id": [
+            "1",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "可以采用基因检测，但一般较少",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "可以采用基因检测，但一般较少。"
+        ],
+        "grounding_id": [
+            "40"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那这个电解质水平还会在什么时候检测呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "诊断",
+            "若儿童具有典型症状或发现血液和尿液中电解质水平异常，则医生会怀疑其患有Bartter综合征或Gitelman综合征。有时，由于其他原因进行实验室测试时发现异常电解质水平。"
+        ],
+        "grounding_id": [
+            "35",
+            "38"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "由于其他原因进行实验室测试时也会发现异常电解质水平",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "若儿童具有典型症状或发现血液和尿液中电解质水平异常，则医生会怀疑其患有Bartter综合征或Gitelman综合征。有时，由于其他原因进行实验室测试时发现异常电解质水平。"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    }
+]

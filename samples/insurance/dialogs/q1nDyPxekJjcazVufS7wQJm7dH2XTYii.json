@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我买的中华行两全保险，要怎样申请保险金呀？",
+        "act": "how",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "中华行两全保险",
+            "保险金的申请",
+            "保险金申请"
+        ],
+        "grounding_id": [
+            "1",
+            "36",
+            "41"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您好，请问是您要申请保险金还是帮别人咨询的呢？是什么情况，能说一下吗？",
+        "act": "ans/open",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "保险金的申请",
+            "保险金申请"
+        ],
+        "grounding_id": [
+            "36",
+            "41"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我的朋友，现在人在医院，他买了这个保险的，现在等钱用呀！",
+        "act": "how",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "保险金的申请",
+            "中华行两全保险",
+            "保险金申请"
+        ],
+        "grounding_id": [
+            "36",
+            "1",
+            "41"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "冒昧的问一句，您的朋友现在有生命危险吗？他的各个肢体是否还是健全的？",
+        "act": "ans/open",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "保险金的申请",
+            "保险金申请"
+        ],
+        "grounding_id": [
+            "36",
+            "41"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "人没有生命危险了，但是现在残了。我先问一下是否需要带身份证呢？",
+        "act": "verification",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "（2）受益人的有效身份证件； ",
+            "申请全残保险金"
+        ],
+        "grounding_id": [
+            "183",
+            "186"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "需要带的，因为在申请全残保险金时，受益人须填写保险金给付申请书，并须提供受益人的有效身份证件， ",
+        "act": "ans/yes",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "（2）受益人的有效身份证件； ",
+            "申请全残保险金"
+        ],
+        "grounding_id": [
+            "183",
+            "186"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果我的朋友因为这次身故了，那他的保险金要怎样领取？",
+        "act": "how",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "保险金的申请",
+            "保险金申请"
+        ],
+        "grounding_id": [
+            "36",
+            "41"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "如果您的朋友不幸身故了，这就笔是算作遗产，必须提供可证明合法继承权的相关权利文件才能领取。",
+        "act": "ans/open",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            " 4.保险金作为被保险人遗产时，必须提供可证明合法继承权的相关权利文件。"
+        ],
+        "grounding_id": [
+            "193"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "这份合同的前面说的现金价值是什么意思？",
+        "act": "what",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "现金价值",
+            "现金价值权益"
+        ],
+        "grounding_id": [
+            "55",
+            "54"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "现价是在客户退保的时候，保险公司按照该表退还客户的金额。时间越久，现价也会越高。",
+        "act": "ans/open",
+        "document": "中华行两全保险.json",
+        "grounding": [
+            "现金价值",
+            "指保险单所具有的价值，通常体现为解除合同时，由我们退还的那部分金额。我们会在保险单或其他有效的保险凭证或批注上载明本合同保险单年度末的现金价值。若基本保险金额发生变更，则现金价值将按变更后的基本保险金额重新计算。"
+        ],
+        "grounding_id": [
+            "55",
+            "56"
+        ]
+    }
+]

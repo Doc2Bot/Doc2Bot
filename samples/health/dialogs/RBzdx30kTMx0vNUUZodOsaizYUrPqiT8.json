@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道结石旁路程序是什么样的？",
+        "act": "what",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路结石_尿路结石.json",
+        "grounding": [
+            "尿路结石",
+            "尿路结石的治疗",
+            "结石旁路程序",
+            "尿路结石"
+        ],
+        "grounding_id": [
+            "1",
+            "91",
+            "102",
+            "T1690"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "医生可背部向肾脏的集尿区域插入排尿管（肾盂引流管），从而引流阻塞。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路结石_尿路结石.json",
+        "grounding": [
+            "或者医生可从背部向肾脏的集尿区域插入排尿管（肾盂引流管），从而引流阻塞。"
+        ],
+        "grounding_id": [
+            "104"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那尿路结石值不值都会有比较严重的症状？",
+        "act": "verification",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路结石_尿路结石.json",
+        "grounding": [
+            "尿路结石",
+            "微小的结石不会引起症状，但较大的结石可导致在肋骨与背部髋骨之间出现剧痛。"
+        ],
+        "grounding_id": [
+            "1",
+            "6"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "不是的，微小的结石不会引起症状，但较大的结石可导致在肋骨与背部髋骨之间出现剧痛。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路结石_尿路结石.json",
+        "grounding": [
+            "微小的结石不会引起症状，但较大的结石可导致在肋骨与背部髋骨之间出现剧痛。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那应该怎么确诊呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路结石_尿路结石.json",
+        "grounding": [
+            "尿路结石"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "可以通过影像学检查和尿液分析",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_肾脏及尿路疾病_尿路结石_尿路结石.json",
+        "grounding": [
+            "影像学检查和尿液分析通常用来确诊尿路结石。"
+        ],
+        "grounding_id": [
+            "7"
+        ]
+    }
+]

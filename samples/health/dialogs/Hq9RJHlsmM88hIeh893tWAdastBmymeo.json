@@ -1,0 +1,168 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解一下睑缘炎的相关信息",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "眼睑和泪器疾病",
+            "睑缘炎"
+        ],
+        "grounding_id": [
+            "T2355",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "请问您想知道的是睑缘炎的病因，症状，诊断还是治疗呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "睑缘炎的治疗"
+        ],
+        "grounding_id": [
+            "41"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想知道的是睑缘炎的治疗方法",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "睑缘炎的治疗方法主要有："
+        ],
+        "grounding_id": [
+            "42"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "一般是支持性措施（例如敷贴、眼睑清洁）或者对因治疗",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "支持性措施（例如敷贴、眼睑清洁）",
+            "对因治疗"
+        ],
+        "grounding_id": [
+            "43",
+            "44"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那什么样的原因会导致睑缘炎呢？皮肤病可能吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "皮肤疾病，如脂溢性皮炎、酒糟鼻和特应性皮炎（湿疹），可累及面部（包括眼睑），导致炎症和睑缘炎。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您是说类似脂溢性皮炎、酒糟鼻和特应性皮炎（湿疹）吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "皮肤疾病，如脂溢性皮炎、酒糟鼻和特应性皮炎（湿疹），可累及面部（包括眼睑），导致炎症和睑缘炎。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "对，就是这些",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "皮肤疾病，如脂溢性皮炎、酒糟鼻和特应性皮炎（湿疹），可累及面部（包括眼睑），导致炎症和睑缘炎。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "是的，这些皮肤疾病可累及面部（包括眼睑），导致炎症和睑缘炎",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "皮肤疾病，如脂溢性皮炎、酒糟鼻和特应性皮炎（湿疹），可累及面部（包括眼睑），导致炎症和睑缘炎。"
+        ],
+        "grounding_id": [
+            "14"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "那可以根据相关的症状进行诊断吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "睑缘炎的诊断方法有：",
+            "症状和医生的检查",
+            "睑缘炎的诊断"
+        ],
+        "grounding_id": [
+            "36",
+            "37",
+            "35"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "症状和医生的检查都是诊断的方法",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "症状和医生的检查"
+        ],
+        "grounding_id": [
+            "37"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "那如果出现睑缘鳞屑增多、痂皮、浅表溃疡、红肿以及睑缘水肿的炎症是什么原因？",
+        "act": "what",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "睑缘炎即睑缘的炎症，可表现为睑缘鳞屑增多、痂皮、浅表溃疡、红肿以及睑缘水肿。",
+            "炎症因感染、过敏及某种皮肤异常所致。"
+        ],
+        "grounding_id": [
+            "5",
+            "6"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "炎症可能是因感染、过敏及某种皮肤异常所致。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_眼疾_眼睑和泪器疾病_睑缘炎.json",
+        "grounding": [
+            "炎症因感染、过敏及某种皮肤异常所致。"
+        ],
+        "grounding_id": [
+            "6"
+        ]
+    }
+]

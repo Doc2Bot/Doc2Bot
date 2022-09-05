@@ -1,0 +1,164 @@
+{
+    "document_id": 501,
+    "domain": "technology",
+    "name": "将HandyTechBraillino显示器与旁白配合使用",
+    "graph": {
+        "1": {
+            "data": "将HandyTechBraillino显示器与旁白配合使用",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "为确保您的盲文显示器使用的表格正确，请确保您使用的是最新版本的iOS。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "3"
+        },
+        "5": {
+            "data": "最新版本的iOS",
+            "type": "see-more",
+            "pid": "4",
+            "target": "更新iPhone、iPad或iPodtouch.json"
+        },
+        "7": {
+            "data": "这些键盘命令适用于序列号为09307或更高的HandyTechEasyBraille显示器。如果您的显示器的序列号较低，则可能不支持这些命令。您可以在显示器内置菜单的“信息”标签页表单中找到序列号。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "8": {
+            "data": "互动",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "9": {
+            "data": "“旁白”操作",
+            "type": "table",
+            "pid": "8"
+        },
+        "10": {
+            "data": "轻点两下选定项",
+            "type": "object",
+            "pid": "9"
+        },
+        "11": {
+            "data": "显示器按键",
+            "type": "attribute",
+            "pid": "10"
+        },
+        "12": {
+            "data": "路由器",
+            "type": "value",
+            "pid": "11"
+        },
+        "13": {
+            "data": "激活删除键",
+            "type": "object",
+            "pid": "9"
+        },
+        "14": {
+            "data": "显示器按键",
+            "type": "attribute",
+            "pid": "13"
+        },
+        "15": {
+            "data": "左边向上+左边向下",
+            "type": "value",
+            "pid": "14"
+        },
+        "16": {
+            "data": "激活Return键",
+            "type": "object",
+            "pid": "9"
+        },
+        "17": {
+            "data": "显示器按键",
+            "type": "attribute",
+            "pid": "16"
+        },
+        "18": {
+            "data": "右边向上+右边向下",
+            "type": "value",
+            "pid": "17"
+        },
+        "19": {
+            "data": "盲文",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "“旁白”操作",
+            "type": "table",
+            "pid": "19"
+        },
+        "21": {
+            "data": "切换扩展的状态描述",
+            "type": "object",
+            "pid": "20"
+        },
+        "22": {
+            "data": "显示器按键",
+            "type": "attribute",
+            "pid": "21"
+        },
+        "23": {
+            "data": "状态发送程序",
+            "type": "value",
+            "pid": "22"
+        },
+        "24": {
+            "data": "向左摇动盲文",
+            "type": "object",
+            "pid": "20"
+        },
+        "25": {
+            "data": "显示器按键",
+            "type": "attribute",
+            "pid": "24"
+        },
+        "26": {
+            "data": "左边向上或右边向上",
+            "type": "value",
+            "pid": "25"
+        },
+        "27": {
+            "data": "向右摇动盲文",
+            "type": "object",
+            "pid": "20"
+        },
+        "28": {
+            "data": "显示器按键",
+            "type": "attribute",
+            "pid": "27"
+        },
+        "29": {
+            "data": "左边向下或右边向下",
+            "type": "value",
+            "pid": "28"
+        },
+        "30": {
+            "data": "进一步了解",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "31": {
+            "data": "请参考“用于旁白的常见盲文命令”，查看通用命令列表。",
+            "type": "ordinary",
+            "pid": "30"
+        },
+        "32": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "31"
+        },
+        "33": {
+            "data": "用于旁白的常见盲文命令",
+            "type": "see-more",
+            "pid": "32",
+            "target": "iPhone、iPad和iPodtouch上用于旁白的常见盲文命令.json"
+        }
+    }
+}

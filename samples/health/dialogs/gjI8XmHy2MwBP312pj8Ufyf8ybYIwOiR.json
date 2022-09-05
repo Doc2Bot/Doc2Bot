@@ -1,0 +1,162 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我最近经常没原因的出现淤青，牙龈出血，我上网查了可能是缺乏维生素K引起的，想了解一下相关信息",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素",
+            "维生素K缺乏症"
+        ],
+        "grounding_id": [
+            "T2273",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你好，你想问维生素K缺乏症的病因、症状还是诊断呢？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "维生素K缺乏症的病因"
+        ],
+        "grounding_id": [
+            "29"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想先了解一下病因。我最近一直在吃抗生素，而且我有癫痫，也在吃药，会引起缺乏吗",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "某些药物（包括抗癫痫药）以及一些抗生素",
+            "维生素K缺乏症可能由以下原因引起："
+        ],
+        "grounding_id": [
+            "38",
+            "31"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "会的，抗癫痫药和抗生素是会引起缺乏维生素K的。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "某些药物（包括抗癫痫药）以及一些抗生素"
+        ],
+        "grounding_id": [
+            "38"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那饮食方面会有影响吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "饮食中缺乏维生素K",
+            "饮食中脂肪含量非常低，因为维生素K搭配一些脂肪食用时的吸收效果最好"
+        ],
+        "grounding_id": [
+            "32",
+            "33"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "先让我了解一下您的饮食结构，你有没有特别的吃低脂食品？",
+        "act": "verification",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "饮食中脂肪含量非常低，因为维生素K搭配一些脂肪食用时的吸收效果最好"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "没有哦，我的饮食结构还是比较合理的，饮食脂肪低也又关系吗？",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [],
+        "grounding_id": []
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "有影响的，因为维生素K的吸收需要脂肪搭配。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "饮食中脂肪含量非常低，因为维生素K搭配一些脂肪食用时的吸收效果最好"
+        ],
+        "grounding_id": [
+            "33"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "我的脂肪摄入量应该是可以的，那还有别的什么原因吗？",
+        "act": "what",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "饮食中脂肪含量非常低，因为维生素K搭配一些脂肪食用时的吸收效果最好",
+            "维生素K缺乏症可能由以下原因引起："
+        ],
+        "grounding_id": [
+            "33",
+            "31"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "就是饮食本身缺乏维生素K，例如饮食中缺少绿叶蔬菜和肝脏等食物。",
+        "act": "ans/yesno",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "饮食中缺乏维生素K"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "我确实不怎么食用肝脏等食物，绿叶蔬菜一般吧。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "饮食中缺乏维生素K"
+        ],
+        "grounding_id": [
+            "32"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "所以你还是改善一下饮食习惯。另外少吃外面卖的面包啥的，有些商家为了助于脱模会加入矿物油，而矿物油对维生素K吸收不利。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_营养障碍_维生素_维生素K缺乏症.json",
+        "grounding": [
+            "摄入大量矿物油，这可能减少维生素K的吸收"
+        ],
+        "grounding_id": [
+            "39"
+        ]
+    }
+]

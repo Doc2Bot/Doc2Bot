@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想知道嗜酸性粒细胞性食管炎怎么治疗的呢？",
+        "act": "how",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_嗜酸性粒细胞性食管炎.json",
+        "grounding": [
+            "嗜酸性粒细胞性食管炎",
+            "嗜酸性粒细胞性食管炎的治疗",
+            "消化道功能障碍",
+            "食管和吞咽疾病"
+        ],
+        "grounding_id": [
+            "1",
+            "42",
+            "T1809",
+            "T1863"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "有时会扩张食管",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_嗜酸性粒细胞性食管炎.json",
+        "grounding": [
+            "有时会扩张食管"
+        ],
+        "grounding_id": [
+            "47"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "那药物治疗是用什么呢？",
+        "act": "what",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_嗜酸性粒细胞性食管炎.json",
+        "grounding": [
+            "嗜酸性粒细胞性食管炎的治疗方法主要有："
+        ],
+        "grounding_id": [
+            "43"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "可以通过皮质类固醇",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_嗜酸性粒细胞性食管炎.json",
+        "grounding": [
+            "皮质类固醇"
+        ],
+        "grounding_id": [
+            "45"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "质子泵抑制剂有用吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_嗜酸性粒细胞性食管炎.json",
+        "grounding": [
+            "治疗方法包括质子泵抑制剂、皮质类固醇、改变饮食，有时需扩张食管。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "也是治疗方法的一种",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_消化道功能障碍_食管和吞咽疾病_嗜酸性粒细胞性食管炎.json",
+        "grounding": [
+            "治疗方法包括质子泵抑制剂、皮质类固醇、改变饮食，有时需扩张食管。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]

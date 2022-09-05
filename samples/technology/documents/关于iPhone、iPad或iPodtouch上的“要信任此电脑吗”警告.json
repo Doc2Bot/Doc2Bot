@@ -1,0 +1,137 @@
+{
+    "document_id": 545,
+    "domain": "technology",
+    "name": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告",
+    "graph": {
+        "1": {
+            "data": "关于iPhone、iPad或iPodtouch上的“要信任此电脑吗”警告",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "设备上的信任设置有什么用",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "首次将iPhone、iPad或iPodtouch连接到电脑或其他设备时，iPhone、iPad或iPodtouch会显示一条警告，询问您要不要信任这台电脑：",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "5": {
+            "data": "受信任的电脑可以与您的设备同步、创建备份，还可以访问您设备上的照片、视频、通讯录和其他内容。这些电脑会保持受信任状态，除非您更改受信任的电脑或抹掉设备。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "9": {
+            "data": "如果选择不信任某台电脑，",
+            "type": "condition",
+            "pid": "4"
+        },
+        "10": {
+            "data": "选择要不要信任电脑",
+            "type": "sequence",
+            "pid": "1"
+        },
+        "11": {
+            "data": "将iPhone、iPad或iPodtouch连接到您的电脑或其他设备。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "12": {
+            "data": "输入您的密码（如果有的话），以解锁iPhone、iPad或iPodtouch。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "13": {
+            "data": "如果要允许电脑访问您设备上的信息，请在“访达”中选择您的设备，然后点按“信任”；如果您使用的是iTunes，请点按“继续”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "14": {
+            "data": "在iPhone、iPad或iPodtouch上，确认您允许电脑或其他设备访问您的数据。如果您不想信任这台电脑或连接的其他设备，请在设备上轻点“不信任”。如果要信任电脑，请轻点“信任”。",
+            "type": "sequence-step",
+            "pid": "10"
+        },
+        "15": {
+            "data": "为受信任的电脑更改设置",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "16": {
+            "data": "设备会记住您选择信任的电脑。",
+            "type": "ordinary",
+            "pid": "15"
+        },
+        "17": {
+            "data": "如果不再信任某台电脑或其他设备，您可以更改iPhone、iPad或iPodtouch上的隐私设置。请前往“设置”>“通用”>“还原”>“还原位置与隐私”。现在，如果连接以前受信任的电脑，则会出现信任警告，询问您要不要信任这台电脑。",
+            "type": "ordinary",
+            "pid": "15"
+        },
+        "18": {
+            "data": "获取协助",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "19": {
+            "data": "如果您轻点“信任”或“不信任”而系统不接受您的回答，或者如果不显示信任警告，请按照以下步骤操作。每完成一步后，都请再次尝试：",
+            "type": "sequence",
+            "pid": "18"
+        },
+        "20": {
+            "data": "确保您的电脑装有最新版本的macOS或最新版本的iTunes。",
+            "type": "sequence-step",
+            "pid": "19"
+        },
+        "24": {
+            "data": "断开设备与电脑的连接，然后重新连接。",
+            "type": "sequence-step",
+            "pid": "19"
+        },
+        "25": {
+            "data": "重新启动电脑。",
+            "type": "sequence-step",
+            "pid": "19"
+        },
+        "27": {
+            "data": "重新启动设备：",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "28": {
+            "data": "iPhone",
+            "type": "ordinary",
+            "pid": "27"
+        },
+        "32": {
+            "data": "iPad",
+            "type": "ordinary",
+            "pid": "27"
+        },
+        "36": {
+            "data": "iPodtouch",
+            "type": "ordinary",
+            "pid": "27"
+        },
+        "40": {
+            "data": "还原您的信任设置。",
+            "type": "sequence-step",
+            "pid": "19"
+        },
+        "44": {
+            "data": "如果以上步骤无法帮助您解决这个问题，请前往“设置”>“通用”>“还原”，然后轻点“还原网络设置”。这个操作还会还原Wi-Fi网络和密码、蜂窝网络设置以及您之前使用的VPN和APN设置。",
+            "type": "ordinary",
+            "pid": "18"
+        },
+        "45": {
+            "data": "如果您的Windows版iTunes是从MicrosoftStore下载的，请确保将iTunesMobileDeviceHelper（iTunes移动设备助手）启用为启动项。",
+            "type": "ordinary",
+            "pid": "18"
+        },
+        "50": {
+            "data": "则会禁止它访问您设备上的内容。每次将设备与这台电脑进行连接时，您都会看到信任警告。",
+            "type": "solution",
+            "pid": "9"
+        }
+    }
+}

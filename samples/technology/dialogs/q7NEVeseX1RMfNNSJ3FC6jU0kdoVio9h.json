@@ -1,0 +1,86 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我想了解第2代SiriRemote或第2代AppleTVRemote。",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "识别AppleTV遥控器",
+            "SiriRemote（第2代）或AppleTVRemote（第2代）"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "详细信息：SiriRemote（第2代）或AppleTVRemote（第2代）随附于AppleTV4K（第2代）*，并配备触控式点按板，供进行浏览操作。这款遥控器使用蓝牙5.0与AppleTV4K通信，并使用红外线技术来控制其他设备。",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "详细信息：SiriRemote（第2代）或AppleTVRemote（第2代）随附于AppleTV4K（第2代）*，并配备触控式点按板，供进行浏览操作。这款遥控器使用蓝牙5.0与AppleTV4K通信，并使用红外线技术来控制其他设备。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我想了解铝金属AppleRemote。",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "识别AppleTV遥控器",
+            "AppleRemote（铝金属）"
+        ],
+        "grounding_id": [
+            "1",
+            "17"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "描述：银色铝金属外壳连接：红外线发射器电池：可更换CR2032或BR20323V纽扣锂电池序列号：位于电池盒内部兼容性：任何AppleTV",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：银色铝金属外壳连接：红外线发射器电池：可更换CR2032或BR20323V纽扣锂电池序列号：位于电池盒内部兼容性：任何AppleTV"
+        ],
+        "grounding_id": [
+            "18"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "第2代SiriRemote或第2代AppleTVRemote是什么样子的？",
+        "act": "what",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "识别AppleTV遥控器",
+            "SiriRemote（第2代）或AppleTVRemote（第2代）"
+        ],
+        "grounding_id": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出",
+        "act": "ans/open",
+        "document": "识别AppleTV遥控器.json",
+        "grounding": [
+            "描述：银色铝金属外壳，配备点按板连接：蓝牙5.0和红外线发射器电池：内置可充电电池（用户无法更换）兼容性：装有AppletvOS14.5或更高版本的AppleTV4K和AppleTVHD。序列号：在“设置”>“遥控器与设备”>“遥控器”中列出"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    }
+]

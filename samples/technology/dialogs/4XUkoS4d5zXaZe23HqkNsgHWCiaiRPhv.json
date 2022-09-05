@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我的耳机在连接到我的iPad上后听不到声音，我该寻求帮助吗？",
+        "act": "verification",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "当您听不到耳机发出的声音，声音模糊不清或麦克风无法正常使用时，请寻求帮助。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "当您听不到耳机发出的声音，声音模糊不清或麦克风无法正常使用时，您该寻求帮助。",
+        "act": "ans/yes",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用",
+            "当您听不到耳机发出的声音，声音模糊不清或麦克风无法正常使用时，请寻求帮助。"
+        ],
+        "grounding_id": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "好，我的耳机现在听不到任何声音我再怎么处理？",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您无法听到任何声音，或只有一侧的耳机能正常使用"
+        ],
+        "grounding_id": [
+            "10"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "如果您要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "如果您无法听到任何声音，或只有一侧的耳机能正常使用",
+            "通过iOS设备上的音量按钮调节音量，或者使用iPhone或iPad“控制中心”中的音量滑块调节。",
+            "要了解您是不是需要更换耳机，请尝试使用另一副耳机。如果这副耳机能正常使用，请联系第一副耳机的制造商，询问您是不是需要更换耳机。如果另一副耳机也不能正常使用，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "10",
+            "11",
+            "15"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "我已经用另一个耳机试了，还是没声音啊",
+        "act": "how",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "仍然需要帮助？"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "如果您的耳机仍无法正常使用，请联系Apple支持。",
+        "act": "ans/open",
+        "document": "如果您的耳机不能搭配iPhone、iPad或iPodtouch正常使用.json",
+        "grounding": [
+            "仍然需要帮助？",
+            "如果您的耳机仍无法正常使用，请联系Apple支持。"
+        ],
+        "grounding_id": [
+            "26",
+            "27"
+        ]
+    }
+]

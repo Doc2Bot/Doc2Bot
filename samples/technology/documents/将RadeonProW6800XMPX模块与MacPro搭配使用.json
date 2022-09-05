@@ -1,0 +1,243 @@
+{
+    "document_id": 162,
+    "domain": "technology",
+    "name": "将RadeonProW6800XMPX模块与MacPro搭配使用",
+    "graph": {
+        "1": {
+            "data": "将RadeonProW6800XMPX模块与MacPro搭配使用",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "RadeonProW6800XMPX模块包含一个配备32GBGDDR6显存的AMDRadeonProW6800X图形处理单元(GPU)、四个雷雳3端口和一个HDMI2.0端口。您可以使用雷雳3端口将显示器和外置设备连接到MacPro，还可以使用MacPro顶部*和背面的雷雳3端口来连接其他显示器。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "如果您使用了“启动转换”并且安装了AMD提供的第三方图形卡，",
+            "type": "condition",
+            "pid": "1"
+        },
+        "5": {
+            "data": "关于端口和总线",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "6": {
+            "data": "MPX模块的雷雳3端口一共有两条总线。如果将两台5K或6K显示器连接到MPX模块上的雷雳3端口，则每条总线应分别连接一台显示器。",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "7": {
+            "data": "如果将一台显示器连接到MPX模块上的HDMI端口，则总线0上的雷雳3端口可额外支持一台分辨率为4K或更低的显示器。如果您需要将音频输出到已连接至HDMI端口的显示器，并通过雷雳3连接其他显示器，请不要将显示器连接到HDMI端口旁边的雷雳3端口。",
+            "type": "ordinary",
+            "pid": "5"
+        },
+        "8": {
+            "data": "将显示器连接到一个RadeonProW6800XMPX模块",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "9": {
+            "data": "如果您安装了一个RadeonProW6800XMPX模块，则在采用以下配置的情况下，您可以使用雷雳3连接最多六台显示器。",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "10": {
+            "data": "三台分辨率为6016x3384、频率为60Hz的ProDisplayXDR连接方式如下：",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "11": {
+            "data": "一台显示器连接到总线0上",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "12": {
+            "data": "一台显示器连接到总线1上",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "13": {
+            "data": "一台显示器连接到Mac顶部*或背面（AppleI/O卡）的雷雳3端口上",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "14": {
+            "data": "三台分辨率为5120x2880、频率为60Hz的5K显示器连接方式如下：",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "15": {
+            "data": "一台显示器连接到总线0上",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "16": {
+            "data": "一台显示器连接到总线1上",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "17": {
+            "data": "一台显示器连接到Mac顶部*或背面（AppleI/O卡）的雷雳3端口上",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "18": {
+            "data": "六台分辨率为3840x2160、频率为60Hz的4K显示器连接方式如下：",
+            "type": "ordinary",
+            "pid": "8"
+        },
+        "19": {
+            "data": "两台显示器连接到总线0上",
+            "type": "ordinary",
+            "pid": "18"
+        },
+        "20": {
+            "data": "两台显示器连接到总线1上",
+            "type": "ordinary",
+            "pid": "18"
+        },
+        "21": {
+            "data": "两台显示器连接到Mac顶部*或背面（AppleI/O卡）的雷雳3端口上",
+            "type": "ordinary",
+            "pid": "18"
+        },
+        "22": {
+            "data": "将显示器连接到两个RadeonProW6800XMPX模块",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "23": {
+            "data": "如果您安装了两个RadeonProW6800XMPX模块，则在采用以下配置的情况下，您可以使用雷雳3连接最多12台显示器。",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "24": {
+            "data": "六台分辨率为6016x3384、频率为60Hz的ProDisplayXDR连接方式如下：",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "25": {
+            "data": "两台显示器：每个图形卡的总线0上分别连接一台",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "26": {
+            "data": "两台显示器：每个图形卡的总线1上分别连接一台",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "27": {
+            "data": "一台显示器连接到Mac顶部*的雷雳3端口上",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "28": {
+            "data": "一台显示器连接到Mac背面（AppleI/O卡）的雷雳3端口上",
+            "type": "ordinary",
+            "pid": "24"
+        },
+        "29": {
+            "data": "六台分辨率为5120x2880、频率为60Hz的5K显示器连接方式如下：",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "30": {
+            "data": "两台显示器：每个图形卡的总线0上分别连接一台",
+            "type": "ordinary",
+            "pid": "29"
+        },
+        "31": {
+            "data": "两台显示器：每个图形卡的总线1上分别连接一台",
+            "type": "ordinary",
+            "pid": "29"
+        },
+        "32": {
+            "data": "一台显示器连接到Mac顶部*的雷雳3端口上",
+            "type": "ordinary",
+            "pid": "29"
+        },
+        "33": {
+            "data": "一台显示器连接到Mac背面（AppleI/O卡）的雷雳3端口上",
+            "type": "ordinary",
+            "pid": "29"
+        },
+        "34": {
+            "data": "十二台分辨率为3840x2160、频率为60Hz的4K显示器连接方式如下：",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "35": {
+            "data": "每个雷雳3端口上分别连接一台显示器",
+            "type": "ordinary",
+            "pid": "34"
+        },
+        "36": {
+            "data": "连接InfinityFabricLink",
+            "type": "ordinary",
+            "pid": "22"
+        },
+        "37": {
+            "data": "如果您安装了两个RadeonProW6800XMPX模块，则您可以使用InfinityFabricLink连接这些模块，以提升性能并加快GPU之间的数据传输速度：",
+            "type": "sequence",
+            "pid": "36"
+        },
+        "38": {
+            "data": "从每个MPX模块上卸下端盖。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "39": {
+            "data": "将InfinityFabricLink桥接器上的连接器与MPX模块上的连接器对齐，然后将InfinityFabricLink桥接器缓缓按入MPX模块中。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "40": {
+            "data": "使用十字头螺丝刀将两颗螺丝向右拧入锁定位置。",
+            "type": "sequence-step",
+            "pid": "37"
+        },
+        "41": {
+            "data": "适用于RadeonProW6800XMPX模块（A2666型号）的InfinityFabricLink桥接器与上一代RadeonProMPX模块不兼容。",
+            "type": "ordinary",
+            "pid": "36"
+        },
+        "42": {
+            "data": "如果您使用了“启动转换”并安装了InfinityFabricLink桥接器，则无法使用总线1上和MacPro顶部*的雷雳3端口来连接显示器。",
+            "type": "ordinary",
+            "pid": "36"
+        },
+        "43": {
+            "data": "进一步了解",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "44": {
+            "data": "了解可以在MacPro（2019年）中安装的PCIe卡。",
+            "type": "ordinary",
+            "pid": "43"
+        },
+        "52": {
+            "data": "设置和使用AppleProDisplayXDR.",
+            "type": "ordinary",
+            "pid": "43"
+        },
+        "53": {
+            "data": "see more",
+            "type": "hyperlink",
+            "pid": "52"
+        },
+        "54": {
+            "data": "设置和使用AppleProDisplayXDR",
+            "type": "see-more",
+            "pid": "53",
+            "target": "设置和使用AppleProDisplayXDR.json"
+        },
+        "57": {
+            "data": "您可能需要在Windows中使用不同的AMD驱动程序。",
+            "type": "solution",
+            "pid": "4"
+        }
+    }
+}

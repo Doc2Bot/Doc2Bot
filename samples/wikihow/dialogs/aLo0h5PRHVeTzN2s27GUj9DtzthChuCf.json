@@ -1,0 +1,148 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "如何在句子中使用Therefore？",
+        "act": "how",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "如何在句子中使用Therefore",
+            "教育与交流"
+        ],
+        "grounding_id": [
+            "1",
+            "T253"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "“Therefore”是一个连接副词，可以在句子和段落中用作承接词。它表示独立子句之间的因果关系，因此不能用于段落开头，或作为一个独立句子的一部分。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "“Therefore”是一个连接副词，可以在句子和段落中用作承接词。它表示独立子句之间的因果关系，因此不能用于段落开头，或作为一个独立句子的一部分。如果你想在英文写作中使用“therefore”，要记住几点才能确保正确使用它。还有一些关于“therefore”的常见误用你需要避免。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "“Therefore”的常见用法有哪些？",
+        "act": "what",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "找出“Therefore”的常见用法"
+        ],
+        "grounding_id": [
+            "4"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "用“therefore”来表示因果关系。用“therefore”代替同类意义的转换词和短语。加入“therefore”来提高句子的流畅性。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "用“therefore”来表示因果关系。",
+            "用“therefore”代替同类意义的转换词和短语。",
+            "加入“therefore”来提高句子的流畅性。"
+        ],
+        "grounding_id": [
+            "5",
+            "9",
+            "13"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "用“therefore”来表示因果关系？",
+        "act": "how",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "用“therefore”来表示因果关系。"
+        ],
+        "grounding_id": [
+            "5"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "“Therefore”并不适用于所有句子。它有一个非常具体的含义，只适合在特定情况下使用。记住什么时候在句子中使用“therefore”合适的最好方法就是想一想你是否在用它来表示因果关系。换句话说，第一句话是否引发另一句话？如果不是，那么“therefore”可能就不适合这个句子。例如，用“therefore”来表示这两句话之间的因果关系：“Johnstudiedhardforthemathexam.HegotanA+.（约翰为了数学考试努力学习。他得了A+。）”修改后的句子可以是：“Johnstudiedhardforthemathexam.Therefore,hegotanA+.（约翰为了数学考试努力学习。因此，他得了A+。）”",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "“Therefore”并不适用于所有句子。它有一个非常具体的含义，只适合在特定情况下使用。记住什么时候在句子中使用“therefore”合适的最好方法就是想一想你是否在用它来表示因果关系。换句话说，第一句话是否引发另一句话？如果不是，那么“therefore”可能就不适合这个句子。",
+            "例如，用“therefore”来表示这两句话之间的因果关系：“Johnstudiedhardforthemathexam.HegotanA+.（约翰为了数学考试努力学习。他得了A+。）”修改后的句子可以是：“Johnstudiedhardforthemathexam.Therefore,hegotanA+.（约翰为了数学考试努力学习。因此，他得了A+。）”",
+            "另一个例子，“Peoplewhoexerciseregularlyenjoybetterhealth.Youshouldexercise.（经常锻炼的人更健康。你应该锻炼。”加上“therefore”也会提高这两个观念之间的流畅性。“Peoplewhoexerciseregularlyenjoybetterhealth.Therefore,youshouldexercise.（经常锻炼的人身体更健康。因此，你应该锻炼。）”"
+        ],
+        "grounding_id": [
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "“therefore”能代替什么？",
+        "act": "what",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "用“therefore”代替同类意义的转换词和短语。",
+            "“Therefore”可以用来代替其他一些单词和短语，但重要的是要先弄清楚含义。并不是所有的过渡词和短语都能用“therefore”代替。",
+            "例如，“Sallypassedherdrivetest.Asaresult,shereceivedherdriver'slicense.（萨莉通过了驾驶考试。结果，她拿到了驾照。）”你可以把“asaresult”替换成“therefore”，因为它和这个短语的意思是一样的。"
+        ],
+        "grounding_id": [
+            "9",
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "“Therefore”可以用来代替其他一些单词和短语，但重要的是要先弄清楚含义。并不是所有的过渡词和短语都能用“therefore”代替。例如，“Sallypassedherdrivetest.Asaresult,shereceivedherdriver'slicense.（萨莉通过了驾驶考试。结果，她拿到了驾照。）”你可以把“asaresult”替换成“therefore”，因为它和这个短语的意思是一样的。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "“Therefore”可以用来代替其他一些单词和短语，但重要的是要先弄清楚含义。并不是所有的过渡词和短语都能用“therefore”代替。",
+            "例如，“Sallypassedherdrivetest.Asaresult,shereceivedherdriver'slicense.（萨莉通过了驾驶考试。结果，她拿到了驾照。）”你可以把“asaresult”替换成“therefore”，因为它和这个短语的意思是一样的。"
+        ],
+        "grounding_id": [
+            "10",
+            "11"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "不要用“therefore”代替什么？",
+        "act": "what",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "在大多数情况下，不要用“therefore”代替并列连词。并列连词包括for、and、nor、but、or、yet和so。这些词语都有特定的含义，它们之间不能互换，也不能改成“therefore”。在使用一个单词或短语之前，你一定要弄清它的含义。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "在大多数情况下，不要用“therefore”代替并列连词。并列连词包括for、and、nor、but、or、yet和so。这些词语都有特定的含义，它们之间不能互换，也不能改成“therefore”。在使用一个单词或短语之前，你一定要弄清它的含义。",
+        "act": "ans/open",
+        "document": "教育与交流_如何在句子中使用Therefore.json",
+        "grounding": [
+            "在大多数情况下，不要用“therefore”代替并列连词。并列连词包括for、and、nor、but、or、yet和so。这些词语都有特定的含义，它们之间不能互换，也不能改成“therefore”。在使用一个单词或短语之前，你一定要弄清它的含义。"
+        ],
+        "grounding_id": [
+            "12"
+        ]
+    }
+]

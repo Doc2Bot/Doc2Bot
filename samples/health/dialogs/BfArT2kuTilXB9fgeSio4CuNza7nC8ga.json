@@ -1,0 +1,214 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我家孩子小便多，化验血后血液中的化学物质失衡，医生说有可能是先天性肾小管病，我想了解下这个病。",
+        "act": "what",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "先天性肾小管病",
+            "患有这些综合征的儿童会出现类似于服用利尿剂（可增加尿量并导致血液中的化学物质失衡）之人士的症状。但是，与服用利尿剂的患者不一样的是，在Bartter综合征或Gitelman综合征患者中，这些症状无法通过停药而终止。"
+        ],
+        "grounding_id": [
+            "T851",
+            "27"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你家孩子多大有的症状，是在孕期就有？还是在孩童时期？还是大龄孩童时期？还是成人后才有？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征的症状可能在出生前、孕期或孩童早期显现。",
+            "但Gitelman综合征的症状可能要到大龄孩童期甚至成人期才会显现。"
+        ],
+        "grounding_id": [
+            "25",
+            "26"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "我的孩子今年10岁了。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "但Gitelman综合征的症状可能要到大龄孩童期甚至成人期才会显现。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "先天性肾小管病分为Bartter综合征和与Gitelman综合征。10岁的孩子属于大龄孩童期，是Gitelman综合征的概率比较大。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "但Gitelman综合征的症状可能要到大龄孩童期甚至成人期才会显现。"
+        ],
+        "grounding_id": [
+            "26"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "哦，那这种病遗传吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征是遗传性的，且通常是因隐性基因发病()。因此，Bartter综合征或Gitelman综合征患者必须分别从双亲各获得一个隐性致病基因。由于隐性基因发病同时需要具备两个基因，因此一般没有其他直系亲属患有此类综合征。虽然都很少见，但Gitelman综合征要比Bartter综合征更常见。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "是的，遗传。Bartter综合征与Gitelman综合征是遗传性的，且通常是因隐性基因发病。",
+        "act": "ans/yes",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征是遗传性的，且通常是因隐性基因发病()。因此，Bartter综合征或Gitelman综合征患者必须分别从双亲各获得一个隐性致病基因。由于隐性基因发病同时需要具备两个基因，因此一般没有其他直系亲属患有此类综合征。虽然都很少见，但Gitelman综合征要比Bartter综合征更常见。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "那是父母一方有这种致病基因就会发病吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征是遗传性的，且通常是因隐性基因发病()。因此，Bartter综合征或Gitelman综合征患者必须分别从双亲各获得一个隐性致病基因。由于隐性基因发病同时需要具备两个基因，因此一般没有其他直系亲属患有此类综合征。虽然都很少见，但Gitelman综合征要比Bartter综合征更常见。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "Bartter综合征或Gitelman综合征患者必须分别从双亲各获得一个隐性致病基因。由于隐性基因发病同时需要具备两个基因，因此一般没有其他直系亲属患有此类综合征。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "Bartter综合征与Gitelman综合征是遗传性的，且通常是因隐性基因发病()。因此，Bartter综合征或Gitelman综合征患者必须分别从双亲各获得一个隐性致病基因。由于隐性基因发病同时需要具备两个基因，因此一般没有其他直系亲属患有此类综合征。虽然都很少见，但Gitelman综合征要比Bartter综合征更常见。"
+        ],
+        "grounding_id": [
+            "8"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "哦，是这样。那我家孩子小便多是怎么回事？",
+        "act": "how",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "你家孩子是只是小便多，还是轻度脱水？",
+        "act": "multiple-choice",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 10,
+        "role": "user",
+        "utterance": "他有些轻度脱水，这是怎么回事？",
+        "act": "how",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "在Bartter综合征与Gitelman综合征中，肾脏无法正常地再吸收来自肾小管的盐分（氯化钠）。因此，肾脏会向尿液中排泄过多的电解质（钠和氯化物）。钠和氯化物的流失导致尿液生成过多，并引起轻度脱水。"
+        ],
+        "grounding_id": [
+            "11"
+        ]
+    },
+    {
+        "turn": 11,
+        "role": "system",
+        "utterance": "在Bartter综合征与Gitelman综合征中，肾脏无法吸收氯化钠，会排泄过多的电解质，引起尿液生产多，引起脱水。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 12,
+        "role": "user",
+        "utterance": "那轻度脱水会导致低钾血症吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 13,
+        "role": "system",
+        "utterance": "是的。轻度脱水会导致身体产生更多的肾素和醛固酮。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 14,
+        "role": "user",
+        "utterance": "那这种病会影响肾脏吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    },
+    {
+        "turn": 15,
+        "role": "system",
+        "utterance": "两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。",
+        "act": "ans/no",
+        "document": "家庭版_医学主题_儿童的健康问题_先天性肾小管病_Bartter综合征与Gitelman综合征.json",
+        "grounding": [
+            "轻度脱水会导致身体产生更多的肾素和醛固酮激素来帮助调节血压。醛固酮增加会增加肾脏中钾和酸的分泌，从而导致血钾降低（低钾血症）和血液中酸的丢失，导致血液pH值呈碱性（一种称为代谢性碱中毒的疾病）。虽然两种综合征都会影响肾小管，但肾脏却不受影响，并能够正常过滤废物。"
+        ],
+        "grounding_id": [
+            "15"
+        ]
+    }
+]

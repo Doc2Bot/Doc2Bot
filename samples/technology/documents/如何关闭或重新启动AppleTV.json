@@ -1,0 +1,82 @@
+{
+    "document_id": 259,
+    "domain": "technology",
+    "name": "如何关闭或重新启动AppleTV",
+    "graph": {
+        "1": {
+            "data": "如何关闭或重新启动AppleTV",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "让AppleTV进入睡眠状态",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "闲置一段时间后，AppleTV会自动进入睡眠状态。您也可以在“设置”中选择“现在睡眠”，或使用遥控器让AppleTV进入睡眠状态：",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "5": {
+            "data": "在SiriRemote（第2代）或AppleTVRemote（第2代）*上：按住电源按钮。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "6": {
+            "data": "在SiriRemote（第1代）或AppleTVRemote（第1代）*上：按住TV/控制中心按钮三秒钟以调出“控制中心”，然后选择“睡眠”。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "7": {
+            "data": "在AppleRemote（铝金属或白色）上：按住播放/暂停按钮五秒钟。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "8": {
+            "data": "要唤醒AppleTV，请按下遥控器上的“MENU”（菜单）按钮或TV/控制中心按钮。",
+            "type": "ordinary",
+            "pid": "3"
+        },
+        "9": {
+            "data": "重新启动AppleTV",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "10": {
+            "data": "如果AppleTV没有响应，请使用遥控器重新启动：",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "11": {
+            "data": "在SiriRemote（第2代）或AppleTVRemote（第2代）*上：按住返回按钮和TV/控制中心按钮。当设备上的指示灯闪烁时松开。",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "12": {
+            "data": "在SiriRemote（第1代）或AppleTVRemote（第1代）*上：按住“MENU”（菜单）按钮和TV/控制中心按钮。当设备上的指示灯闪烁时松开。",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "13": {
+            "data": "在AppleRemote（铝金属或白色）上：按住“MENU”（菜单）按钮和向下按钮。当设备上的指示灯闪烁时松开。",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "14": {
+            "data": "拔下AppleTV的电源线",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "15": {
+            "data": "如果“设置”菜单和遥控器无法重新启动您的设备，请拔下AppleTV的电源线。等待六秒钟，然后重新插上电源线。",
+            "type": "ordinary",
+            "pid": "14"
+        },
+        "16": {
+            "data": "*AppleTV4K和AppleTVHD在不同国家和地区随附提供的遥控器都一样。在支持Siri的国家和地区，这个遥控器被称为SiriRemote。在其他国家和地区则被称为AppleTVRemote。只要您位于支持Siri的国家或地区，就可以通过任一遥控器使用Siri。",
+            "type": "ordinary",
+            "pid": "14"
+        }
+    }
+}

@@ -1,0 +1,88 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "你好，我想知道怎么用家庭共享到其他设备呢？",
+        "act": "what",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "使用“家庭共享”将媒体从电脑共享到其他设备"
+        ],
+        "grounding_id": [
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "您想知道怎么设置共享，还是怎么使用共享呢？",
+        "act": "multiple-choice",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "设置“家庭共享”之前",
+            "使用“家庭共享”"
+        ],
+        "grounding_id": [
+            "3",
+            "31"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "额，我想知道一次能连几台设备？",
+        "act": "what",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "使用“家庭共享”，您最多可以从连接到家庭Wi-Fi网络的五台电脑共享、流化和导入媒体。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "使用“家庭共享”，您最多可以从连接到家庭Wi-Fi网络的五台电脑共享、流化和导入媒体。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "使用“家庭共享”，您最多可以从连接到家庭Wi-Fi网络的五台电脑共享、流化和导入媒体。"
+        ],
+        "grounding_id": [
+            "2"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "那我应该怎么阳曲设置“家庭共享呢？",
+        "act": "what",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "在PC上设置“家庭共享”"
+        ],
+        "grounding_id": [
+            "22"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "您可以打开Windows版iTunes，如果您还没有登录，请使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID，从iTunes窗口顶部的菜单栏中，选取“文件”>“家庭共享”>“打开家庭共享”。",
+        "act": "ans/open",
+        "document": "使用“家庭共享”将媒体从电脑共享到其他设备.json",
+        "grounding": [
+            "具体步骤",
+            "打开Windows版iTunes。",
+            "如果您还没有登录，请使用您的AppleID登录。对“家庭共享”网络中的每台电脑或设备使用同一AppleID。",
+            "从iTunes窗口顶部的菜单栏中，选取“文件”>“家庭共享”>“打开家庭共享”。"
+        ],
+        "grounding_id": [
+            "23",
+            "24",
+            "25",
+            "29"
+        ]
+    }
+]

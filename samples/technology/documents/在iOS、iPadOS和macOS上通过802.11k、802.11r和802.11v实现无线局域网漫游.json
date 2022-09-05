@@ -1,0 +1,297 @@
+{
+    "document_id": 80,
+    "domain": "technology",
+    "name": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游",
+    "graph": {
+        "1": {
+            "data": "在iOS、iPadOS和macOS上通过802.11k、802.11r和802.11v实现无线局域网漫游",
+            "type": "root",
+            "pid": "0"
+        },
+        "3": {
+            "data": "iOS、iPadOS和macOS在企业无线局域网上支持优化的客户端漫游。802.11工作组标准k、r和v可让客户端在同一网络内更加顺畅地从一个接入点(AP)漫游到另一个接入点。",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "4": {
+            "data": "802.11k",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "5": {
+            "data": "通过创建优化的频道列表，802.11k标准可帮助设备快速搜索附近可作为漫游目标的接入点。如果当前接入点的信号强度变弱，您的设备将进行扫描来确定是否有此列表中的目标接入点。",
+            "type": "ordinary",
+            "pid": "4"
+        },
+        "6": {
+            "data": "802.11r",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "7": {
+            "data": "当您的设备从一个接入点漫游至同一网络上的另一个接入点时，802.11r可使用一种名为“快速基本服务集转换(FT)”的功能更快地进行认证。FT适用于预共享密钥(PSK)和802.1X认证方法。",
+            "type": "ordinary",
+            "pid": "6"
+        },
+        "8": {
+            "data": "iOS10及更高版本、iPadOS和macOS12支持Cisco无线网络上的自适应802.11r。自适应802.11r提供FT，无需在已配置的Cisco无线网络上启用802.11r。为了支持自适应802.11r，Cisco网络必须使用控制器代码8.3版或更高版本。",
+            "type": "ordinary",
+            "pid": "6"
+        },
+        "9": {
+            "data": "802.11v",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "10": {
+            "data": "iOS、iPadOS和macOS在某些设备上支持以下802.11v功能：",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "11": {
+            "data": "基本服务集(BSS)转换管理",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "12": {
+            "data": "紧急解除关联",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "13": {
+            "data": "定向多播服务(DMS)",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "14": {
+            "data": "BSS最大空闲服务",
+            "type": "ordinary",
+            "pid": "10"
+        },
+        "15": {
+            "data": "具备“紧急解除关联”功能的BSS转换管理可向网络的控制层提供附近接入点的负载信息，从而影响客户端漫游行为。设备在确定可能的漫游目标时会考量这些信息。",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "16": {
+            "data": "DMS可优化无线网络上的多播流量传输。设备会利用这些信息来增强多播通信，并保持电池续航能力。",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "17": {
+            "data": "“BSS最大空闲服务”有助于客户端和接入点在没有流量传输时，高效地决定保持关联的时长。设备会利用这些信息来保持电池续航能力。",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "18": {
+            "data": "802.11k和802.11v能够加快搜索最佳目标AP的速度，当您将这项功能与FT更快的AP关联功能结合使用时，不仅App的运行速度会加快，您也可以在iOS、iPadOS和macOS中获得更好的无线局域网体验。",
+            "type": "ordinary",
+            "pid": "9"
+        },
+        "19": {
+            "data": "检查兼容性",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "20": {
+            "data": "大多数无线局域网硬件供应商都支持802.11k、802.11v和802.11r(FT)。您需要先在无线局域网路由器上启用并配置这些功能，您的网络才能使用这些功能。具体设置不尽相同，请查看您的无线局域网路由器手册了解详细信息。",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "21": {
+            "data": "以下列表显示了哪些iOS、iPadOS和macOS设备支持802.11k、802.11r和802.11v。要使用802.11k和802.11r，需要装有iOS6或更高版本或者macOS12或更高版本。要使用802.11v，需要装有iOS7或更高版本或者macOS12或更高版本。要使用自适应802.11r，需要装有iOS10或更高版本或者macOS12或更高版本。",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "22": {
+            "data": "macOS支持仅限于搭载Apple芯片的Mac电脑。",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "23": {
+            "data": "802.11k和802.11r",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "24": {
+            "data": "iPhone4s及更新机型",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "25": {
+            "data": "iPadPro及更新机型",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "26": {
+            "data": "iPadAir及更新机型",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "27": {
+            "data": "iPadmini及更新机型",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "28": {
+            "data": "iPad（第3代）及更新机型",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "29": {
+            "data": "iPodtouch（第5代）及更新机型",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "30": {
+            "data": "搭载Apple芯片的Mac电脑",
+            "type": "ordinary",
+            "pid": "23"
+        },
+        "31": {
+            "data": "自适应802.11r",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "32": {
+            "data": "iPhone6s及更新机型",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "33": {
+            "data": "iPadPro及更新机型",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "34": {
+            "data": "iPadAir（第3代）及更新机型",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "35": {
+            "data": "iPad（第5代）及更新机型",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "36": {
+            "data": "iPodtouch（第7代）",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "37": {
+            "data": "搭载Apple芯片的Mac电脑",
+            "type": "ordinary",
+            "pid": "31"
+        },
+        "38": {
+            "data": "802.11v",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "39": {
+            "data": "iPhone5c、iPhone5s及更新机型",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "40": {
+            "data": "iPadPro及更新机型",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "41": {
+            "data": "iPadAir及更新机型",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "42": {
+            "data": "iPadmini2及更新机型",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "43": {
+            "data": "iPad（第5代）及更新机型",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "44": {
+            "data": "iPodtouch（第6代）及更新机型",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "45": {
+            "data": "搭载Apple芯片的Mac电脑",
+            "type": "ordinary",
+            "pid": "38"
+        },
+        "46": {
+            "data": "与802.11w的互操作性",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "47": {
+            "data": "iOS、iPadOS和macOS对802.11k、802.11r和802.11v的支持与启用802.11w受保护管理框架(PMF)的网络兼容。",
+            "type": "ordinary",
+            "pid": "46"
+        },
+        "48": {
+            "data": "成对主密钥标识符缓存",
+            "type": "ordinary",
+            "pid": "19"
+        },
+        "49": {
+            "data": "iOS、iPadOS和macOS还支持成对主密钥标识符(PMKID)缓存。您可以将PMKID缓存与部分Cisco设备配合使用来改善AP之间的漫游。粘滞键缓存(SKC)是一种PMKID缓存的形式。SKC既不等同于随机性密钥缓存(OKC)，也不能与其兼容。",
+            "type": "ordinary",
+            "pid": "48"
+        },
+        "50": {
+            "data": "进一步了解",
+            "type": "ordinary",
+            "pid": "1"
+        },
+        "59": {
+            "data": "从IEEE网站了解有关这些标准的更多信息：",
+            "type": "ordinary",
+            "pid": "50"
+        },
+        "60": {
+            "data": "IEEE标准：802.11k",
+            "type": "ordinary",
+            "pid": "59"
+        },
+        "64": {
+            "data": "IEEE标准：802.11r",
+            "type": "ordinary",
+            "pid": "59"
+        },
+        "68": {
+            "data": "IEEE标准：802.11v",
+            "type": "ordinary",
+            "pid": "59"
+        },
+        "72": {
+            "data": "IEEE标准：802.11w",
+            "type": "ordinary",
+            "pid": "59"
+        },
+        "76": {
+            "data": "了解如何识别这些设备机型：",
+            "type": "ordinary",
+            "pid": "50"
+        },
+        "77": {
+            "data": "iPhone",
+            "type": "ordinary",
+            "pid": "76"
+        },
+        "81": {
+            "data": "iPad",
+            "type": "ordinary",
+            "pid": "76"
+        },
+        "85": {
+            "data": "iPodtouch",
+            "type": "ordinary",
+            "pid": "76"
+        }
+    }
+}

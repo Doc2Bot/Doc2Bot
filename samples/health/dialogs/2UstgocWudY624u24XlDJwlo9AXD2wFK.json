@@ -1,0 +1,154 @@
+[
+    {
+        "turn": 0,
+        "role": "user",
+        "utterance": "我之前领我家孩子去医院查说骨头有点问题说是生长中的髋关节减弱，是叫股骨头滑脱吧？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "儿童的健康问题",
+            "儿童骨骼疾病",
+            "股骨头骨骺滑脱（SCFE）"
+        ],
+        "grounding_id": [
+            "T794",
+            "T1057",
+            "1"
+        ]
+    },
+    {
+        "turn": 1,
+        "role": "system",
+        "utterance": "你家孩子胖吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "儿童的健康问题"
+        ],
+        "grounding_id": [
+            "T794"
+        ]
+    },
+    {
+        "turn": 2,
+        "role": "user",
+        "utterance": "是胖，这个病是因为胖引起的？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "儿童的健康问题",
+            "儿童骨骼疾病"
+        ],
+        "grounding_id": [
+            "T794",
+            "T1057"
+        ]
+    },
+    {
+        "turn": 3,
+        "role": "system",
+        "utterance": "股骨头骨骺滑脱，肥胖是主要危险因素，建议去医院做一个X线检查",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱（SCFE）",
+            "股骨头骨骺滑脱的诊断",
+            "X线检查"
+        ],
+        "grounding_id": [
+            "1",
+            "26",
+            "28"
+        ]
+    },
+    {
+        "turn": 4,
+        "role": "user",
+        "utterance": "这个我们已经做过了但是看上去很模糊，还有什么办法吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的诊断方法主要有：",
+            "X线检查"
+        ],
+        "grounding_id": [
+            "27",
+            "28"
+        ]
+    },
+    {
+        "turn": 5,
+        "role": "system",
+        "utterance": "那可以做一下核磁共振成像但是需要预约。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱的诊断方法主要有：",
+            "有时会进行磁共振成像(MRI)或超声检查"
+        ],
+        "grounding_id": [
+            "27",
+            "29"
+        ]
+    },
+    {
+        "turn": 6,
+        "role": "user",
+        "utterance": "如果确诊是股骨头骨骺滑脱，怎么治疗？",
+        "act": "how",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱（SCFE）",
+            "股骨头骨骺滑脱的治疗"
+        ],
+        "grounding_id": [
+            "1",
+            "37"
+        ]
+    },
+    {
+        "turn": 7,
+        "role": "system",
+        "utterance": "确诊的话那就得行手术，以纠正孩子的骨骼脱位，并会用金属钉将其固定。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "手术",
+            "确诊后，可进行手术，以纠正脱位并用金属钉将其固定。",
+            "股骨头骨骺滑脱（SCFE）"
+        ],
+        "grounding_id": [
+            "39",
+            "40",
+            "1"
+        ]
+    },
+    {
+        "turn": 8,
+        "role": "user",
+        "utterance": "好吧，必须手术吗？",
+        "act": "verification",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "股骨头骨骺滑脱（SCFE）",
+            "通常需要手术来纠正这种疾病。"
+        ],
+        "grounding_id": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "turn": 9,
+        "role": "system",
+        "utterance": "通常都是手术来纠正这种疾病。",
+        "act": "ans/open",
+        "document": "家庭版_医学主题_儿童的健康问题_儿童骨骼疾病_股骨头骨骺滑脱（SCFE）.json",
+        "grounding": [
+            "通常需要手术来纠正这种疾病。"
+        ],
+        "grounding_id": [
+            "9"
+        ]
+    }
+]
