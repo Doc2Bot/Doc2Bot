@@ -63,8 +63,8 @@ following:
         - **ans/yes** means the system confirms the user's question.
         - **ans/no** means the system denies the user's question.
 - `document`: the document file name of the grounding nodes;
-- `grounding`: grounding node text;
-- `grounding_id`: grounding node id. If the id starts with **T**, it corresponds to the node in `navigation.json`, otherwise it corresponds to the node in the document graph of `document` field.
+- `grounding`: grounding node text. Target output of the DST task for user turns;
+- `grounding_id`: grounding node id. Target output of the DPL task for system turns. If the id starts with **T**, it corresponds to the node in `navigation.json`, otherwise it corresponds to the node in the document graph of `document` field.
 
 ### Navigation
 
