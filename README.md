@@ -4,7 +4,7 @@ Source code and full dataset will be committed after legal review.
 ## Dataset Description
 
 `samples/` include the examples from 4 domains (`Public Service` domain is not available for legal considerations). For
-each domain, there are one `documents/` and `dialogs/`.
+each domain, there is a `documents/` folder, a `dialogs/` folder, and a `navigation.json` file.
 
 ### Documents
 
@@ -29,8 +29,10 @@ For each document, there is a JSON file named `name.json`. Each document instanc
         - **sequence** indicates the node is a sequence of steps.
         - **sequence-step** indicates the node is one step in a sequence of steps.
         - **see-more** indicates the node will link to another node that has additional information.
+        - **root** indicates the node is the root of the document graph.
+        - **hyperlink** virtual nodes for dialog flow generation.
         - **ordinary** indicates the node belongs to none of the above.
-    - `pid`: the parent node id;
+    - `pid`: the parent node id.
 
 ### Dialogs
 
@@ -40,7 +42,7 @@ following:
 - `turn`: the ID of a turn;
 - `role`: the role of a turn;
 - `utterance`: the utterance of a turn;
-- `act`: the dialog act of a turn, different role has different dialog act:
+- `act`: the dialog act of a turn, the different role has different dialog act:
     - For User:
         - **what** means the user asks a **what** question.
         - **when** means the user asks a question for a time or date.
@@ -60,6 +62,21 @@ following:
         - **ans/yesno** means the system confirms and denies partly the user's question.
         - **ans/yes** means the system confirms the user's question.
         - **ans/no** means the system denies the user's question.
-- `document`: the document file name of the grounding nodes
-- `grounding`: grounding node text
-- `grounding_id`: grounding node id
+- `document`: the document file name of the grounding nodes;
+- `grounding`: grounding node text;
+- `grounding_id`: grounding node id. If the id starts with **T**, it corresponds to the node in `navigation.json`, otherwise it corresponds to the node in the document graph of `document` field.
+
+### Navigation
+
+For each domain, there is a JSON file named `navigation.json`, which saves the index of the documents. Each navigation file includes the following:
+
+- `document_id`: no meaning;
+- `domain`: the domain of the navigation;
+- `name`: no meaning;
+- `graph`: key-value pairs of all index test and document file name in the domain, with `node_id` as the key. Each node includes the
+  following:
+    - `data`: the data of a node.
+    - `type`: the type of node, including the following:
+        - **root** indicates the node is the root of the navigation file.
+        - **ordinary** indicates the node is an index text or a document file name.
+    - `pid`: the parent node id.
