@@ -64,19 +64,19 @@ following:
         - **ans/no** means the system denies the user's question.
 - `document`: the document file name of the grounding nodes;
 - `grounding`: grounding node text. Target output of the DST task for user turns;
-- `grounding_id`: grounding node id. Target output of the DPL task for system turns. If the id starts with **T**, it corresponds to the node in `navigation.json`, otherwise it corresponds to the node in the document graph of `document` field.
+- `grounding_id`: grounding node id. Target output of the DPL task for system turns. If the id starts with **T** such as **T42**, it corresponds to the node **42** in the graph of `navigation.json`. Otherwise, it corresponds to id of a node in the graph of `document`.
 
 ### Navigation
 
-For each domain, there is a JSON file named `navigation.json`, which saves the index of the documents. Each navigation file includes the following:
+For each domain, there is a JSON file named `navigation.json`, which saves the title hierarchy of documents in the domain. For example, the document about *"Food allergy"* will be indexed by *"Immune diseases => Allergic reactions and other hypersensitivity disorders => Food allergy"*.  Each navigation file includes the following:
 
 - `document_id`: no meaning;
 - `domain`: the domain of the navigation;
 - `name`: no meaning;
-- `graph`: key-value pairs of all index test and document file name in the domain, with `node_id` as the key. Each node includes the
+- `graph`: key-value pairs of all title hierarchy and document file name in the domain, with `node_id` as the key. **Empty means that no title hierarchy exists for the domain.** Each node includes the
   following:
     - `data`: the data of a node.
     - `type`: the type of node, including the following:
         - **root** indicates the node is the root of the navigation file.
-        - **ordinary** indicates the node is an index text or a document file name.
+        - **ordinary** indicates the node is a title hierarchy text or a document file name.
     - `pid`: the parent node id.
